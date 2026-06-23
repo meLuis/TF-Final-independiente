@@ -38,23 +38,24 @@ if "assistant_memory" not in st.session_state:
 
 
 with st.sidebar:
-    st.header("Modo caja")
-    st.write("Ejemplos:")
-    st.code(
-        "\n".join(
-            [
-                "Busca frasco gotero ambar 30 ml",
-                "Que me compra mas ODONTOLOGIA SAN ANTONIO",
-                "De donde compro lo que pide ODONTOLOGIA SAN ANTONIO",
-                "Que proveedor me conviene para frasco gotero",
-                "Necesito 100 de 5004 y 50 de 5041",
-                "Tengo S/ 2000 para comprar frasco gotero",
-                "Que productos se venden junto con 5004",
-                "Que pasa si pierdo ENVIPLAST",
-            ]
-        ),
-        language="text",
-    )
+    show_technical = st.toggle("Modo tecnico", value=False)
+    with st.expander("Ayuda", expanded=False):
+        st.write("Ejemplos:")
+        st.code(
+            "\n".join(
+                [
+                    "Busca frasco gotero ambar 30 ml",
+                    "Que me compra mas ODONTOLOGIA SAN ANTONIO",
+                    "De donde compro lo que pide ODONTOLOGIA SAN ANTONIO",
+                    "Que proveedor me conviene para frasco gotero",
+                    "Necesito 100 de 5004 y 50 de 5041",
+                    "Tengo S/ 2000 para comprar frasco gotero",
+                    "Que productos se venden junto con 5004",
+                    "Que pasa si pierdo ENVIPLAST",
+                ]
+            ),
+            language="text",
+        )
     if st.button("Limpiar conversacion", use_container_width=True):
         st.session_state.assistant_pending = None
         st.session_state.assistant_last_response = None
@@ -97,7 +98,7 @@ else:
         st.markdown(f"**Pregunta:** {last_question}")
     render_response(last_response)
 
-    if last_route:
+    if show_technical and last_route:
         with st.expander("Router local"):
             st.write(
                 {
