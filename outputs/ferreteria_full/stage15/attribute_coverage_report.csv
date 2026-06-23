@@ -1,0 +1,16 @@
+﻿attribute,filled,total,coverage,unique_values,top_values_json
+product_type,1,5,0.2,1,"{""caja"": 1}"
+subtype,0,5,0.0,0,{}
+material,0,5,0.0,0,{}
+color,0,5,0.0,0,{}
+accessory,0,5,0.0,0,{}
+shape,0,5,0.0,0,{}
+feature,0,5,0.0,0,{}
+capacity_value,2,5,0.4,2,"{""500.0"": 1, ""25.0"": 1}"
+mouth_size_mm,0,5,0.0,0,{}
+size_text,0,5,0.0,0,{}
+closure_type,0,5,0.0,0,{}
+brand,0,5,0.0,0,{}
+use_category,5,5,1.0,2,"{""general"": 3, ""ferreteria"": 2}"
+material_family,0,5,0.0,0,{}
+confidence,5,5,0.772,4,{}

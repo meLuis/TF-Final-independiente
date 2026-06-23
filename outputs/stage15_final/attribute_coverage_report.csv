@@ -1,0 +1,16 @@
+﻿attribute,filled,total,coverage,unique_values,top_values_json
+product_type,455,630,0.7222,12,"{""frasco"": 192, ""tapa"": 52, ""gotero"": 48, ""accesorio"": 46, ""pote"": 38, ""tubo"": 25, ""atomizador"": 22, ""cremero"": 18, ""bolsa"": 10, ""caja"": 2}"
+subtype,178,630,0.2825,19,"{""chupon"": 33, ""atomizador"": 21, ""dispensador"": 17, ""cremero"": 17, ""rosca"": 15, ""laina"": 9, ""vial"": 9, ""tubo_de_ensayo"": 8, ""vaso_precipitado"": 7, ""placa_petri"": 7}"
+material,399,630,0.6333,10,"{""VIDRIO"": 204, ""PLASTICO"": 93, ""PET"": 64, ""METAL"": 9, ""PEAD"": 8, ""ALUMINIO"": 8, ""PAPEL"": 7, ""PVC"": 3, ""ACRILICO"": 2, ""CARTON"": 1}"
+color,347,630,0.5508,15,"{""TRANSPARENTE"": 101, ""AMBAR"": 76, ""BLANCO"": 69, ""NEGRO"": 23, ""AZUL"": 21, ""NATURAL"": 19, ""VERDE"": 12, ""PLATEADO"": 5, ""GRIS"": 4, ""AMARILLO"": 4}"
+accessory,377,630,0.5984,16,"{""tapa"": 268, ""chupon|tapa"": 31, ""laina|tapa"": 22, ""tapa|atomizador_espray"": 19, ""asa"": 7, ""tapa|atomizador_espray|dispensador_pistola"": 6, ""brocha|tapa"": 4, ""gatillo"": 4, ""atomizador_espray"": 3, ""tapa|gatillo"": 3}"
+shape,16,630,0.0254,4,"{""tubular"": 8, ""conico"": 5, ""cilindrico"": 2, ""ovalado"": 1}"
+feature,115,630,0.1825,12,"{""importado"": 25, ""graduado"": 25, ""acanalado"": 12, ""boca"": 10, ""metalizado"": 8, ""mini"": 8, ""digital"": 7, ""interno"": 7, ""no_esteril"": 5, ""doble"": 4}"
+capacity_value,451,630,0.7159,47,"{""10.0"": 46, ""30.0"": 41, ""250.0"": 37, ""50.0"": 35, ""100.0"": 35, ""1.0"": 29, ""500.0"": 28, ""120.0"": 27, ""5.0"": 25, ""60.0"": 23}"
+mouth_size_mm,218,630,0.346,21,"{""28.0"": 78, ""18.0"": 54, ""20.0"": 34, ""24.0"": 14, ""15.0"": 6, ""63.0"": 6, ""13.0"": 4, ""58.0"": 3, ""110.0"": 2, ""45.0"": 2}"
+size_text,1,630,0.0016,1,"{""9CM X 1CM"": 1}"
+closure_type,90,630,0.1429,5,"{""chupon"": 33, ""atomizador"": 21, ""dispensador"": 17, ""rosca"": 15, ""gatillo"": 4}"
+brand,0,630,0.0,0,{}
+use_category,630,630,1.0,5,"{""general"": 351, ""empaque_envase"": 244, ""cosmetica"": 27, ""medico_laboratorio"": 4, ""ferreteria"": 4}"
+material_family,399,630,0.6333,8,"{""VIDRIO"": 204, ""PLASTICO"": 93, ""POLIETILENO TEREFTALATO"": 64, ""METAL"": 17, ""POLIETILENO"": 8, ""PAPEL_CARTON"": 8, ""PVC"": 3, ""ACRILICO"": 2}"
+confidence,630,630,0.8459,110,{}

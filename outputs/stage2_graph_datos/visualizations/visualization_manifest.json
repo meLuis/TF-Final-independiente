@@ -1,0 +1,16 @@
+{
+  "generated_from": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\stage2_graph_datos",
+  "graph_name": "G_attr",
+  "graph_full_name": "semantic_attribute_graph",
+  "layout": "static_networkx_png",
+  "outputs": {
+    "g_attr_attribute_projection.png": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\stage2_graph_datos\\visualizations\\g_attr_attribute_projection.png",
+    "g_attr_product_attribute_focus.png": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\stage2_graph_datos\\visualizations\\g_attr_product_attribute_focus.png",
+    "g_attr_frasco_vidrio_ambar.png": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\stage2_graph_datos\\visualizations\\g_attr_frasco_vidrio_ambar.png"
+  },
+  "notes": [
+    "No HTML interactivo.",
+    "No fisica ni movimiento.",
+    "La proyeccion de atributos conecta atributos que aparecen juntos en productos."
+  ]
+}

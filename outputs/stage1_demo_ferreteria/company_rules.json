@@ -1,0 +1,22 @@
+{
+  "normalization_rules": {
+    "date_format": "auto",
+    "decimal_separator": "auto",
+    "currency": "unknown",
+    "remove_patterns": [
+      "S.A.C.",
+      "E.I.R.L.",
+      "S.R.L.",
+      "UND",
+      "UNID"
+    ]
+  },
+  "product_match_rules": {
+    "confirmed_matches": {},
+    "rejected_strings": [
+      "FLETE",
+      "DESCUENTO",
+      "SERVICIO"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-06-12T13:51:48",
+  "policy": "conservative",
+  "accepted": true,
+  "checks": [
+    {
+      "check": "product_type_accuracy_no_regression",
+      "passed": true,
+      "baseline": 0.9874,
+      "candidate": 0.9874
+    },
+    {
+      "check": "material_accuracy_no_regression",
+      "passed": true,
+      "baseline": 0.6325,
+      "candidate": 0.6325
+    },
+    {
+      "check": "color_accuracy_no_regression",
+      "passed": true,
+      "baseline": 1.0,
+      "candidate": 1.0
+    },
+    {
+      "check": "capacity_value_accuracy_no_regression",
+      "passed": true,
+      "baseline": 0.9036,
+      "candidate": 0.9036
+    },
+    {
+      "check": "mouth_size_mm_accuracy_no_regression",
+      "passed": true,
+      "baseline": 1.0,
+      "candidate": 1.0
+    },
+    {
+      "check": "avg_confidence_no_regression",
+      "passed": true,
+      "baseline": 0.843755873015873,
+      "candidate": 0.8458890476190477
+    },
+    {
+      "check": "subtype_coverage",
+      "passed": true,
+      "baseline": 0.2365,
+      "candidate": 0.2825
+    },
+    {
+      "check": "accessory_coverage",
+      "passed": true,
+      "baseline": 0.5794,
+      "candidate": 0.5984
+    },
+    {
+      "check": "shape_coverage",
+      "passed": true,
+      "baseline": 0.0254,
+      "candidate": 0.0254
+    },
+    {
+      "check": "feature_coverage",
+      "passed": true,
+      "baseline": 0.0889,
+      "candidate": 0.1825
+    },
+    {
+      "check": "semantic_coverage_improved",
+      "passed": true,
+      "baseline": "",
+      "candidate": ""
+    },
+    {
+      "check": "retrievability_top5_no_regression",
+      "passed": true,
+      "baseline": 1.0,
+      "candidate": 1.0
+    },
+    {
+      "check": "retrievability_score_no_regression",
+      "passed": true,
+      "baseline": 0.5153,
+      "candidate": 0.5548
+    }
+  ],
+  "baseline_retrievability": {
+    "rows": 630,
+    "avg_retrievability_score": 0.5153,
+    "top1_rate": 0.9984,
+    "top5_rate": 1.0,
+    "top10_rate": 1.0
+  },
+  "candidate_retrievability": {
+    "rows": 630,
+    "avg_retrievability_score": 0.5548,
+    "top1_rate": 0.9984,
+    "top5_rate": 1.0,
+    "top10_rate": 1.0
+  }
+}

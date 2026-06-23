@@ -1,0 +1,169 @@
+{
+  "rules_version": "2026-06-11",
+  "domain": "short_domain_name",
+  "llm_status": "proposed_additions",
+  "attribute_rules": {
+    "product_type": {
+      "method": "keyword_first_match",
+      "rules": [
+        {
+          "keywords": ["VASO"],
+          "value": "vaso",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["PROBADOR"],
+          "value": "probador",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["MATRAZ"],
+          "value": "matraz",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["PIPETA"],
+          "value": "pipeta",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["FRAGANCIA"],
+          "value": "fragancia",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["PLACA"],
+          "value": "placa",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["TERMOMETRO"],
+          "value": "termometro",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "subtype": {
+      "method": "keyword_first_match",
+      "rules": [
+        {
+          "keywords": ["ENSAYO"],
+          "value": "tubo_de_ensayo",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["PRECIPITADO", "BEAKER"],
+          "value": "vaso_precipitado",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["PETRI"],
+          "value": "placa_petri",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["ERLENMEYER"],
+          "value": "matraz_erlenmeyer",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "accessory": {
+      "method": "keyword_any",
+      "rules": [
+        {
+          "keywords": ["ESPRAY"],
+          "value": "atomizador_espray",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["PISTOLA"],
+          "value": "dispensador_pistola",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["ASA"],
+          "value": "asa",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "shape": {
+      "method": "keyword_first_match",
+      "rules": []
+    },
+    "feature": {
+      "method": "keyword_first_match",
+      "rules": [
+        {
+          "keywords": ["ACANALADO"],
+          "value": "acanalado",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["INTERNO"],
+          "value": "interno",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["BOCA"],
+          "value": "boca",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["DOBLE"],
+          "value": "doble",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["ANCHA"],
+          "value": "ancha",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["FONDO"],
+          "value": "fondo",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["METALIZADA"],
+          "value": "metalizado",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["MINI"],
+          "value": "mini",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["SOLO"],
+          "value": "solo",
+          "confidence": 0.85
+        },
+        {
+          "keywords": ["DIGITAL"],
+          "value": "digital",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "use_category": {
+      "method": "keyword_first_match",
+      "rules": []
+    }
+  },
+  "material_rules": [
+    {
+      "keywords": ["BAQUELITA"],
+      "value": "baquelita",
+      "confidence": 0.85
+    }
+  ],
+  "color_keywords": [
+    {
+      "keywords": ["COLORES"],
+      "value": "colores_surtidos",
+      "confidence": 0.85
+    }
+  ]
+}

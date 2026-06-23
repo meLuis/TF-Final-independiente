@@ -1,0 +1,118 @@
+{
+  "graph_name": "G_attr",
+  "graph_full_name": "semantic_attribute_graph",
+  "generated_at": "2026-06-12T13:54:06",
+  "min_confidence": 0.75,
+  "node_count": 790,
+  "edge_count": 2518,
+  "node_type_counts": {
+    "ACCESSORY": 6,
+    "CAPACITY": 73,
+    "COLOR": 15,
+    "FEATURE": 4,
+    "MATERIAL": 10,
+    "MOUTH_SIZE": 21,
+    "PRODUCT": 630,
+    "SHAPE": 4,
+    "SUBTYPE": 15,
+    "TYPE": 12
+  },
+  "relation_counts": {
+    "HAS_ACCESSORY": 427,
+    "HAS_CAPACITY": 451,
+    "HAS_COLOR": 347,
+    "HAS_FEATURE": 56,
+    "HAS_MATERIAL": 399,
+    "HAS_MOUTH_SIZE": 218,
+    "HAS_SHAPE": 16,
+    "HAS_SUBTYPE": 149,
+    "HAS_TYPE": 455
+  },
+  "connected_components": 71,
+  "largest_component_size": 705,
+  "products_total": 630,
+  "products_with_attribute_edges": 566,
+  "products_without_attribute_edges": 64,
+  "top_degree_nodes": [
+    {
+      "node_id": "ACCESSORY:TAPA",
+      "degree": 357
+    },
+    {
+      "node_id": "MATERIAL:VIDRIO",
+      "degree": 204
+    },
+    {
+      "node_id": "TYPE:FRASCO",
+      "degree": 192
+    },
+    {
+      "node_id": "COLOR:TRANSPARENTE",
+      "degree": 101
+    },
+    {
+      "node_id": "MATERIAL:PLASTICO",
+      "degree": 93
+    },
+    {
+      "node_id": "MOUTH_SIZE:28MM",
+      "degree": 78
+    },
+    {
+      "node_id": "COLOR:AMBAR",
+      "degree": 76
+    },
+    {
+      "node_id": "COLOR:BLANCO",
+      "degree": 69
+    },
+    {
+      "node_id": "MATERIAL:PET",
+      "degree": 64
+    },
+    {
+      "node_id": "MOUTH_SIZE:18MM",
+      "degree": 54
+    },
+    {
+      "node_id": "TYPE:TAPA",
+      "degree": 52
+    },
+    {
+      "node_id": "TYPE:GOTERO",
+      "degree": 48
+    },
+    {
+      "node_id": "TYPE:ACCESORIO",
+      "degree": 46
+    },
+    {
+      "node_id": "CAPACITY:10ML",
+      "degree": 43
+    },
+    {
+      "node_id": "TYPE:POTE",
+      "degree": 38
+    },
+    {
+      "node_id": "MOUTH_SIZE:20MM",
+      "degree": 34
+    },
+    {
+      "node_id": "SUBTYPE:CHUPON",
+      "degree": 33
+    },
+    {
+      "node_id": "ACCESSORY:CHUPON",
+      "degree": 33
+    },
+    {
+      "node_id": "CAPACITY:30ML",
+      "degree": 33
+    },
+    {
+      "node_id": "CAPACITY:250ML",
+      "degree": 33
+    }
+  ]
+}

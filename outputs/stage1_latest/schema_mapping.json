@@ -1,0 +1,721 @@
+{
+  "products": {
+    "product_id": {
+      "field": "product_id",
+      "column": "CODIGO INTERNO",
+      "confidence": 0.775,
+      "reason": "alias exacto; columna con identificadores posibles",
+      "alternatives": [
+        {
+          "column": "CODIGO INTERNO",
+          "confidence": 0.775,
+          "reason": "alias exacto; columna con identificadores posibles"
+        },
+        {
+          "column": "CÓDIGO DE CATEGORÍA",
+          "confidence": 0.3888,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "CÓDIGO UNIDAD DE MEDIDA",
+          "confidence": 0.3314,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        }
+      ]
+    },
+    "product_name": {
+      "field": "product_name",
+      "column": "DESCRIPCIÓN",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "DESCRIPCIÓN",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "DESCRIPCIÓN DE CATEGORÍA",
+          "confidence": 0.3472,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "DESTACADO",
+          "confidence": 0.3425,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "software_category": {
+      "field": "software_category",
+      "column": "DESCRIPCIÓN DE CATEGORÍA",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "DESCRIPCIÓN DE CATEGORÍA",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "CÓDIGO DE CATEGORÍA",
+          "confidence": 0.3719,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "DESCRIPCIÓN",
+          "confidence": 0.3472,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "brand": {
+      "field": "brand",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "DESTACADO",
+          "confidence": 0.2757,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "COSTO UNITARIO COMPRA (SIN IGV)",
+          "confidence": 0.2066,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "PRECIO COMPRA UNITARIO (CON IGV)",
+          "confidence": 0.2042,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "unit": {
+      "field": "unit",
+      "column": "CÓDIGO UNIDAD DE MEDIDA",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "CÓDIGO UNIDAD DE MEDIDA",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "CÓDIGO DE CATEGORÍA",
+          "confidence": 0.3098,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "CODIGO INTERNO",
+          "confidence": 0.2964,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "description": {
+      "field": "description",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "DESCRIPCIÓN",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "DESCRIPCIÓN DE CATEGORÍA",
+          "confidence": 0.3472,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "DESTACADO",
+          "confidence": 0.3013,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "current_price": {
+      "field": "current_price",
+      "column": "PRECIO VENTA UNITARIO (CON IGV)",
+      "confidence": 0.9603,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "PRECIO VENTA UNITARIO (CON IGV)",
+          "confidence": 0.9603,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "VALOR VENTA UNITARIO (SIN IGV)",
+          "confidence": 0.7036,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "PRECIO COMPRA UNITARIO (CON IGV)",
+          "confidence": 0.6508,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "stock_available": {
+      "field": "stock_available",
+      "column": "STOCK ACTUAL DISPONIBLE",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "STOCK ACTUAL DISPONIBLE",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "CODIGO INTERNO",
+          "confidence": 0.499,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "DESCRIPCIÓN",
+          "confidence": 0.483,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    }
+  },
+  "sales": {
+    "sale_id": {
+      "field": "sale_id",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "DESCUENTO",
+          "confidence": 0.4356,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "SUBTOTAL",
+          "confidence": 0.3618,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "DOC ENTIDAD TIPO",
+          "confidence": 0.3577,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        }
+      ]
+    },
+    "date": {
+      "field": "date",
+      "column": "FECHA DE EMISIÓN",
+      "confidence": 0.8745,
+      "reason": "nombre similar; valores parseables como fecha",
+      "alternatives": [
+        {
+          "column": "FECHA DE EMISIÓN",
+          "confidence": 0.8745,
+          "reason": "nombre similar; valores parseables como fecha"
+        },
+        {
+          "column": "CANTIDAD",
+          "confidence": 0.1986,
+          "reason": "similitud debil de nombre; valores parseables como fecha"
+        },
+        {
+          "column": "DOC ENTIDAD TIPO",
+          "confidence": 0.165,
+          "reason": "similitud debil de nombre; valores parseables como fecha"
+        }
+      ]
+    },
+    "product_id": {
+      "field": "product_id",
+      "column": "CÓDIGO",
+      "confidence": 0.775,
+      "reason": "alias exacto; columna con identificadores posibles",
+      "alternatives": [
+        {
+          "column": "CÓDIGO",
+          "confidence": 0.775,
+          "reason": "alias exacto; columna con identificadores posibles"
+        },
+        {
+          "column": "PRECIO UNITARIO",
+          "confidence": 0.3547,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "DOC ENTIDAD NÚMERO",
+          "confidence": 0.3363,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        }
+      ]
+    },
+    "product_name": {
+      "field": "product_name",
+      "column": "DESCRIPCIÓN",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "DESCRIPCIÓN",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "DESCUENTO",
+          "confidence": 0.3425,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "ISC",
+          "confidence": 0.3268,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "customer": {
+      "field": "customer",
+      "column": "DENOMINACIÓN ENTIDAD",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "DENOMINACIÓN ENTIDAD",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "DOC ENTIDAD TIPO",
+          "confidence": 0.341,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "DOC ENTIDAD NÚMERO",
+          "confidence": 0.3295,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "quantity": {
+      "field": "quantity",
+      "column": "CANTIDAD",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "CANTIDAD",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "ISC",
+          "confidence": 0.5288,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "DESCUENTO",
+          "confidence": 0.515,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "unit_price_net": {
+      "field": "unit_price_net",
+      "column": "VALOR UNITARIO",
+      "confidence": 0.98,
+      "reason": "validacion matematica cantidad * unitario ~= total (100.0%)",
+      "alternatives": [
+        {
+          "column": "VALOR UNITARIO",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "PRECIO UNITARIO",
+          "confidence": 0.5966,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "TIPO DE IGV",
+          "confidence": 0.5502,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "unit_price_gross": {
+      "field": "unit_price_gross",
+      "column": "PRECIO UNITARIO",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "PRECIO UNITARIO",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "VALOR UNITARIO",
+          "confidence": 0.5966,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "TIPO DE IGV",
+          "confidence": 0.5502,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "subtotal_net": {
+      "field": "subtotal_net",
+      "column": "SUBTOTAL",
+      "confidence": 0.98,
+      "reason": "validacion matematica cantidad * unitario ~= total (100.0%)",
+      "alternatives": [
+        {
+          "column": "SUBTOTAL",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "TOTAL",
+          "confidence": 0.625,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "TIPO DE IGV",
+          "confidence": 0.57,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "tax_amount": {
+      "field": "tax_amount",
+      "column": "IGV",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "IGV",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "IMPUESTO BOLSAS",
+          "confidence": 0.5987,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "TOTAL",
+          "confidence": 0.5288,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "total_gross": {
+      "field": "total_gross",
+      "column": "TOTAL",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "TOTAL",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "SUBTOTAL",
+          "confidence": 0.625,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "TIPO DE IGV",
+          "confidence": 0.57,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "is_cancelled": {
+      "field": "is_cancelled",
+      "column": "ANULADO",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "ANULADO",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "CANTIDAD",
+          "confidence": 0.3328,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "NÚMERO",
+          "confidence": 0.2875,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    }
+  },
+  "purchases": {
+    "purchase_id": {
+      "field": "purchase_id",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "DESCUENTO",
+          "confidence": 0.4356,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "NÚMERO",
+          "confidence": 0.3482,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "DOC ENTIDAD NÚMERO",
+          "confidence": 0.3429,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        }
+      ]
+    },
+    "date": {
+      "field": "date",
+      "column": "FECHA DE EMISIÓN",
+      "confidence": 0.8745,
+      "reason": "nombre similar; valores parseables como fecha",
+      "alternatives": [
+        {
+          "column": "FECHA DE EMISIÓN",
+          "confidence": 0.8745,
+          "reason": "nombre similar; valores parseables como fecha"
+        },
+        {
+          "column": "CANTIDAD",
+          "confidence": 0.1986,
+          "reason": "similitud debil de nombre; valores parseables como fecha"
+        },
+        {
+          "column": "DESCRIPCIÓN",
+          "confidence": 0.149,
+          "reason": "similitud debil de nombre; valores parseables como fecha"
+        }
+      ]
+    },
+    "product_id": {
+      "field": "product_id",
+      "column": "CÓDIGO",
+      "confidence": 0.775,
+      "reason": "alias exacto; columna con identificadores posibles",
+      "alternatives": [
+        {
+          "column": "CÓDIGO",
+          "confidence": 0.775,
+          "reason": "alias exacto; columna con identificadores posibles"
+        },
+        {
+          "column": "PRECIO UNITARIO",
+          "confidence": 0.3547,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "DOC ENTIDAD NÚMERO",
+          "confidence": 0.3363,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        }
+      ]
+    },
+    "product_name": {
+      "field": "product_name",
+      "column": "DESCRIPCIÓN",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "DESCRIPCIÓN",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "DESCUENTO",
+          "confidence": 0.3425,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "NÚMERO",
+          "confidence": 0.2927,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "supplier": {
+      "field": "supplier",
+      "column": "DENOMINACIÓN ENTIDAD",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "DENOMINACIÓN ENTIDAD",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "DOC ENTIDAD NÚMERO",
+          "confidence": 0.3295,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "CANTIDAD",
+          "confidence": 0.3013,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "quantity": {
+      "field": "quantity",
+      "column": "CANTIDAD",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "CANTIDAD",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "DOC ENTIDAD NÚMERO",
+          "confidence": 0.5418,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "SUBTOTAL",
+          "confidence": 0.515,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "unit_cost_net": {
+      "field": "unit_cost_net",
+      "column": "VALOR UNITARIO",
+      "confidence": 0.98,
+      "reason": "validacion matematica cantidad * unitario ~= total (100.0%)",
+      "alternatives": [
+        {
+          "column": "VALOR UNITARIO",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "PRECIO UNITARIO",
+          "confidence": 0.5966,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "TIPO DE IGV",
+          "confidence": 0.5064,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "unit_cost_gross": {
+      "field": "unit_cost_gross",
+      "column": "PRECIO UNITARIO",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "PRECIO UNITARIO",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "VALOR UNITARIO",
+          "confidence": 0.5966,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "TIPO DE IGV",
+          "confidence": 0.5502,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "subtotal_net": {
+      "field": "subtotal_net",
+      "column": "SUBTOTAL",
+      "confidence": 0.98,
+      "reason": "validacion matematica cantidad * unitario ~= total (100.0%)",
+      "alternatives": [
+        {
+          "column": "SUBTOTAL",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "TOTAL",
+          "confidence": 0.625,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "TIPO DE IGV",
+          "confidence": 0.57,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "tax_amount": {
+      "field": "tax_amount",
+      "column": "IGV",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "IGV",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "TOTAL",
+          "confidence": 0.5288,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "CÓDIGO",
+          "confidence": 0.5085,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "total_gross": {
+      "field": "total_gross",
+      "column": "TOTAL",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "TOTAL",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "SUBTOTAL",
+          "confidence": 0.625,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "TIPO DE IGV",
+          "confidence": 0.57,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    }
+  }
+}

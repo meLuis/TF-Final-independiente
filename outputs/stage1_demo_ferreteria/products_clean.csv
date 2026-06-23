@@ -1,0 +1,6 @@
+﻿product_id,product_name,category,brand,current_price,product_name_norm,source_dataset
+SKU-001,Taladro Bosch 500W,Herramientas,Bosch,189.9,TALADRO BOSCH 500W,products
+SKU-002,Cemento Portland 25KG,Construccion,Andino,27.5,CEMENTO PORTLAND 25KG,products
+SKU-003,Martillo mango fibra 16OZ,Herramientas,Truper,34.9,MARTILLO MANGO FIBRA 16OZ,products
+SKU-004,Pintura latex blanca 1GL,Pinturas,Vencedor,42.0,PINTURA LATEX BLANCA 1GL,products
+SKU-005,Tornillo drywall 1 pulgada caja,Fijaciones,Generico,18.5,TORNILLO DRYWALL 1 PULGADA CAJA,products

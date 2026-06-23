@@ -1,0 +1,6 @@
+﻿product_id,product_name,supplier,supplier_norm,supplier_options,effective_unit_cost,reference_unit_cost,edge_weight,savings_per_unit,savings_pct,capacity_units,supplier_capacity,purchase_lines,last_purchase,is_negative_edge,scenario_type
+SKU-001,TALADRO BOSCH 500W,Distribuidora Tools SAC,DISTRIBUIDORA TOOLS SAC,1,145.0,145.0,0.0,0.0,0.0,5,5,1,2024-01-05,False,at_or_above_reference
+SKU-002,CEMENTO PORTLAND 25 KG,Cementos del Sur,CEMENTOS DEL SUR,1,21.0,21.0,0.0,0.0,0.0,100,100,1,2024-01-06,False,at_or_above_reference
+SKU-003,MARTILLO MANGO FIBRA 16OZ,Importaciones Truper,IMPORTACIONES TRUPER,1,24.0,24.0,0.0,0.0,0.0,20,20,1,2024-01-08,False,at_or_above_reference
+SKU-004,PINTURA LATEX BLANCA 1 GALON,Pinturas Peru,PINTURAS PERU,1,31.5,31.5,0.0,0.0,0.0,30,30,1,2024-01-09,False,at_or_above_reference
+SKU-005,TORNILLO DRYWALL 1 PULGADA CAJA,Fijaciones Global,FIJACIONES GLOBAL,1,12.0,12.0,0.0,0.0,0.0,50,50,1,2024-01-11,False,at_or_above_reference

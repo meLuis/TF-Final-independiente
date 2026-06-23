@@ -1,0 +1,331 @@
+{
+  "products": {
+    "cod_art": {
+      "column": "cod_art",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "SKU-001",
+        "SKU-002",
+        "SKU-003",
+        "SKU-004",
+        "SKU-005"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": -5.0,
+      "max_value": -1.0
+    },
+    "desc_articulo": {
+      "column": "desc_articulo",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Taladro Bosch 500W",
+        "Cemento Portland 25KG",
+        "Martillo mango fibra 16OZ",
+        "Pintura latex blanca 1GL",
+        "Tornillo drywall 1 pulgada caja"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 500.0
+    },
+    "categoria": {
+      "column": "categoria",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "Herramientas",
+        "Construccion",
+        "Herramientas",
+        "Pinturas",
+        "Fijaciones"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "marca": {
+      "column": "marca",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Bosch",
+        "Andino",
+        "Truper",
+        "Vencedor",
+        "Generico"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "pvp": {
+      "column": "pvp",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "189.9",
+        "27.5",
+        "34.9",
+        "42.0",
+        "18.5"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 18.5,
+      "max_value": 189.9
+    }
+  },
+  "sales": {
+    "FecDoc": {
+      "column": "FecDoc",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "10/01/2024",
+        "12/01/2024",
+        "15/01/2024",
+        "18/01/2024",
+        "20/01/2024"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 1.0,
+      "min_value": 10012024.0,
+      "max_value": 20012024.0
+    },
+    "CodItem": {
+      "column": "CodItem",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "SKU-001",
+        "SKU-002",
+        "SKU-004",
+        "SKU-003",
+        "SKU-999"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": -999.0,
+      "max_value": -1.0
+    },
+    "NomItem": {
+      "column": "NomItem",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Taladro Bosch 500 Watts",
+        "Cemento Portland 25KG",
+        "Pintura latex blanca galon",
+        "Martillo fibra 16 oz",
+        "Flete reparto local"
+      ],
+      "parseable_as_number": 0.6,
+      "parseable_as_date": 0.0,
+      "min_value": 16.0,
+      "max_value": 500.0
+    },
+    "Cant": {
+      "column": "Cant",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "2",
+        "30",
+        "5",
+        "3",
+        "1"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 30.0
+    },
+    "Precio": {
+      "column": "Precio",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "189.9",
+        "27.5",
+        "42.0",
+        "34.9",
+        "15.0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 15.0,
+      "max_value": 189.9
+    },
+    "Importe": {
+      "column": "Importe",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "379.8",
+        "825.0",
+        "210.0",
+        "104.7",
+        "15.0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 15.0,
+      "max_value": 825.0
+    },
+    "Cliente": {
+      "column": "Cliente",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "Constructora Norte",
+        "Maestro Perez",
+        "Servicios Lima",
+        "Ferreteria Sol",
+        "Constructora Norte"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    }
+  },
+  "purchases": {
+    "FechaCompra": {
+      "column": "FechaCompra",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "05/01/2024",
+        "06/01/2024",
+        "08/01/2024",
+        "09/01/2024",
+        "11/01/2024"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 1.0,
+      "min_value": 5012024.0,
+      "max_value": 11012024.0
+    },
+    "CodItem": {
+      "column": "CodItem",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "SKU-001",
+        "SKU-002",
+        "SKU-003",
+        "SKU-004",
+        "SKU-005"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": -5.0,
+      "max_value": -1.0
+    },
+    "Descripcion": {
+      "column": "Descripcion",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "TALADRO BOSCH 500W",
+        "CEMENTO PORTLAND 25 KG",
+        "MARTILLO MANGO FIBRA 16OZ",
+        "PINTURA LATEX BLANCA 1 GALON",
+        "TORNILLO DRYWALL 1 PULGADA CAJA"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 500.0
+    },
+    "Cantidad": {
+      "column": "Cantidad",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "5",
+        "100",
+        "20",
+        "30",
+        "50"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 5.0,
+      "max_value": 100.0
+    },
+    "CostoUnit": {
+      "column": "CostoUnit",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "145.0",
+        "21.0",
+        "24.0",
+        "31.5",
+        "12.0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 12.0,
+      "max_value": 145.0
+    },
+    "Total": {
+      "column": "Total",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "725",
+        "2100",
+        "480",
+        "945",
+        "600"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 480.0,
+      "max_value": 2100.0
+    },
+    "Proveedor": {
+      "column": "Proveedor",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Distribuidora Tools SAC",
+        "Cementos del Sur",
+        "Importaciones Truper",
+        "Pinturas Peru",
+        "Fijaciones Global"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    }
+  }
+}

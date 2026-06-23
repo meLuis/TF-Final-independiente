@@ -1,0 +1,964 @@
+{
+  "products": {
+    "CODIGO INTERNO": {
+      "column": "CODIGO INTERNO",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 630,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 6514.0
+    },
+    "DESCRIPCIÓN": {
+      "column": "DESCRIPCIÓN",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 630,
+      "sample_values": [
+        "LAPTOP MAMEL",
+        "utiles de oficina",
+        "ORTOPEDIA",
+        "BOLSA 16*19 C/ASA *100UND",
+        "BOLSA 12*16 BCO ALFA *100UND"
+      ],
+      "parseable_as_number": 0.8937,
+      "parseable_as_date": 0.0,
+      "min_value": -20150.0,
+      "max_value": 10015010550.0
+    },
+    "CÓDIGO UNIDAD DE MEDIDA": {
+      "column": "CÓDIGO UNIDAD DE MEDIDA",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "NIU",
+        "NIU",
+        "NIU",
+        "BG",
+        "NIU"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "MONEDA (1=SOLES, 2=DOLARES, 3=EURO)": {
+      "column": "MONEDA (1=SOLES, 2=DOLARES, 3=EURO)",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    "COSTO UNITARIO COMPRA (SIN IGV)": {
+      "column": "COSTO UNITARIO COMPRA (SIN IGV)",
+      "dtype": "float64",
+      "null_rate": 0.7507936507936508,
+      "unique_count": 81,
+      "sample_values": [
+        "0.67796",
+        "0.72033",
+        "0.76271",
+        "1.18644",
+        "1.35593"
+      ],
+      "parseable_as_number": 0.2492,
+      "parseable_as_date": 0.0,
+      "min_value": 0.07627,
+      "max_value": 38.13559
+    },
+    "VALOR VENTA UNITARIO (SIN IGV)": {
+      "column": "VALOR VENTA UNITARIO (SIN IGV)",
+      "dtype": "float64",
+      "null_rate": 0.753968253968254,
+      "unique_count": 93,
+      "sample_values": [
+        "1.01694",
+        "1.01694",
+        "1.14406",
+        "1.65254",
+        "1.8644"
+      ],
+      "parseable_as_number": 0.246,
+      "parseable_as_date": 0.0,
+      "min_value": 0.16461,
+      "max_value": 25.423728
+    },
+    "PRECIO COMPRA UNITARIO (CON IGV)": {
+      "column": "PRECIO COMPRA UNITARIO (CON IGV)",
+      "dtype": "float64",
+      "null_rate": 0.006349206349206349,
+      "unique_count": 185,
+      "sample_values": [
+        "10170.0",
+        "1.0",
+        "0.1",
+        "4.5",
+        "3.0"
+      ],
+      "parseable_as_number": 0.9937,
+      "parseable_as_date": 0.0,
+      "min_value": 0.04,
+      "max_value": 10170.0
+    },
+    "PRECIO VENTA UNITARIO (CON IGV)": {
+      "column": "PRECIO VENTA UNITARIO (CON IGV)",
+      "dtype": "float64",
+      "null_rate": 0.020634920634920634,
+      "unique_count": 141,
+      "sample_values": [
+        "0.2",
+        "0.15",
+        "10.0",
+        "6.0",
+        "13.5"
+      ],
+      "parseable_as_number": 0.9794,
+      "parseable_as_date": 0.0,
+      "min_value": 0.041,
+      "max_value": 990.0
+    },
+    "DESTACADO": {
+      "column": "DESTACADO",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "NO",
+        "NO",
+        "NO",
+        "NO",
+        "NO"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "TIPO DE AFECTACIÓN (IGV)": {
+      "column": "TIPO DE AFECTACIÓN (IGV)",
+      "dtype": "float64",
+      "null_rate": 0.9111111111111111,
+      "unique_count": 1,
+      "sample_values": [
+        "10.0",
+        "10.0",
+        "10.0",
+        "10.0",
+        "10.0"
+      ],
+      "parseable_as_number": 0.0889,
+      "parseable_as_date": 0.0,
+      "min_value": 10.0,
+      "max_value": 10.0
+    },
+    "CÓDIGO DE CATEGORÍA": {
+      "column": "CÓDIGO DE CATEGORÍA",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "DESCRIPCIÓN DE CATEGORÍA": {
+      "column": "DESCRIPCIÓN DE CATEGORÍA",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "SIN CATEGORÍA",
+        "SIN CATEGORÍA",
+        "SIN CATEGORÍA",
+        "SIN CATEGORÍA",
+        "SIN CATEGORÍA"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "CÓDIGO PRODUCTO SUNAT": {
+      "column": "CÓDIGO PRODUCTO SUNAT",
+      "dtype": "float64",
+      "null_rate": 1.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "STOCK ACTUAL DISPONIBLE": {
+      "column": "STOCK ACTUAL DISPONIBLE",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 289,
+      "sample_values": [
+        "0.0",
+        "3.0",
+        "1.0",
+        "2.0",
+        "6.0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": -2000.0,
+      "max_value": 9108.0
+    }
+  },
+  "sales": {
+    "FECHA DE EMISIÓN": {
+      "column": "FECHA DE EMISIÓN",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 351,
+      "sample_values": [
+        "11/03/2025",
+        "11/03/2025",
+        "22/03/2025",
+        "22/03/2025",
+        "28/03/2025"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 1.0,
+      "min_value": 1042025.0,
+      "max_value": 31102025.0
+    },
+    "TIPO": {
+      "column": "TIPO",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        "1",
+        "3",
+        "3",
+        "3"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 7.0
+    },
+    "SERIE": {
+      "column": "SERIE",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "FQQ1",
+        "FQQ1",
+        "BQQ1",
+        "BQQ1",
+        "BQQ1"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 1.0
+    },
+    "NÚMERO": {
+      "column": "NÚMERO",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 2025,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "3"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 2025.0
+    },
+    "DOC ENTIDAD TIPO": {
+      "column": "DOC ENTIDAD TIPO",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "6",
+        "6",
+        "-",
+        "-",
+        "-"
+      ],
+      "parseable_as_number": 0.3997,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 6.0
+    },
+    "DOC ENTIDAD NÚMERO": {
+      "column": "DOC ENTIDAD NÚMERO",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 797,
+      "sample_values": [
+        "20611365196",
+        "20611365196",
+        "-",
+        "-",
+        "-"
+      ],
+      "parseable_as_number": 0.3997,
+      "parseable_as_date": 0.0,
+      "min_value": 127854.0,
+      "max_value": 20615664384.0
+    },
+    "DENOMINACIÓN ENTIDAD": {
+      "column": "DENOMINACIÓN ENTIDAD",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 795,
+      "sample_values": [
+        "ODONTOLOGIA SAN ANTONIO E.I.R.L.",
+        "ODONTOLOGIA SAN ANTONIO E.I.R.L.",
+        "VARIOS",
+        "VARIOS",
+        "VARIOS"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "MONEDA": {
+      "column": "MONEDA",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "PEN",
+        "PEN",
+        "PEN",
+        "PEN",
+        "PEN"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "TIPO DE CAMBIO": {
+      "column": "TIPO DE CAMBIO",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    "UNIDAD DE MEDIDA": {
+      "column": "UNIDAD DE MEDIDA",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "NIU",
+        "NIU",
+        "NIU",
+        "NIU",
+        "NIU"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "CÓDIGO": {
+      "column": "CÓDIGO",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 531,
+      "sample_values": [
+        "5019",
+        "5007",
+        "5015",
+        "5004",
+        "5060"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 3.0,
+      "max_value": 6514.0
+    },
+    "DESCRIPCIÓN": {
+      "column": "DESCRIPCIÓN",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 759,
+      "sample_values": [
+        "FRASCO BULLET 60ML CON TAPA ATOMIZADOR ",
+        "TAPA DISPENSADORA BLANCO B28MM ",
+        "POTE PLASTICO 1KG B110 BLANCO C/TAPA ",
+        "FRASCO GOTERO VIDRIO AMBAR 30ML CON TAPA Y CHUPON ",
+        "POTE PLASTICO PEAD BLANCO 500GR CON TAPA "
+      ],
+      "parseable_as_number": 0.9329,
+      "parseable_as_date": 0.0,
+      "min_value": -39010.0,
+      "max_value": 1100100910802980.0
+    },
+    "CANTIDAD": {
+      "column": "CANTIDAD",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 91,
+      "sample_values": [
+        "2.0",
+        "2.0",
+        "2.0",
+        "1.0",
+        "6.0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 8000.0
+    },
+    "VALOR UNITARIO": {
+      "column": "VALOR UNITARIO",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 277,
+      "sample_values": [
+        "1.6949152542",
+        "1.6949152542",
+        "0.8474576271",
+        "1.4406779661",
+        "2.5423728814"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 355.9322033898
+    },
+    "PRECIO UNITARIO": {
+      "column": "PRECIO UNITARIO",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 277,
+      "sample_values": [
+        "2.0",
+        "2.0",
+        "1.0",
+        "1.7",
+        "3.0000000001"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 420.0
+    },
+    "DESCUENTO": {
+      "column": "DESCUENTO",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    "SUBTOTAL": {
+      "column": "SUBTOTAL",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 465,
+      "sample_values": [
+        "3.3898305085",
+        "3.3898305085",
+        "1.6949152542",
+        "1.4406779661",
+        "15.2542372884"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 3254.2372881356
+    },
+    "TIPO DE IGV": {
+      "column": "TIPO DE IGV",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 10.0,
+      "max_value": 10.0
+    },
+    "IGV": {
+      "column": "IGV",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 461,
+      "sample_values": [
+        "0.6101694915",
+        "0.6101694915",
+        "0.3050847458",
+        "0.2593220339",
+        "2.7457627119"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 585.7627118644
+    },
+    "TIPO DE ISC": {
+      "column": "TIPO DE ISC",
+      "dtype": "float64",
+      "null_rate": 1.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "ISC": {
+      "column": "ISC",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    "IMPUESTO BOLSAS": {
+      "column": "IMPUESTO BOLSAS",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    "TOTAL": {
+      "column": "TOTAL",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 466,
+      "sample_values": [
+        "4.0",
+        "4.0",
+        "2.0",
+        "1.7",
+        "18.0000000003"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 3840.0
+    },
+    "ANULADO": {
+      "column": "ANULADO",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "NO",
+        "NO",
+        "NO",
+        "NO",
+        "NO"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    }
+  },
+  "purchases": {
+    "FECHA DE EMISIÓN": {
+      "column": "FECHA DE EMISIÓN",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 276,
+      "sample_values": [
+        "10/03/2025",
+        "11/03/2025",
+        "12/03/2025",
+        "12/03/2025",
+        "12/03/2025"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 1.0,
+      "min_value": 1012026.0,
+      "max_value": 31122025.0
+    },
+    "SERIE": {
+      "column": "SERIE",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 28,
+      "sample_values": [
+        "FQQ1",
+        "FQQ1",
+        "0001",
+        "FQQ1",
+        "0001"
+      ],
+      "parseable_as_number": 0.999,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 243.0
+    },
+    "NÚMERO": {
+      "column": "NÚMERO",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 891,
+      "sample_values": [
+        "1",
+        "71546",
+        "1",
+        "71613",
+        "1"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 246723.0
+    },
+    "DOC ENTIDAD NÚMERO": {
+      "column": "DOC ENTIDAD NÚMERO",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "-",
+        "20501666191",
+        "20602259073",
+        "20501666191",
+        "20602259073"
+      ],
+      "parseable_as_number": 0.9979,
+      "parseable_as_date": 0.0,
+      "min_value": 10104595753.0,
+      "max_value": 20611643714.0
+    },
+    "DENOMINACIÓN ENTIDAD": {
+      "column": "DENOMINACIÓN ENTIDAD",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 30,
+      "sample_values": [
+        "VARIOS",
+        "ENVIPLAST E.I.R.L.",
+        "QUESITO SA",
+        "ENVIPLAST E.I.R.L.",
+        "QUESITO SA"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "MONEDA": {
+      "column": "MONEDA",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "PEN",
+        "PEN",
+        "PEN",
+        "PEN",
+        "PEN"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "TIPO DE CAMBIO": {
+      "column": "TIPO DE CAMBIO",
+      "dtype": "float64",
+      "null_rate": 1.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "UNIDAD DE MEDIDA": {
+      "column": "UNIDAD DE MEDIDA",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "NIU",
+        "NIU",
+        "NIU",
+        "NIU",
+        "NIU"
+      ],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "CÓDIGO": {
+      "column": "CÓDIGO",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 566,
+      "sample_values": [
+        "5051-ANULADO-3740978",
+        "5041",
+        "5002",
+        "5056",
+        "5005"
+      ],
+      "parseable_as_number": 0.999,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 6514.0
+    },
+    "DESCRIPCIÓN": {
+      "column": "DESCRIPCIÓN",
+      "dtype": "str",
+      "null_rate": 0.0,
+      "unique_count": 627,
+      "sample_values": [
+        "Ajustes de stockTAPA DE PLÁSTICO ROSCA",
+        "FRASCO PLASTICO AMBAR 500ML CON TAPA Y TAPON N28",
+        "FRASCO GOTERO VIDRIO AMBAR 15ML CON TAPA Y CHUPONFRASCO GOTERO VIDRIO AMBAR 15ML CON TAPA Y CHUPON",
+        "PASTILLERO PVC/CRISTAL N°4 80GR T/ROSCA Blanca",
+        "FRASCO GOTERO VIDRIO AMBAR 50ML CON TAPA Y CHUPONFRASCO GOTERO VIDRIO AMBAR 50ML CON TAPA Y CHUPON"
+      ],
+      "parseable_as_number": 0.924,
+      "parseable_as_date": 0.0,
+      "min_value": -20150.0,
+      "max_value": 10015010550.0
+    },
+    "CANTIDAD": {
+      "column": "CANTIDAD",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 109,
+      "sample_values": [
+        "10",
+        "25",
+        "50",
+        "25",
+        "50"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 3000.0
+    },
+    "VALOR UNITARIO": {
+      "column": "VALOR UNITARIO",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 274,
+      "sample_values": [
+        "0.0847457627",
+        "0.7203389",
+        "1.0",
+        "1.48305",
+        "1.0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 457.6271186441
+    },
+    "PRECIO UNITARIO": {
+      "column": "PRECIO UNITARIO",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 292,
+      "sample_values": [
+        "0.1",
+        "0.849999902",
+        "1.26",
+        "1.749999",
+        "1.96"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 540.0
+    },
+    "DESCUENTO": {
+      "column": "DESCUENTO",
+      "dtype": "float64",
+      "null_rate": 0.9701101206082853,
+      "unique_count": 1,
+      "sample_values": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+      ],
+      "parseable_as_number": 0.0299,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 0.0
+    },
+    "SUBTOTAL": {
+      "column": "SUBTOTAL",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 474,
+      "sample_values": [
+        "0.8474576271",
+        "18.0084725",
+        "50.0",
+        "37.07625",
+        "50.0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 2987.2881355932
+    },
+    "TIPO DE IGV": {
+      "column": "TIPO DE IGV",
+      "dtype": "int64",
+      "null_rate": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 1.0,
+      "max_value": 19.0
+    },
+    "IGV": {
+      "column": "IGV",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 474,
+      "sample_values": [
+        "0.1525423729",
+        "3.24152505",
+        "9.0",
+        "6.673725",
+        "9.0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 537.7118644068
+    },
+    "TIPO DE ISC": {
+      "column": "TIPO DE ISC",
+      "dtype": "float64",
+      "null_rate": 1.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "ISC": {
+      "column": "ISC",
+      "dtype": "float64",
+      "null_rate": 1.0,
+      "unique_count": 0,
+      "sample_values": [],
+      "parseable_as_number": 0.0,
+      "parseable_as_date": 0.0,
+      "min_value": null,
+      "max_value": null
+    },
+    "TOTAL": {
+      "column": "TOTAL",
+      "dtype": "float64",
+      "null_rate": 0.0,
+      "unique_count": 429,
+      "sample_values": [
+        "1.0",
+        "21.25",
+        "59.0",
+        "43.75",
+        "59.0"
+      ],
+      "parseable_as_number": 1.0,
+      "parseable_as_date": 0.0,
+      "min_value": 0.0,
+      "max_value": 3525.0
+    }
+  }
+}

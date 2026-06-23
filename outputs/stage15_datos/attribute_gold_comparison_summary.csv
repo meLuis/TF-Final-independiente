@@ -1,0 +1,9 @@
+﻿attribute,overlap_rows,expected_filled,predicted_filled_on_expected,accuracy_on_both_filled,recall_against_expected
+product_type,275,275,238,0.9874,0.8545
+subtype,275,31,19,0.6316,0.3871
+material,275,183,117,0.6325,0.4044
+color,275,177,177,1.0,1.0
+capacity_value,275,166,166,0.9036,0.9036
+mouth_size_mm,275,112,108,1.0,0.9643
+use_category,275,275,275,0.5927,0.5927
+material_family,275,183,117,0.6325,0.4044

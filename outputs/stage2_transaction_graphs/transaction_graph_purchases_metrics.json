@@ -1,0 +1,101 @@
+{
+  "graph_name": "G_purchases",
+  "generated_at": "2026-06-12T11:19:51",
+  "node_count": 1361,
+  "edge_count": 2887,
+  "node_type_counts": {
+    "DATE": 275,
+    "DOC": 491,
+    "PRODUCT": 565,
+    "SUPPLIER": 30
+  },
+  "relation_counts": {
+    "CONTAINS": 1905,
+    "ISSUED_BY": 491,
+    "ON_DATE": 491
+  },
+  "connected_components": 2,
+  "largest_component_size": 1357,
+  "top_degree_nodes": [
+    {
+      "node_id": "SUPPLIER:ENVIPLAST E I R L",
+      "degree": 150
+    },
+    {
+      "node_id": "SUPPLIER:CORPORACION PROMELAB E I R L",
+      "degree": 137
+    },
+    {
+      "node_id": "DOCP:QUESITO SA|2025-03-12",
+      "degree": 58
+    },
+    {
+      "node_id": "DOCP:ENVIPLAST E I R L|2025-05-17",
+      "degree": 47
+    },
+    {
+      "node_id": "SUPPLIER:COMERCIAL FERRETERA SARASARA S A C",
+      "degree": 29
+    },
+    {
+      "node_id": "DOCP:ESNA MEDIC INVERSIONES S A C|2025-10-07",
+      "degree": 26
+    },
+    {
+      "node_id": "DOCP:COMERCIAL FERRETERA SARASARA S A C|2026-01-01",
+      "degree": 23
+    },
+    {
+      "node_id": "DOCP:COMERCIAL FERRETERA SARASARA S A C|2026-02-03",
+      "degree": 23
+    },
+    {
+      "node_id": "SUPPLIER:BIO CHEMICALSS S A C",
+      "degree": 22
+    },
+    {
+      "node_id": "DOCP:COMERCIAL FERRETERA SARASARA S A C|2025-11-25",
+      "degree": 22
+    },
+    {
+      "node_id": "PRODUCT:5020",
+      "degree": 20
+    },
+    {
+      "node_id": "DOCP:ENVIPLAST E I R L|2025-06-10",
+      "degree": 20
+    },
+    {
+      "node_id": "SUPPLIER:MATRAZ PERU E I R L",
+      "degree": 20
+    },
+    {
+      "node_id": "DOCP:ENVIPLAST E I R L|2025-08-23",
+      "degree": 20
+    },
+    {
+      "node_id": "SUPPLIER:ESNA MEDIC INVERSIONES S A C",
+      "degree": 20
+    },
+    {
+      "node_id": "DOCP:COMERCIAL FERRETERA SARASARA S A C|2025-12-15",
+      "degree": 20
+    },
+    {
+      "node_id": "DOCP:CORPORACION PROMELAB E I R L|2025-04-28",
+      "degree": 19
+    },
+    {
+      "node_id": "DOCP:ENVIPLAST E I R L|2025-06-02",
+      "degree": 19
+    },
+    {
+      "node_id": "DOCP:ENVIPLAST E I R L|2025-06-20",
+      "degree": 18
+    },
+    {
+      "node_id": "DOCP:ENVIPLAST E I R L|2025-07-21",
+      "degree": 18
+    }
+  ]
+}

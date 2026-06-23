@@ -1,0 +1,101 @@
+{
+  "graph_name": "G_purchases",
+  "generated_at": "2026-06-12T11:34:41",
+  "node_count": 20,
+  "edge_count": 15,
+  "node_type_counts": {
+    "DATE": 5,
+    "DOC": 5,
+    "PRODUCT": 5,
+    "SUPPLIER": 5
+  },
+  "relation_counts": {
+    "CONTAINS": 5,
+    "ISSUED_BY": 5,
+    "ON_DATE": 5
+  },
+  "connected_components": 5,
+  "largest_component_size": 4,
+  "top_degree_nodes": [
+    {
+      "node_id": "DOCP:DISTRIBUIDORA TOOLS SAC|2024-01-05",
+      "degree": 3
+    },
+    {
+      "node_id": "DOCP:CEMENTOS DEL SUR|2024-01-06",
+      "degree": 3
+    },
+    {
+      "node_id": "DOCP:IMPORTACIONES TRUPER|2024-01-08",
+      "degree": 3
+    },
+    {
+      "node_id": "DOCP:PINTURAS PERU|2024-01-09",
+      "degree": 3
+    },
+    {
+      "node_id": "DOCP:FIJACIONES GLOBAL|2024-01-11",
+      "degree": 3
+    },
+    {
+      "node_id": "PRODUCT:SKU-001",
+      "degree": 1
+    },
+    {
+      "node_id": "SUPPLIER:DISTRIBUIDORA TOOLS SAC",
+      "degree": 1
+    },
+    {
+      "node_id": "DATE:2024-01-05",
+      "degree": 1
+    },
+    {
+      "node_id": "PRODUCT:SKU-002",
+      "degree": 1
+    },
+    {
+      "node_id": "SUPPLIER:CEMENTOS DEL SUR",
+      "degree": 1
+    },
+    {
+      "node_id": "DATE:2024-01-06",
+      "degree": 1
+    },
+    {
+      "node_id": "PRODUCT:SKU-003",
+      "degree": 1
+    },
+    {
+      "node_id": "SUPPLIER:IMPORTACIONES TRUPER",
+      "degree": 1
+    },
+    {
+      "node_id": "DATE:2024-01-08",
+      "degree": 1
+    },
+    {
+      "node_id": "PRODUCT:SKU-004",
+      "degree": 1
+    },
+    {
+      "node_id": "SUPPLIER:PINTURAS PERU",
+      "degree": 1
+    },
+    {
+      "node_id": "DATE:2024-01-09",
+      "degree": 1
+    },
+    {
+      "node_id": "PRODUCT:SKU-005",
+      "degree": 1
+    },
+    {
+      "node_id": "SUPPLIER:FIJACIONES GLOBAL",
+      "degree": 1
+    },
+    {
+      "node_id": "DATE:2024-01-11",
+      "degree": 1
+    }
+  ]
+}

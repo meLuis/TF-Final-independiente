@@ -1,0 +1,6 @@
+﻿product_id,product_name,product_type,subtype,material,color,accessory,shape,feature,capacity_value,capacity_unit,mouth_size_mm,confidence,sales_rows,purchases_rows
+SKU-002,Cemento Portland 25KG,,,,,,,,25.0,KG,,0.775,1.0,1
+SKU-004,Pintura latex blanca 1GL,,,,,,,,,,,0.84,1.0,1
+SKU-001,Taladro Bosch 500W,,,,,,,,500.0,W,,0.775,1.0,1
+SKU-003,Martillo mango fibra 16OZ,,,,,,,,,,,0.6,1.0,1
+SKU-005,Tornillo drywall 1 pulgada caja,caja,,,,,,,,,,0.87,0.0,1

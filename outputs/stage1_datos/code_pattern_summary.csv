@@ -1,0 +1,4 @@
+﻿code_pattern,products,products_with_sales,products_with_purchases,sales_total,purchases_total,sales_total_share,purchases_total_share,suggested_interpretation
+NUM_4_DIGITS,619,524,556,204492.1066695849,203873.77,0.9661247980316444,1.0,dominant_commercial_pattern
+NUM_1_DIGITS,10,3,0,4744.1,0.0,0.022413543138599955,0.0,review
+NUM_2_DIGITS,1,1,0,2426.0,0.0,0.011461658829755588,0.0,review

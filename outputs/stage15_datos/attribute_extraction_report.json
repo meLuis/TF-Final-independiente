@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-06-12T11:15:27",
+  "rows": 630,
+  "avg_confidence": 0.8438,
+  "outputs": {
+    "product_attributes.csv": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\stage15_datos\\product_attributes.csv",
+    "token_profile.csv": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\stage15_datos\\token_profile.csv",
+    "attribute_coverage_report.csv": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\stage15_datos\\attribute_coverage_report.csv",
+    "attribute_review_sample.csv": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\stage15_datos\\attribute_review_sample.csv",
+    "attribute_unvalidated_sample.csv": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\stage15_datos\\attribute_unvalidated_sample.csv",
+    "attribute_gold_comparison_summary.csv": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\stage15_datos\\attribute_gold_comparison_summary.csv",
+    "attribute_gold_comparison_detail.csv": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\stage15_datos\\attribute_gold_comparison_detail.csv",
+    "attribute_rules.json": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\stage15_datos\\attribute_rules.json"
+  }
+}

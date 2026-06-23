@@ -1,0 +1,101 @@
+{
+  "graph_name": "G_sales",
+  "generated_at": "2026-06-12T11:19:52",
+  "node_count": 3063,
+  "edge_count": 9680,
+  "node_type_counts": {
+    "CLIENT": 794,
+    "DATE": 351,
+    "DOC": 1388,
+    "PRODUCT": 530
+  },
+  "relation_counts": {
+    "CONTAINS": 6904,
+    "ON_DATE": 1388,
+    "SOLD_TO": 1388
+  },
+  "connected_components": 1,
+  "largest_component_size": 3063,
+  "top_degree_nodes": [
+    {
+      "node_id": "CLIENT:VARIOS",
+      "degree": 328
+    },
+    {
+      "node_id": "PRODUCT:5007",
+      "degree": 109
+    },
+    {
+      "node_id": "PRODUCT:5065",
+      "degree": 99
+    },
+    {
+      "node_id": "PRODUCT:5004",
+      "degree": 87
+    },
+    {
+      "node_id": "PRODUCT:5085",
+      "degree": 87
+    },
+    {
+      "node_id": "PRODUCT:5064",
+      "degree": 86
+    },
+    {
+      "node_id": "PRODUCT:5087",
+      "degree": 77
+    },
+    {
+      "node_id": "PRODUCT:5066",
+      "degree": 76
+    },
+    {
+      "node_id": "PRODUCT:5001",
+      "degree": 69
+    },
+    {
+      "node_id": "PRODUCT:5018",
+      "degree": 68
+    },
+    {
+      "node_id": "PRODUCT:5074",
+      "degree": 67
+    },
+    {
+      "node_id": "PRODUCT:5014",
+      "degree": 66
+    },
+    {
+      "node_id": "PRODUCT:5006",
+      "degree": 66
+    },
+    {
+      "node_id": "PRODUCT:5005",
+      "degree": 66
+    },
+    {
+      "node_id": "PRODUCT:5067",
+      "degree": 64
+    },
+    {
+      "node_id": "PRODUCT:5019",
+      "degree": 61
+    },
+    {
+      "node_id": "PRODUCT:5000",
+      "degree": 61
+    },
+    {
+      "node_id": "PRODUCT:5017",
+      "degree": 60
+    },
+    {
+      "node_id": "PRODUCT:5037",
+      "degree": 56
+    },
+    {
+      "node_id": "DOCS:VARIOS|2026-02-20",
+      "degree": 54
+    }
+  ]
+}

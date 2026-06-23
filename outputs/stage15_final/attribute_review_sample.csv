@@ -1,0 +1,41 @@
+﻿product_id,product_name,product_type,subtype,material,color,accessory,shape,feature,capacity_value,capacity_unit,mouth_size_mm,use_category,confidence,needs_review_reason,sales_rows,purchases_rows
+5206,LATA DE ALUMINIO PLATEADA 50GR C/TAPA,tapa,,ALUMINIO,,tapa,,,50.0,GR,,general,0.854,tapa_con_capacidad;,18.0,8.0
+5228,VIAL VIDRIO TRANSPARENTE 7ML B20 C/TAPA BUTILO COLOR GRIS,tapa,vial,VIDRIO,GRIS,tapa,,,7.0,ML,20.0,general,0.8762,tapa_con_capacidad;,7.0,3.0
+5239,VIAL VIDRIO TRANSPARENTE 10ML B20 C/TAPA BUTILO,tapa,vial,VIDRIO,TRANSPARENTE,tapa,,,10.0,ML,20.0,general,0.8762,tapa_con_capacidad;,13.0,11.0
+5452,GALONERA NATURAL 4L C/TAPA Y TAPON,tapa,,,NATURAL,tapa,,,4.0,L,,general,0.854,tapa_con_capacidad;,17.0,1.0
+5205,LATA DE ALUMINIO PLATEADO 15GR C/TAPA,tapa,,ALUMINIO,PLATEADO,tapa,,,15.0,GR,,general,0.8683,tapa_con_capacidad;,13.0,4.0
+5207,LATA DE ALUMINIO PLATEADA 30GR C/TAPA,tapa,,ALUMINIO,,tapa,,,30.0,GR,,general,0.854,tapa_con_capacidad;,12.0,3.0
+5428,PET TRANSPARENTE 100ML TAPA DISPENSADOR B20,tapa,dispensador,PET,TRANSPARENTE,tapa,,,100.0,ML,20.0,general,0.885,tapa_con_capacidad;,14.0,0.0
+5244,VIAL VIDRIO TRANSPARENTE 5ML B20 C/TAPA BUTILO GRIS,tapa,vial,VIDRIO,GRIS,tapa,,,5.0,ML,20.0,general,0.8762,tapa_con_capacidad;,7.0,2.0
+5068,CRIOVIAL C/TAPA ROSCA NO ESTERIL 2ML TAPA BLANCA (BOLSA*500UND),tapa,rosca,,,tapa,,no_esteril,2.0,ML,,empaque_envase,0.8883,tapa_con_capacidad;,8.0,4.0
+5530,GALONERA PLASTICO NATURAL 1L B36 C/TAPA Y TAPON,tapa,,PLASTICO,NATURAL,tapa,,,1.0,L,36.0,general,0.8757,tapa_con_capacidad;,6.0,0.0
+5098,PROBADOR PLASTICO NATURAL FORMA BAJA 5ML CON TAPA ESPRAY,tapa,,PLASTICO,NATURAL,tapa|atomizador_espray,,,5.0,ML,,general,0.8683,tapa_con_capacidad;,9.0,2.0
+5414,PET JABONERA 37GR 400ML C/TAPA DISPENSADOR B28,tapa,dispensador,PET,,tapa,,,37.0,GR,28.0,general,0.8771,tapa_con_capacidad;,8.0,1.0
+5221,LATA DE ALUMINIO PLATEADA 100GR C/TAPA,tapa,,ALUMINIO,,tapa,,,100.0,GR,,general,0.854,tapa_con_capacidad;,8.0,3.0
+5312,VIDRIO TUBULAR 20ML C/TAPA BAQUELITA N24 Y LAINA CARTON PTFE,tapa,laina,CARTON,,laina|tapa,tubular,,20.0,ML,24.0,general,0.8762,tapa_con_capacidad;,8.0,2.0
+5293,PERFUME VIDRIO TRANSPARENTE CUADRADO 30ML TAPA ESPRAY METALIZADA N18,tapa,,VIDRIO,TRANSPARENTE,tapa|atomizador_espray,,metalizado,30.0,ML,18.0,general,0.8725,tapa_con_capacidad;,5.0,3.0
+5261,GOTER PLASTICO BLANCO 5ML C/TAPA Y TAPON N15,tapa,,PLASTICO,BLANCO,tapa,,,5.0,ML,15.0,general,0.8757,tapa_con_capacidad;,6.0,1.0
+5215,LATA DE ALUMINIO NEGRO 15GR C/TAPA,tapa,,ALUMINIO,NEGRO,tapa,,,15.0,GR,,general,0.8683,tapa_con_capacidad;,6.0,2.0
+5328,ROLL-ON VIDRIO TRANSPARENTE 50ML C/TAPA BLANCA,tapa,,VIDRIO,TRANSPARENTE,tapa,,,50.0,ML,,general,0.8683,tapa_con_capacidad;,5.0,2.0
+5308,TUVO CONICO TAPA AZUL 50ML C/FALDON,tapa,,,AZUL,tapa,conico,,50.0,ML,,general,0.8583,tapa_con_capacidad;,6.0,0.0
+5201,VIAL VIDRIO TRANSPARENTE 20ML B20 C/TAPON BUTILO GRIS N20,tapa,vial,VIDRIO,GRIS,tapa,,,20.0,ML,20.0,general,0.8762,tapa_con_capacidad;,4.0,2.0
+5389,PROBADOR VIDRIO 1ML TAPON PLUMILLA,tapa,,VIDRIO,,tapa,,,1.0,ML,,general,0.854,tapa_con_capacidad;,4.0,2.0
+5220,LATA DE ALUMINIO NEGRO 50GR C/TAPA,tapa,,ALUMINIO,NEGRO,tapa,,,50.0,GR,,general,0.8683,tapa_con_capacidad;,4.0,2.0
+5297,PET COLORES CILINDRICO 120ML TAPA PRESS N20,tapa,,PET,,tapa,cilindrico,,120.0,ML,20.0,general,0.8643,tapa_con_capacidad;,4.0,2.0
+5532,PET TRANSPARENTE 75ML TAPA DISPENSADOR B20,tapa,dispensador,PET,TRANSPARENTE,tapa,,,75.0,ML,20.0,general,0.885,tapa_con_capacidad;,5.0,0.0
+5531,PET TRANSPARENTE 120ML TAPA DISPENSADOR B20,tapa,dispensador,PET,TRANSPARENTE,tapa,,,120.0,ML,20.0,general,0.885,tapa_con_capacidad;,4.0,0.0
+5219,LATA DE ALUMINIO NEGRO 30GR C/TAPA,tapa,,ALUMINIO,NEGRO,tapa,,,30.0,GR,,general,0.8683,tapa_con_capacidad;,2.0,2.0
+5612,PET JABONERA TRANSPARENTE 28GR 400ML S/TAPA B28,tapa,,PET,TRANSPARENTE,tapa,,,28.0,GR,28.0,general,0.8757,tapa_con_capacidad;,0.0,1.0
+6,MATERIAL MEDICO,,,,,,,,,,,general,0.6,sin_tipo;baja_confianza;,49.0,0.0
+5067,PIPETAS PASTEUR ESTRILES 3ML BX200,,,,,,,,3.0,ML,,general,0.775,sin_tipo;baja_confianza;,67.0,7.0
+5126,BAGUETA O VARILLAS DE AGITACION DE VIDRIO 20CM,,,VIDRIO,,,,,,,,general,0.77,sin_tipo;baja_confianza;,45.0,9.0
+5139,PAPEL FILTRO RAPIDO X PLIEGO 50*50,,,PAPEL,,,,,,,,general,0.77,sin_tipo;baja_confianza;,25.0,12.0
+5187,EMBUDO VIDRIO 60MM,,,VIDRIO,,,,,,,,general,0.77,sin_tipo;baja_confianza;,27.0,7.0
+5141,LAMINILLA CUBREOBJETO 22*22MM*100UND,,,,,,,,,,,general,0.6,sin_tipo;baja_confianza;,20.0,9.0
+10,EQUIPOS DE SEGURIDAD,,,,,,,,,,,general,0.6,sin_tipo;baja_confianza;,7.0,0.0
+5107,LAMINA PORTAOBJETO 7101 (PAQ. 50UND),,,,,,,,,,,general,0.6,sin_tipo;baja_confianza;,18.0,10.0
+5113,TERMOMETRO  DIGITAL DE VASTAGO PARA COCINA DE 15CM,,,,,,,digital,,,,general,0.725,sin_tipo;baja_confianza;,18.0,5.0
+5127,CUCHARA CON ESPATULA DE METAL 20CM,,,METAL,,,,,,,,general,0.77,sin_tipo;baja_confianza;,17.0,7.0
+5104,MORTERO DE 100MM C/PILON,,,,,,,,,,,general,0.6,sin_tipo;baja_confianza;,17.0,5.0
+5189,MECHERO DE ALCOHOL 150ML,,,,,,,,150.0,ML,,general,0.775,sin_tipo;baja_confianza;,12.0,10.0
+5108,EMBUDO DE VIDRIO DE BOROSILICATO DE 100MM,,,VIDRIO,,,,,,,,general,0.77,sin_tipo;baja_confianza;,15.0,5.0

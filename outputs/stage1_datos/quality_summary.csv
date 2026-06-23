@@ -1,0 +1,10 @@
+﻿metric,value
+column_mapping_confidence,0.8779
+product_match_coverage,0.9998
+high_confidence_matches,8832
+ambiguous_matches,1
+rejected_matches,1
+requires_human_review,True
+products_rows,630
+sales_rows,6928
+purchases_rows,1907

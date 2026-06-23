@@ -1,0 +1,17 @@
+{
+  "graph_name": "G_attr_projection",
+  "generated_at": "2026-06-12T11:34:41",
+  "params": {
+    "hub_fraction": 0.35,
+    "hub_degree_threshold": 2,
+    "min_similarity": 0.3,
+    "min_shared_attributes": 1,
+    "top_k": 10
+  },
+  "products_total": 5,
+  "products_connected": 0,
+  "edge_count": 0,
+  "excluded_hub_attributes": [],
+  "attribute_nodes_used": 3,
+  "pair_generation_cost": 0
+}

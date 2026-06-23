@@ -1,0 +1,151 @@
+{
+  "rules_version": "2026-06-11",
+  "domain": "short_domain_name",
+  "llm_status": "additions_proposed_by_gemini",
+  "allowed_methods": [
+    "contains_any",
+    "keyword_any",
+    "keyword_first_match",
+    "not_contains_any"
+  ],
+  "attribute_rules": {
+    "subtype": {
+      "method": "keyword_first_match",
+      "rules": [
+        {
+          "keywords": [
+            "ENSAYO"
+          ],
+          "value": "tubo_de_ensayo",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "PRECIPITADO",
+            "BEAKER"
+          ],
+          "value": "vaso_precipitado",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "PETRI"
+          ],
+          "value": "placa_petri",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "ERLENMEYER"
+          ],
+          "value": "matraz_erlenmeyer",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "accessory": {
+      "method": "keyword_any",
+      "rules": [
+        {
+          "keywords": [
+            "ESPRAY"
+          ],
+          "value": "atomizador_espray",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "PISTOLA"
+          ],
+          "value": "dispensador_pistola",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "ASA"
+          ],
+          "value": "asa",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "feature": {
+      "method": "keyword_first_match",
+      "rules": [
+        {
+          "keywords": [
+            "ACANALADO"
+          ],
+          "value": "acanalado",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "INTERNO"
+          ],
+          "value": "interno",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "BOCA"
+          ],
+          "value": "boca",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "DOBLE"
+          ],
+          "value": "doble",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "ANCHA"
+          ],
+          "value": "ancha",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "FONDO"
+          ],
+          "value": "fondo",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "METALIZADA"
+          ],
+          "value": "metalizado",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "MINI"
+          ],
+          "value": "mini",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "SOLO"
+          ],
+          "value": "solo",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "DIGITAL"
+          ],
+          "value": "digital",
+          "confidence": 0.85
+        }
+      ]
+    }
+  },
+  "material_rules": [],
+  "color_keywords": [],
+  "source_model": "gemini-2.5-flash"
+}

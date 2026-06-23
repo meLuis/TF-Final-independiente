@@ -1,0 +1,48 @@
+{
+  "graph_name": "G_attr",
+  "graph_full_name": "semantic_attribute_graph",
+  "generated_at": "2026-06-12T11:34:41",
+  "min_confidence": 0.75,
+  "node_count": 8,
+  "edge_count": 3,
+  "node_type_counts": {
+    "CAPACITY": 2,
+    "PRODUCT": 5,
+    "TYPE": 1
+  },
+  "relation_counts": {
+    "HAS_CAPACITY": 2,
+    "HAS_TYPE": 1
+  },
+  "connected_components": 5,
+  "largest_component_size": 2,
+  "products_total": 5,
+  "products_with_attribute_edges": 3,
+  "products_without_attribute_edges": 2,
+  "top_degree_nodes": [
+    {
+      "node_id": "PRODUCT:SKU-001",
+      "degree": 1
+    },
+    {
+      "node_id": "CAPACITY:500W",
+      "degree": 1
+    },
+    {
+      "node_id": "PRODUCT:SKU-002",
+      "degree": 1
+    },
+    {
+      "node_id": "CAPACITY:25KG",
+      "degree": 1
+    },
+    {
+      "node_id": "PRODUCT:SKU-005",
+      "degree": 1
+    },
+    {
+      "node_id": "TYPE:CAJA",
+      "degree": 1
+    }
+  ]
+}

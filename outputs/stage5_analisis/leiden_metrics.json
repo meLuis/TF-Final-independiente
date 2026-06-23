@@ -1,0 +1,28 @@
+{
+  "algorithm": "leiden_modularity",
+  "reference": "Traag, Waltman & van Eck (2019), Scientific Reports 9:5233",
+  "generated_at": "2026-06-12T11:33:55",
+  "products": 472,
+  "leiden_communities": 15,
+  "leiden_modularity": 0.5673,
+  "baseline_connected_components": 6,
+  "largest_leiden_community": 69,
+  "largest_connected_component": 444,
+  "community_size_distribution": {
+    "0": 69,
+    "1": 60,
+    "2": 59,
+    "3": 55,
+    "4": 50,
+    "5": 45,
+    "6": 43,
+    "7": 35,
+    "8": 17,
+    "9": 13,
+    "10": 11,
+    "11": 5,
+    "12": 5,
+    "13": 3,
+    "14": 2
+  }
+}

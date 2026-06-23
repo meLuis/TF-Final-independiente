@@ -1,0 +1,16 @@
+﻿source,target,weight,edge_type,product_id,supplier,product_name,effective_unit_cost,reference_unit_cost,savings_per_unit,savings_pct,capacity_units,supplier_capacity,purchase_lines,last_purchase
+SOURCE,PRODUCT:SKU-001,0.0,start_product,SKU-001,,,,,,,,,,
+PRODUCT:SKU-001,OPTION:SKU-001:DISTRIBUIDORA TOOLS SAC,0.0,at_or_above_reference,SKU-001,Distribuidora Tools SAC,TALADRO BOSCH 500W,145.0,145.0,0.0,0.0,5.0,5.0,1.0,2024-01-05
+OPTION:SKU-001:DISTRIBUIDORA TOOLS SAC,SINK:SKU-001,0.0,finish_product,SKU-001,Distribuidora Tools SAC,,,,,,,,,
+SOURCE,PRODUCT:SKU-002,0.0,start_product,SKU-002,,,,,,,,,,
+PRODUCT:SKU-002,OPTION:SKU-002:CEMENTOS DEL SUR,0.0,at_or_above_reference,SKU-002,Cementos del Sur,CEMENTO PORTLAND 25 KG,21.0,21.0,0.0,0.0,100.0,100.0,1.0,2024-01-06
+OPTION:SKU-002:CEMENTOS DEL SUR,SINK:SKU-002,0.0,finish_product,SKU-002,Cementos del Sur,,,,,,,,,
+SOURCE,PRODUCT:SKU-003,0.0,start_product,SKU-003,,,,,,,,,,
+PRODUCT:SKU-003,OPTION:SKU-003:IMPORTACIONES TRUPER,0.0,at_or_above_reference,SKU-003,Importaciones Truper,MARTILLO MANGO FIBRA 16OZ,24.0,24.0,0.0,0.0,20.0,20.0,1.0,2024-01-08
+OPTION:SKU-003:IMPORTACIONES TRUPER,SINK:SKU-003,0.0,finish_product,SKU-003,Importaciones Truper,,,,,,,,,
+SOURCE,PRODUCT:SKU-004,0.0,start_product,SKU-004,,,,,,,,,,
+PRODUCT:SKU-004,OPTION:SKU-004:PINTURAS PERU,0.0,at_or_above_reference,SKU-004,Pinturas Peru,PINTURA LATEX BLANCA 1 GALON,31.5,31.5,0.0,0.0,30.0,30.0,1.0,2024-01-09
+OPTION:SKU-004:PINTURAS PERU,SINK:SKU-004,0.0,finish_product,SKU-004,Pinturas Peru,,,,,,,,,
+SOURCE,PRODUCT:SKU-005,0.0,start_product,SKU-005,,,,,,,,,,
+PRODUCT:SKU-005,OPTION:SKU-005:FIJACIONES GLOBAL,0.0,at_or_above_reference,SKU-005,Fijaciones Global,TORNILLO DRYWALL 1 PULGADA CAJA,12.0,12.0,0.0,0.0,50.0,50.0,1.0,2024-01-11
+OPTION:SKU-005:FIJACIONES GLOBAL,SINK:SKU-005,0.0,finish_product,SKU-005,Fijaciones Global,,,,,,,,,

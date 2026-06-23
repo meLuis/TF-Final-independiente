@@ -1,0 +1,97 @@
+{
+  "graph_name": "G_sales",
+  "generated_at": "2026-06-12T11:34:41",
+  "node_count": 19,
+  "edge_count": 15,
+  "node_type_counts": {
+    "CLIENT": 4,
+    "DATE": 5,
+    "DOC": 5,
+    "PRODUCT": 5
+  },
+  "relation_counts": {
+    "CONTAINS": 5,
+    "ON_DATE": 5,
+    "SOLD_TO": 5
+  },
+  "connected_components": 4,
+  "largest_component_size": 7,
+  "top_degree_nodes": [
+    {
+      "node_id": "DOCS:CONSTRUCTORA NORTE|2024-01-10",
+      "degree": 3
+    },
+    {
+      "node_id": "DOCS:MAESTRO PEREZ|2024-01-12",
+      "degree": 3
+    },
+    {
+      "node_id": "DOCS:SERVICIOS LIMA|2024-01-15",
+      "degree": 3
+    },
+    {
+      "node_id": "DOCS:FERRETERIA SOL|2024-01-18",
+      "degree": 3
+    },
+    {
+      "node_id": "DOCS:CONSTRUCTORA NORTE|2024-01-20",
+      "degree": 3
+    },
+    {
+      "node_id": "CLIENT:CONSTRUCTORA NORTE",
+      "degree": 2
+    },
+    {
+      "node_id": "PRODUCT:SKU-001",
+      "degree": 1
+    },
+    {
+      "node_id": "DATE:2024-01-10",
+      "degree": 1
+    },
+    {
+      "node_id": "PRODUCT:SKU-002",
+      "degree": 1
+    },
+    {
+      "node_id": "CLIENT:MAESTRO PEREZ",
+      "degree": 1
+    },
+    {
+      "node_id": "DATE:2024-01-12",
+      "degree": 1
+    },
+    {
+      "node_id": "PRODUCT:SKU-004",
+      "degree": 1
+    },
+    {
+      "node_id": "CLIENT:SERVICIOS LIMA",
+      "degree": 1
+    },
+    {
+      "node_id": "DATE:2024-01-15",
+      "degree": 1
+    },
+    {
+      "node_id": "PRODUCT:SKU-003",
+      "degree": 1
+    },
+    {
+      "node_id": "CLIENT:FERRETERIA SOL",
+      "degree": 1
+    },
+    {
+      "node_id": "DATE:2024-01-18",
+      "degree": 1
+    },
+    {
+      "node_id": "PRODUCT:SKU-999",
+      "degree": 1
+    },
+    {
+      "node_id": "DATE:2024-01-20",
+      "degree": 1
+    }
+  ]
+}

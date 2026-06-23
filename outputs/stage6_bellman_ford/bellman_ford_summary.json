@@ -1,0 +1,14 @@
+{
+  "status": "ready",
+  "algorithm": "Bellman-Ford",
+  "source": "outputs\\stage1_datos",
+  "node_count": 2039,
+  "edge_count": 2381,
+  "candidate_rows": 908,
+  "products_analyzed": 565,
+  "negative_edges": 266,
+  "products_with_savings": 214,
+  "has_negative_cycle": false,
+  "negative_cycle_edge_count": 0,
+  "note": "Modo automatico: pesos negativos representan ahorros historicos frente al costo de referencia, no ofertas inventadas."
+}

@@ -1,0 +1,692 @@
+{
+  "rules_version": "2026-06-11",
+  "domain": "generic_commerce_catalog",
+  "llm_status": "merged_with_gemini_additions",
+  "allowed_methods": [
+    "contains_any",
+    "keyword_any",
+    "keyword_first_match",
+    "not_contains_any"
+  ],
+  "attribute_rules": {
+    "product_type": {
+      "method": "keyword_first_match",
+      "rules": [
+        {
+          "keywords": [
+            "CREMERO",
+            "VASELINERO"
+          ],
+          "value": "cremero",
+          "confidence": 0.94
+        },
+        {
+          "keywords": [
+            "PASTILLERO"
+          ],
+          "value": "accesorio",
+          "confidence": 0.9
+        },
+        {
+          "keywords": [
+            "PISETA",
+            "GRADILLA",
+            "TALQUERA",
+            "PROBETA",
+            "PROPIPETA"
+          ],
+          "value": "accesorio",
+          "confidence": 0.88
+        },
+        {
+          "keywords": [
+            "GOTERO"
+          ],
+          "value": "gotero",
+          "confidence": 0.95
+        },
+        {
+          "keywords": [
+            "POTE",
+            "CREMERO"
+          ],
+          "value": "pote",
+          "confidence": 0.92
+        },
+        {
+          "keywords": [
+            "TUBO",
+            "TUBOS"
+          ],
+          "value": "tubo",
+          "confidence": 0.9
+        },
+        {
+          "keywords": [
+            "FRASCO",
+            "BOTELLA",
+            "ENVASE"
+          ],
+          "value": "frasco",
+          "confidence": 0.93
+        },
+        {
+          "keywords": [
+            "BOMBA",
+            "ATOMIZADORA",
+            "ATOMIZADOR",
+            "SPRAY",
+            "GATILLO",
+            "PULVERIZADOR",
+            "TRIGGER"
+          ],
+          "value": "atomizador",
+          "confidence": 0.92
+        },
+        {
+          "keywords": [
+            "TAPA",
+            "TAPON",
+            "VALVULA",
+            "DISPENSADOR",
+            "ATOMIZADOR"
+          ],
+          "value": "tapa",
+          "confidence": 0.9
+        },
+        {
+          "keywords": [
+            "BOLSA",
+            "BOLSAS",
+            "ZIPLOC"
+          ],
+          "value": "bolsa",
+          "confidence": 0.91
+        },
+        {
+          "keywords": [
+            "CAJA",
+            "CAJAS"
+          ],
+          "value": "caja",
+          "confidence": 0.9
+        },
+        {
+          "keywords": [
+            "KIT",
+            "SET"
+          ],
+          "value": "kit",
+          "confidence": 0.86
+        },
+        {
+          "keywords": [
+            "ETIQUETA",
+            "STICKER"
+          ],
+          "value": "etiqueta",
+          "confidence": 0.9
+        },
+        {
+          "keywords": [
+            "MAQUINA",
+            "EQUIPO",
+            "LAPTOP",
+            "IMPRESORA"
+          ],
+          "value": "equipo",
+          "confidence": 0.84
+        },
+        {
+          "keywords": [
+            "REPUESTO",
+            "ACCESORIO"
+          ],
+          "value": "accesorio",
+          "confidence": 0.84
+        }
+      ]
+    },
+    "subtype": {
+      "method": "keyword_first_match",
+      "rules": [
+        {
+          "keywords": [
+            "AIRLESS"
+          ],
+          "value": "airless",
+          "confidence": 0.96
+        },
+        {
+          "keywords": [
+            "ATOMIZADOR",
+            "SPRAY"
+          ],
+          "value": "atomizador",
+          "confidence": 0.95
+        },
+        {
+          "keywords": [
+            "BULLET"
+          ],
+          "value": "bullet",
+          "confidence": 0.97
+        },
+        {
+          "keywords": [
+            "CAMPANA"
+          ],
+          "value": "campana",
+          "confidence": 0.94
+        },
+        {
+          "keywords": [
+            "CHUPON"
+          ],
+          "value": "chupon",
+          "confidence": 0.94
+        },
+        {
+          "keywords": [
+            "CREMERO"
+          ],
+          "value": "cremero",
+          "confidence": 0.95
+        },
+        {
+          "keywords": [
+            "DISPENSADOR",
+            "DISPENSADORA"
+          ],
+          "value": "dispensador",
+          "confidence": 0.95
+        },
+        {
+          "keywords": [
+            "ESPUMERO"
+          ],
+          "value": "espumero",
+          "confidence": 0.97
+        },
+        {
+          "keywords": [
+            "GATILLO"
+          ],
+          "value": "gatillo",
+          "confidence": 0.94
+        },
+        {
+          "keywords": [
+            "LAINA"
+          ],
+          "value": "laina",
+          "confidence": 0.92
+        },
+        {
+          "keywords": [
+            "RIMEL"
+          ],
+          "value": "rimel",
+          "confidence": 0.95
+        },
+        {
+          "keywords": [
+            "ROSCA"
+          ],
+          "value": "rosca",
+          "confidence": 0.9
+        },
+        {
+          "keywords": [
+            "ZIPLOC"
+          ],
+          "value": "ziploc",
+          "confidence": 0.95
+        },
+        {
+          "keywords": [
+            "ESMALTE"
+          ],
+          "value": "esmalte",
+          "confidence": 0.92
+        },
+        {
+          "keywords": [
+            "BALSAMO",
+            "LIPSTICK"
+          ],
+          "value": "lipstick",
+          "confidence": 0.9
+        },
+        {
+          "keywords": [
+            "VIAL"
+          ],
+          "value": "vial",
+          "confidence": 0.88
+        },
+        {
+          "keywords": [
+            "DOSIFICADOR"
+          ],
+          "value": "dosificador",
+          "confidence": 0.86
+        },
+        {
+          "keywords": [
+            "ENSAYO"
+          ],
+          "value": "tubo_de_ensayo",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "PRECIPITADO",
+            "BEAKER"
+          ],
+          "value": "vaso_precipitado",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "PETRI"
+          ],
+          "value": "placa_petri",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "ERLENMEYER"
+          ],
+          "value": "matraz_erlenmeyer",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "accessory": {
+      "method": "keyword_any",
+      "rules": [
+        {
+          "keywords": [
+            "BROCHA"
+          ],
+          "value": "brocha",
+          "confidence": 0.92
+        },
+        {
+          "keywords": [
+            "CHUPON"
+          ],
+          "value": "chupon",
+          "confidence": 0.92
+        },
+        {
+          "keywords": [
+            "LAINA"
+          ],
+          "value": "laina",
+          "confidence": 0.9
+        },
+        {
+          "keywords": [
+            "TAPA",
+            "TAPON"
+          ],
+          "value": "tapa",
+          "confidence": 0.88
+        },
+        {
+          "keywords": [
+            "REJILLA"
+          ],
+          "value": "rejilla",
+          "confidence": 0.88
+        },
+        {
+          "keywords": [
+            "GATILLO",
+            "TRIGGER"
+          ],
+          "value": "gatillo",
+          "confidence": 0.9
+        },
+        {
+          "keywords": [
+            "ESPRAY"
+          ],
+          "value": "atomizador_espray",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "PISTOLA"
+          ],
+          "value": "dispensador_pistola",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "ASA"
+          ],
+          "value": "asa",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "shape": {
+      "method": "keyword_first_match",
+      "rules": [
+        {
+          "keywords": [
+            "OVALADO",
+            "OVALADA"
+          ],
+          "value": "ovalado",
+          "confidence": 0.9
+        },
+        {
+          "keywords": [
+            "CONICO",
+            "CONICA"
+          ],
+          "value": "conico",
+          "confidence": 0.88
+        },
+        {
+          "keywords": [
+            "TUBULAR"
+          ],
+          "value": "tubular",
+          "confidence": 0.88
+        },
+        {
+          "keywords": [
+            "CILINDRICO",
+            "CILINDRICA"
+          ],
+          "value": "cilindrico",
+          "confidence": 0.86
+        }
+      ]
+    },
+    "feature": {
+      "method": "keyword_first_match",
+      "rules": [
+        {
+          "keywords": [
+            "NO ESTERIL"
+          ],
+          "value": "no_esteril",
+          "confidence": 0.88
+        },
+        {
+          "keywords": [
+            "ESTERIL",
+            "ESTERILES"
+          ],
+          "value": "esteril",
+          "confidence": 0.9
+        },
+        {
+          "keywords": [
+            "GRADUADO",
+            "GRADUADA"
+          ],
+          "value": "graduado",
+          "confidence": 0.9
+        },
+        {
+          "keywords": [
+            "DESCARTABLE"
+          ],
+          "value": "descartable",
+          "confidence": 0.88
+        },
+        {
+          "keywords": [
+            "IMPORTADO",
+            "IMPORTADA"
+          ],
+          "value": "importado",
+          "confidence": 0.8
+        },
+        {
+          "keywords": [
+            "ACANALADO"
+          ],
+          "value": "acanalado",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "INTERNO"
+          ],
+          "value": "interno",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "BOCA"
+          ],
+          "value": "boca",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "DOBLE"
+          ],
+          "value": "doble",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "ANCHA"
+          ],
+          "value": "ancha",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "FONDO"
+          ],
+          "value": "fondo",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "METALIZADA"
+          ],
+          "value": "metalizado",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "MINI"
+          ],
+          "value": "mini",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "SOLO"
+          ],
+          "value": "solo",
+          "confidence": 0.85
+        },
+        {
+          "keywords": [
+            "DIGITAL"
+          ],
+          "value": "digital",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "use_category": {
+      "method": "keyword_first_match",
+      "rules": [
+        {
+          "keywords": [
+            "RIMEL",
+            "LIPSTICK",
+            "CREMERO",
+            "COSMET",
+            "BULLET",
+            "AIRLESS"
+          ],
+          "value": "cosmetica",
+          "confidence": 0.89
+        },
+        {
+          "keywords": [
+            "ODONTO",
+            "MEDIC",
+            "CLINIC",
+            "ORTOPEDIA",
+            "PH",
+            "CLORO"
+          ],
+          "value": "medico_laboratorio",
+          "confidence": 0.84
+        },
+        {
+          "keywords": [
+            "PINTURA",
+            "BROCHA",
+            "TORNILLO",
+            "TUERCA",
+            "MANGUERA"
+          ],
+          "value": "ferreteria",
+          "confidence": 0.84
+        },
+        {
+          "keywords": [
+            "BOLSA",
+            "CAJA",
+            "ENVASE",
+            "FRASCO",
+            "POTE"
+          ],
+          "value": "empaque_envase",
+          "confidence": 0.82
+        }
+      ]
+    }
+  },
+  "material_rules": [
+    {
+      "keyword": "POLICARBONATO",
+      "material": "PC",
+      "family": "POLICARBONATO",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "ACRILICO",
+      "material": "ACRILICO",
+      "family": "ACRILICO",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "ALUMINIO",
+      "material": "ALUMINIO",
+      "family": "METAL",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "CARTON",
+      "material": "CARTON",
+      "family": "PAPEL_CARTON",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "LDPE",
+      "material": "LDPE",
+      "family": "POLIETILENO",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "PEAD",
+      "material": "PEAD",
+      "family": "POLIETILENO",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "PETG",
+      "material": "PETG",
+      "family": "POLIETILENO TEREFTALATO",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "PET",
+      "material": "PET",
+      "family": "POLIETILENO TEREFTALATO",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "PAPEL",
+      "material": "PAPEL",
+      "family": "PAPEL_CARTON",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "METAL",
+      "material": "METAL",
+      "family": "METAL",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "NYLON",
+      "material": "NYLON",
+      "family": "POLIAMIDA",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "PLASTICO",
+      "material": "PLASTICO",
+      "family": "PLASTICO",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "PP",
+      "material": "PP",
+      "family": "POLIPROPILENO",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "PVC",
+      "material": "PVC",
+      "family": "PVC",
+      "confidence": 0.94
+    },
+    {
+      "keyword": "VIDRIO",
+      "material": "VIDRIO",
+      "family": "VIDRIO",
+      "confidence": 0.94
+    }
+  ],
+  "color_keywords": [
+    "AMARILLO",
+    "AMBAR",
+    "AZUL",
+    "BEIGE",
+    "BLANCO",
+    "CELESTE",
+    "DORADO",
+    "FOSFORESCENTE",
+    "FUCSIA",
+    "GRIS",
+    "MARRON",
+    "MORADO",
+    "NARANJA",
+    "NATURAL",
+    "NEGRO",
+    "PLATEADO",
+    "ROJO",
+    "ROSADO",
+    "TRANSPARENTE",
+    "VERDE"
+  ],
+  "source_model": "gemini-2.5-flash"
+}

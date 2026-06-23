@@ -1,0 +1,721 @@
+{
+  "products": {
+    "product_id": {
+      "field": "product_id",
+      "column": "cod_art",
+      "confidence": 0.775,
+      "reason": "alias exacto; columna con identificadores posibles",
+      "alternatives": [
+        {
+          "column": "cod_art",
+          "confidence": 0.775,
+          "reason": "alias exacto; columna con identificadores posibles"
+        },
+        {
+          "column": "desc_articulo",
+          "confidence": 0.372,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "marca",
+          "confidence": 0.3363,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        }
+      ]
+    },
+    "product_name": {
+      "field": "product_name",
+      "column": "desc_articulo",
+      "confidence": 0.7075,
+      "reason": "nombre similar; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "desc_articulo",
+          "confidence": 0.7075,
+          "reason": "nombre similar; columna textual/categorica posible"
+        },
+        {
+          "column": "cod_art",
+          "confidence": 0.3608,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "marca",
+          "confidence": 0.2875,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "software_category": {
+      "field": "software_category",
+      "column": "categoria",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "categoria",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "desc_articulo",
+          "confidence": 0.2771,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "marca",
+          "confidence": 0.2757,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "brand": {
+      "field": "brand",
+      "column": "marca",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "marca",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "cod_art",
+          "confidence": 0.3013,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "categoria",
+          "confidence": 0.2757,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "unit": {
+      "field": "unit",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "categoria",
+          "confidence": 0.2655,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "marca",
+          "confidence": 0.2525,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "cod_art",
+          "confidence": 0.2325,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "description": {
+      "field": "description",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "cod_art",
+          "confidence": 0.2417,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "desc_articulo",
+          "confidence": 0.2417,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "categoria",
+          "confidence": 0.2298,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "current_price": {
+      "field": "current_price",
+      "column": "pvp",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "pvp",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "desc_articulo",
+          "confidence": 0.5425,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "cod_art",
+          "confidence": 0.5288,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "stock_available": {
+      "field": "stock_available",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "desc_articulo",
+          "confidence": 0.5502,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "cod_art",
+          "confidence": 0.5005,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "pvp",
+          "confidence": 0.405,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    }
+  },
+  "sales": {
+    "sale_id": {
+      "field": "sale_id",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "Importe",
+          "confidence": 0.3561,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "Cant",
+          "confidence": 0.3482,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "Cliente",
+          "confidence": 0.3482,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        }
+      ]
+    },
+    "date": {
+      "field": "date",
+      "column": "FecDoc",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como fecha",
+      "alternatives": [
+        {
+          "column": "FecDoc",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como fecha"
+        },
+        {
+          "column": "CodItem",
+          "confidence": 0.195,
+          "reason": "similitud debil de nombre; valores parseables como fecha"
+        },
+        {
+          "column": "Cant",
+          "confidence": 0.1788,
+          "reason": "similitud debil de nombre; valores parseables como fecha"
+        }
+      ]
+    },
+    "product_id": {
+      "field": "product_id",
+      "column": "CodItem",
+      "confidence": 0.775,
+      "reason": "alias exacto; columna con identificadores posibles",
+      "alternatives": [
+        {
+          "column": "CodItem",
+          "confidence": 0.775,
+          "reason": "alias exacto; columna con identificadores posibles"
+        },
+        {
+          "column": "NomItem",
+          "confidence": 0.4175,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "Cliente",
+          "confidence": 0.3618,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        }
+      ]
+    },
+    "product_name": {
+      "field": "product_name",
+      "column": "NomItem",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "NomItem",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "CodItem",
+          "confidence": 0.3779,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "Precio",
+          "confidence": 0.3268,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "customer": {
+      "field": "customer",
+      "column": "Cliente",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "Cliente",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "CodItem",
+          "confidence": 0.3268,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "Cant",
+          "confidence": 0.3175,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "quantity": {
+      "field": "quantity",
+      "column": "Cant",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "Cant",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "FecDoc",
+          "confidence": 0.48,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "CodItem",
+          "confidence": 0.48,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "unit_price_net": {
+      "field": "unit_price_net",
+      "column": "Precio",
+      "confidence": 0.98,
+      "reason": "validacion matematica cantidad * unitario ~= total (100.0%)",
+      "alternatives": [
+        {
+          "column": "Precio",
+          "confidence": 0.935,
+          "reason": "nombre similar; valores parseables como numero"
+        },
+        {
+          "column": "Importe",
+          "confidence": 0.4862,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "Cant",
+          "confidence": 0.4692,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "unit_price_gross": {
+      "field": "unit_price_gross",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "Precio",
+          "confidence": 0.935,
+          "reason": "nombre similar; valores parseables como numero"
+        },
+        {
+          "column": "CodItem",
+          "confidence": 0.4862,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "Importe",
+          "confidence": 0.4862,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "subtotal_net": {
+      "field": "subtotal_net",
+      "column": "Importe",
+      "confidence": 0.98,
+      "reason": "validacion matematica cantidad * unitario ~= total (100.0%)",
+      "alternatives": [
+        {
+          "column": "Importe",
+          "confidence": 0.935,
+          "reason": "nombre similar; valores parseables como numero"
+        },
+        {
+          "column": "Precio",
+          "confidence": 0.4862,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "CodItem",
+          "confidence": 0.4475,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "tax_amount": {
+      "field": "tax_amount",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "Importe",
+          "confidence": 0.5407,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "Cant",
+          "confidence": 0.5032,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "Precio",
+          "confidence": 0.5032,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "total_gross": {
+      "field": "total_gross",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "Importe",
+          "confidence": 0.935,
+          "reason": "nombre similar; valores parseables como numero"
+        },
+        {
+          "column": "CodItem",
+          "confidence": 0.5125,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "Cant",
+          "confidence": 0.4762,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "is_cancelled": {
+      "field": "is_cancelled",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "Cant",
+          "confidence": 0.2875,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "FecDoc",
+          "confidence": 0.2655,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "Cliente",
+          "confidence": 0.2566,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    }
+  },
+  "purchases": {
+    "purchase_id": {
+      "field": "purchase_id",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "FechaCompra",
+          "confidence": 0.372,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "CostoUnit",
+          "confidence": 0.3363,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "Cantidad",
+          "confidence": 0.3257,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        }
+      ]
+    },
+    "date": {
+      "field": "date",
+      "column": "FechaCompra",
+      "confidence": 0.5734,
+      "reason": "similitud debil de nombre; valores parseables como fecha",
+      "alternatives": [
+        {
+          "column": "FechaCompra",
+          "confidence": 0.5734,
+          "reason": "similitud debil de nombre; valores parseables como fecha"
+        },
+        {
+          "column": "CodItem",
+          "confidence": 0.195,
+          "reason": "similitud debil de nombre; valores parseables como fecha"
+        },
+        {
+          "column": "Cantidad",
+          "confidence": 0.1589,
+          "reason": "similitud debil de nombre; valores parseables como fecha"
+        }
+      ]
+    },
+    "product_id": {
+      "field": "product_id",
+      "column": "CodItem",
+      "confidence": 0.775,
+      "reason": "alias exacto; columna con identificadores posibles",
+      "alternatives": [
+        {
+          "column": "CodItem",
+          "confidence": 0.775,
+          "reason": "alias exacto; columna con identificadores posibles"
+        },
+        {
+          "column": "CostoUnit",
+          "confidence": 0.3363,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        },
+        {
+          "column": "Proveedor",
+          "confidence": 0.3363,
+          "reason": "similitud debil de nombre; columna con identificadores posibles"
+        }
+      ]
+    },
+    "product_name": {
+      "field": "product_name",
+      "column": "Descripcion",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "Descripcion",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "CodItem",
+          "confidence": 0.3779,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "Proveedor",
+          "confidence": 0.3328,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "supplier": {
+      "field": "supplier",
+      "column": "Proveedor",
+      "confidence": 0.74,
+      "reason": "alias exacto; columna textual/categorica posible",
+      "alternatives": [
+        {
+          "column": "Proveedor",
+          "confidence": 0.74,
+          "reason": "alias exacto; columna textual/categorica posible"
+        },
+        {
+          "column": "Cantidad",
+          "confidence": 0.3013,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        },
+        {
+          "column": "Descripcion",
+          "confidence": 0.284,
+          "reason": "similitud debil de nombre; columna textual/categorica posible"
+        }
+      ]
+    },
+    "quantity": {
+      "field": "quantity",
+      "column": "Cantidad",
+      "confidence": 0.9675,
+      "reason": "alias exacto; valores parseables como numero",
+      "alternatives": [
+        {
+          "column": "Cantidad",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "CostoUnit",
+          "confidence": 0.515,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "Total",
+          "confidence": 0.493,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "unit_cost_net": {
+      "field": "unit_cost_net",
+      "column": "CostoUnit",
+      "confidence": 0.98,
+      "reason": "validacion matematica cantidad * unitario ~= total (100.0%)",
+      "alternatives": [
+        {
+          "column": "CostoUnit",
+          "confidence": 0.61,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "Descripcion",
+          "confidence": 0.5288,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "Total",
+          "confidence": 0.5005,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "unit_cost_gross": {
+      "field": "unit_cost_gross",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "CostoUnit",
+          "confidence": 0.6181,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "Descripcion",
+          "confidence": 0.5216,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "CodItem",
+          "confidence": 0.4862,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "subtotal_net": {
+      "field": "subtotal_net",
+      "column": "Total",
+      "confidence": 0.98,
+      "reason": "validacion matematica cantidad * unitario ~= total (100.0%)",
+      "alternatives": [
+        {
+          "column": "Total",
+          "confidence": 0.935,
+          "reason": "nombre similar; valores parseables como numero"
+        },
+        {
+          "column": "CostoUnit",
+          "confidence": 0.5182,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "Descripcion",
+          "confidence": 0.46,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "tax_amount": {
+      "field": "tax_amount",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "Total",
+          "confidence": 0.5288,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "Cantidad",
+          "confidence": 0.5089,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "CostoUnit",
+          "confidence": 0.5005,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    },
+    "total_gross": {
+      "field": "total_gross",
+      "column": null,
+      "confidence": 0.0,
+      "reason": "sin candidato confiable",
+      "alternatives": [
+        {
+          "column": "Total",
+          "confidence": 0.9675,
+          "reason": "alias exacto; valores parseables como numero"
+        },
+        {
+          "column": "CostoUnit",
+          "confidence": 0.5288,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        },
+        {
+          "column": "CodItem",
+          "confidence": 0.5125,
+          "reason": "similitud debil de nombre; valores parseables como numero"
+        }
+      ]
+    }
+  }
+}

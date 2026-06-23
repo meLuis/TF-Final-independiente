@@ -1,0 +1,14 @@
+{
+  "status": "ready",
+  "algorithm": "Bellman-Ford",
+  "source": "outputs\\ferreteria_full\\stage1",
+  "node_count": 16,
+  "edge_count": 15,
+  "candidate_rows": 5,
+  "products_analyzed": 5,
+  "negative_edges": 0,
+  "products_with_savings": 0,
+  "has_negative_cycle": false,
+  "negative_cycle_edge_count": 0,
+  "note": "Modo automatico: pesos negativos representan ahorros historicos frente al costo de referencia, no ofertas inventadas."
+}

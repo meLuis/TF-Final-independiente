@@ -1,0 +1,82 @@
+{
+  "processed_at": "2026-06-12T11:12:46",
+  "row_counts": {
+    "products": 630,
+    "sales": 6928,
+    "purchases": 1907
+  },
+  "column_mapping_confidence": 0.8779,
+  "all_field_confidence": 0.7646,
+  "mapped_fields": 27,
+  "total_canonical_fields": 31,
+  "validations": {
+    "products": {
+      "total_rows": 630,
+      "required_fields": [
+        "product_id",
+        "product_name"
+      ],
+      "mapped_required_fields": [
+        "product_id",
+        "product_name"
+      ],
+      "required_coverage": 1.0
+    },
+    "sales": {
+      "total_rows": 6928,
+      "required_fields": [
+        "date",
+        "quantity"
+      ],
+      "mapped_required_fields": [
+        "date",
+        "quantity"
+      ],
+      "required_coverage": 1.0,
+      "net_amount_identity": {
+        "available": true,
+        "match_rate": 1.0,
+        "valid_rows": 6904,
+        "passes": true
+      },
+      "gross_amount_identity": {
+        "available": true,
+        "match_rate": 1.0,
+        "valid_rows": 6904,
+        "passes": true
+      }
+    },
+    "purchases": {
+      "total_rows": 1907,
+      "required_fields": [
+        "date",
+        "supplier",
+        "quantity"
+      ],
+      "mapped_required_fields": [
+        "date",
+        "supplier",
+        "quantity"
+      ],
+      "required_coverage": 1.0,
+      "net_amount_identity": {
+        "available": true,
+        "match_rate": 1.0,
+        "valid_rows": 1903,
+        "passes": true
+      },
+      "gross_amount_identity": {
+        "available": true,
+        "match_rate": 0.9706,
+        "valid_rows": 1903,
+        "passes": true
+      }
+    }
+  },
+  "product_match_total": 8835,
+  "product_match_coverage": 0.9998,
+  "high_confidence_matches": 8832,
+  "ambiguous_matches": 1,
+  "rejected_matches": 1,
+  "requires_human_review": true
+}

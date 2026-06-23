@@ -1,0 +1,19 @@
+{
+  "graph_name": "G_attr_projection",
+  "generated_at": "2026-06-12T11:17:29",
+  "params": {
+    "hub_fraction": 0.35,
+    "hub_degree_threshold": 220,
+    "min_similarity": 0.3,
+    "min_shared_attributes": 2,
+    "top_k": 10
+  },
+  "products_total": 630,
+  "products_connected": 472,
+  "edge_count": 6159,
+  "excluded_hub_attributes": [
+    "ACCESSORY:TAPA (grado 357)"
+  ],
+  "attribute_nodes_used": 159,
+  "pair_generation_cost": 73435
+}

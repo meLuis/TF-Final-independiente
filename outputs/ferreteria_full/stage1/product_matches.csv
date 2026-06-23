@@ -1,0 +1,11 @@
+﻿source_dataset,row_index,source_product_id,source_product_name,matched_product_id,matched_product_name,confidence,method,status
+sales,0,SKU-001,Taladro Bosch 500 Watts,SKU-001,Taladro Bosch 500W,1.0,product_id_exact,accepted
+sales,1,SKU-002,Cemento Portland 25KG,SKU-002,Cemento Portland 25KG,1.0,product_id_exact,accepted
+sales,2,SKU-004,Pintura latex blanca galon,SKU-004,Pintura latex blanca 1GL,1.0,product_id_exact,accepted
+sales,3,SKU-003,Martillo fibra 16 oz,SKU-003,Martillo mango fibra 16OZ,1.0,product_id_exact,accepted
+sales,4,SKU-999,Flete reparto local,,,0.4324,fuzzy_name,rejected
+purchases,0,SKU-001,TALADRO BOSCH 500W,SKU-001,Taladro Bosch 500W,1.0,product_id_exact,accepted
+purchases,1,SKU-002,CEMENTO PORTLAND 25 KG,SKU-002,Cemento Portland 25KG,1.0,product_id_exact,accepted
+purchases,2,SKU-003,MARTILLO MANGO FIBRA 16OZ,SKU-003,Martillo mango fibra 16OZ,1.0,product_id_exact,accepted
+purchases,3,SKU-004,PINTURA LATEX BLANCA 1 GALON,SKU-004,Pintura latex blanca 1GL,1.0,product_id_exact,accepted
+purchases,4,SKU-005,TORNILLO DRYWALL 1 PULGADA CAJA,SKU-005,Tornillo drywall 1 pulgada caja,1.0,product_id_exact,accepted

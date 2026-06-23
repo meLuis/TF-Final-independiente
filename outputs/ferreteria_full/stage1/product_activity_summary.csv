@@ -1,0 +1,6 @@
+﻿product_id,product_name,software_category,sales_rows,sales_units,sales_total,purchases_rows,purchases_units,purchases_total,has_sales,has_purchases
+SKU-001,Taladro Bosch 500W,Herramientas,1.0,2.0,379.8,1,5,725.0,True,True
+SKU-002,Cemento Portland 25KG,Construccion,1.0,30.0,825.0,1,100,2100.0,True,True
+SKU-003,Martillo mango fibra 16OZ,Herramientas,1.0,3.0,104.7,1,20,480.0,True,True
+SKU-004,Pintura latex blanca 1GL,Pinturas,1.0,5.0,210.0,1,30,945.0,True,True
+SKU-005,Tornillo drywall 1 pulgada caja,Fijaciones,0.0,0.0,0.0,1,50,600.0,False,True

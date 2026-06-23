@@ -1,0 +1,4 @@
+﻿source,source_label,relation,target,target_label,weight
+PRODUCT:SKU-001,Taladro Bosch 500W,HAS_CAPACITY,CAPACITY:500W,500W,0.95
+PRODUCT:SKU-002,Cemento Portland 25KG,HAS_CAPACITY,CAPACITY:25KG,25KG,0.95
+PRODUCT:SKU-005,Tornillo drywall 1 pulgada caja,HAS_TYPE,TYPE:CAJA,caja,0.9

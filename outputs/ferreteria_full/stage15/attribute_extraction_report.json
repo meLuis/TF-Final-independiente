@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-06-12T11:34:41",
+  "rows": 5,
+  "avg_confidence": 0.772,
+  "outputs": {
+    "product_attributes.csv": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\ferreteria_full\\stage15\\product_attributes.csv",
+    "token_profile.csv": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\ferreteria_full\\stage15\\token_profile.csv",
+    "attribute_coverage_report.csv": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\ferreteria_full\\stage15\\attribute_coverage_report.csv",
+    "attribute_review_sample.csv": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\ferreteria_full\\stage15\\attribute_review_sample.csv",
+    "attribute_unvalidated_sample.csv": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\ferreteria_full\\stage15\\attribute_unvalidated_sample.csv",
+    "attribute_rules.json": "C:\\Users\\Luis\\Desktop\\Proyecto_Complejidad_Algorítmica_UPC\\TF-Final\\outputs\\ferreteria_full\\stage15\\attribute_rules.json"
+  }
+}

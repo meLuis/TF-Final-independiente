@@ -1,0 +1,6 @@
+﻿date,product_id,product_name,customer,quantity,unit_price_net,subtotal_net,is_cancelled,is_adjustment,is_active,analysis_unit_price,analysis_total,product_name_norm,customer_norm,source_dataset
+2024-01-10,SKU-001,Taladro Bosch 500 Watts,Constructora Norte,2,189.9,379.8,False,False,True,189.9,379.8,TALADRO BOSCH 500 WATTS,CONSTRUCTORA NORTE,sales
+2024-01-12,SKU-002,Cemento Portland 25KG,Maestro Perez,30,27.5,825.0,False,False,True,27.5,825.0,CEMENTO PORTLAND 25KG,MAESTRO PEREZ,sales
+2024-01-15,SKU-004,Pintura latex blanca galon,Servicios Lima,5,42.0,210.0,False,False,True,42.0,210.0,PINTURA LATEX BLANCA GALON,SERVICIOS LIMA,sales
+2024-01-18,SKU-003,Martillo fibra 16 oz,Ferreteria Sol,3,34.9,104.7,False,False,True,34.9,104.7,MARTILLO FIBRA 16 OZ,FERRETERIA SOL,sales
+2024-01-20,SKU-999,Flete reparto local,Constructora Norte,1,15.0,15.0,False,False,True,15.0,15.0,FLETE REPARTO LOCAL,CONSTRUCTORA NORTE,sales

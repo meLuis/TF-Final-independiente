@@ -1,0 +1,268 @@
+{
+  "comparison": {
+    "order": {
+      "5615": 2000.0,
+      "5070": 2000.0,
+      "5279": 1500.0,
+      "5122": 1000.0
+    },
+    "min_cost_flow": {
+      "method": "min_cost_flow",
+      "plan": [
+        {
+          "from": "SKU:5615",
+          "to": "PROV:ENVIPLAST E.I.R.L.",
+          "units": 2000.0,
+          "unit_cost": 0.07,
+          "subtotal": 140.0
+        },
+        {
+          "from": "SKU:5279",
+          "to": "PROV:ENVIPLAST E.I.R.L.",
+          "units": 50.0,
+          "unit_cost": 0.32,
+          "subtotal": 16.0
+        },
+        {
+          "from": "SKU:5279",
+          "to": "PROV:ESNA MEDIC INVERSIONES S.A.C.",
+          "units": 50.0,
+          "unit_cost": 0.32,
+          "subtotal": 16.0
+        },
+        {
+          "from": "SKU:5122",
+          "to": "PROV:ESNA MEDIC INVERSIONES S.A.C.",
+          "units": 500.0,
+          "unit_cost": 1.0,
+          "subtotal": 500.0
+        }
+      ],
+      "total_cost": 672.0,
+      "units_assigned": 2600.0,
+      "units_unfilled": 3900.0,
+      "augmenting_paths": 4
+    },
+    "baseline_per_sku": {
+      "method": "per_sku_cheapest",
+      "plans": {
+        "5615": {
+          "product_id": "5615",
+          "criterion": "precio",
+          "plan": [
+            {
+              "supplier": "ENVIPLAST E.I.R.L.",
+              "unit_cost": 0.07,
+              "units": 2000.0,
+              "subtotal": 140.0,
+              "delivery_days": 1
+            }
+          ],
+          "total_cost": 140.0,
+          "units_assigned": 2000.0,
+          "units_unfilled": 0.0
+        },
+        "5070": {
+          "product_id": "5070",
+          "criterion": "precio",
+          "plan": [
+            {
+              "supplier": "ENVIPLAST E.I.R.L.",
+              "unit_cost": 0.779992,
+              "units": 2000.0,
+              "subtotal": 1559.98,
+              "delivery_days": 1
+            }
+          ],
+          "total_cost": 1559.98,
+          "units_assigned": 2000.0,
+          "units_unfilled": 0.0
+        },
+        "5279": {
+          "product_id": "5279",
+          "criterion": "precio",
+          "plan": [
+            {
+              "supplier": "ENVIPLAST E.I.R.L.",
+              "unit_cost": 0.32,
+              "units": 1500.0,
+              "subtotal": 480.0,
+              "delivery_days": 1
+            }
+          ],
+          "total_cost": 480.0,
+          "units_assigned": 1500.0,
+          "units_unfilled": 0.0
+        },
+        "5122": {
+          "product_id": "5122",
+          "criterion": "precio",
+          "plan": [
+            {
+              "supplier": "ENVIPLAST E.I.R.L.",
+              "unit_cost": 1.0,
+              "units": 1000.0,
+              "subtotal": 1000.0,
+              "delivery_days": 1
+            }
+          ],
+          "total_cost": 1000.0,
+          "units_assigned": 1000.0,
+          "units_unfilled": 0.0
+        }
+      },
+      "total_cost": 3179.98,
+      "units_unfilled": 0.0
+    },
+    "baseline_capacity_violations": {
+      "ENVIPLAST E.I.R.L.": {
+        "assigned": 6500.0,
+        "capacity": 2050
+      }
+    },
+    "baseline_is_feasible": false,
+    "cost_delta": 2507.98
+  },
+  "per_sku_detail": {
+    "5615": {
+      "cheapest_split": {
+        "product_id": "5615",
+        "criterion": "precio",
+        "plan": [
+          {
+            "supplier": "ENVIPLAST E.I.R.L.",
+            "unit_cost": 0.07,
+            "units": 2000.0,
+            "subtotal": 140.0,
+            "delivery_days": 1
+          }
+        ],
+        "total_cost": 140.0,
+        "units_assigned": 2000.0,
+        "units_unfilled": 0.0
+      },
+      "greedy_time": {
+        "product_id": "5615",
+        "criterion": "tiempo",
+        "plan": [
+          {
+            "supplier": "ENVIPLAST E.I.R.L.",
+            "unit_cost": 0.07,
+            "units": 2000.0,
+            "subtotal": 140.0,
+            "delivery_days": 1
+          }
+        ],
+        "total_cost": 140.0,
+        "max_delivery_days": 1,
+        "units_assigned": 2000.0,
+        "units_unfilled": 0.0
+      }
+    },
+    "5070": {
+      "cheapest_split": {
+        "product_id": "5070",
+        "criterion": "precio",
+        "plan": [
+          {
+            "supplier": "ENVIPLAST E.I.R.L.",
+            "unit_cost": 0.779992,
+            "units": 2000.0,
+            "subtotal": 1559.98,
+            "delivery_days": 1
+          }
+        ],
+        "total_cost": 1559.98,
+        "units_assigned": 2000.0,
+        "units_unfilled": 0.0
+      },
+      "greedy_time": {
+        "product_id": "5070",
+        "criterion": "tiempo",
+        "plan": [
+          {
+            "supplier": "ENVIPLAST E.I.R.L.",
+            "unit_cost": 0.779992,
+            "units": 2000.0,
+            "subtotal": 1559.98,
+            "delivery_days": 1
+          }
+        ],
+        "total_cost": 1559.98,
+        "max_delivery_days": 1,
+        "units_assigned": 2000.0,
+        "units_unfilled": 0.0
+      }
+    },
+    "5279": {
+      "cheapest_split": {
+        "product_id": "5279",
+        "criterion": "precio",
+        "plan": [
+          {
+            "supplier": "ENVIPLAST E.I.R.L.",
+            "unit_cost": 0.32,
+            "units": 1500.0,
+            "subtotal": 480.0,
+            "delivery_days": 1
+          }
+        ],
+        "total_cost": 480.0,
+        "units_assigned": 1500.0,
+        "units_unfilled": 0.0
+      },
+      "greedy_time": {
+        "product_id": "5279",
+        "criterion": "tiempo",
+        "plan": [
+          {
+            "supplier": "ENVIPLAST E.I.R.L.",
+            "unit_cost": 0.32,
+            "units": 1500.0,
+            "subtotal": 480.0,
+            "delivery_days": 1
+          }
+        ],
+        "total_cost": 480.0,
+        "max_delivery_days": 1,
+        "units_assigned": 1500.0,
+        "units_unfilled": 0.0
+      }
+    },
+    "5122": {
+      "cheapest_split": {
+        "product_id": "5122",
+        "criterion": "precio",
+        "plan": [
+          {
+            "supplier": "ENVIPLAST E.I.R.L.",
+            "unit_cost": 1.0,
+            "units": 1000.0,
+            "subtotal": 1000.0,
+            "delivery_days": 1
+          }
+        ],
+        "total_cost": 1000.0,
+        "units_assigned": 1000.0,
+        "units_unfilled": 0.0
+      },
+      "greedy_time": {
+        "product_id": "5122",
+        "criterion": "tiempo",
+        "plan": [
+          {
+            "supplier": "ENVIPLAST E.I.R.L.",
+            "unit_cost": 1.0,
+            "units": 1000.0,
+            "subtotal": 1000.0,
+            "delivery_days": 1
+          }
+        ],
+        "total_cost": 1000.0,
+        "max_delivery_days": 1,
+        "units_assigned": 1000.0,
+        "units_unfilled": 0.0
+      }
+    }
+  }
+}

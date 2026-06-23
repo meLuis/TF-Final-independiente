@@ -1,0 +1,276 @@
+﻿product_id,product_name,product_type_predicted,product_type_expected,product_type_match,subtype_predicted,subtype_expected,subtype_match,material_predicted,material_expected,material_match,color_predicted,color_expected,color_match,capacity_value_predicted,capacity_value_expected,capacity_value_match,mouth_size_mm_predicted,mouth_size_mm_expected,mouth_size_mm_match,use_category_predicted,use_category_expected,use_category_match,material_family_predicted,material_family_expected,material_family_match
+5007,TAPA DISPENSADORA BLANCO B28MM,tapa,tapa,True,dispensador,,,,PP,,BLANCO,BLANCO,True,,,,28.0,,,general,general,True,,POLIPROPILENO,
+5013,FRASCO PARA RIMEL 5ML(9CM X 1CM) CON TAPA,frasco,frasco,True,rimel,rimel,True,,,,,,,5.0,5.0,True,,,,cosmetica,cosmetica,True,,,
+5014,POTE CREMERO SIMPLE 30GR CON TAPA Y LAINA,cremero,cremero,True,cremero,,,,,,,,,30.0,,,,,,cosmetica,cosmetica,True,,,
+5015,POTE PLASTICO 1KG B110 BLANCO C/TAPA,pote,pote,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,1.0,,,110.0,110.0,True,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5017,POTE CREMERO SIMPLE 60GR CON TAPA Y LAINA,cremero,cremero,True,cremero,,,,,,,,,60.0,,,,,,cosmetica,cosmetica,True,,,
+5018,FRASCO BULLET 30ML CON TAPA ATOMIZADOR,frasco,frasco,True,atomizador,bullet,False,,,,,,,30.0,30.0,True,,,,cosmetica,cosmetica,True,,,
+5019,FRASCO BULLET 60ML CON TAPA ATOMIZADOR,frasco,frasco,True,atomizador,bullet,False,,,,,,,60.0,60.0,True,,,,cosmetica,cosmetica,True,,,
+5021,FRASCO PET TRANSPARENTE ESPUMERO 100ML CON TAPA,frasco,frasco,True,espumero,espumero,True,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,100.0,100.0,True,,,,empaque_envase,cosmetica,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5022,FRASCO PET TRANSPARENTE ESPUMERO 150ML CON TAPA,frasco,frasco,True,espumero,espumero,True,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,150.0,150.0,True,,,,empaque_envase,cosmetica,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5023,FRASCO PET TRANSPARENTE 30ML C/TAPA FLIT TOP N18,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,30.0,30.0,True,18.0,18.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5024,FRASCO PET BLANCO ESPUMERO 150ML CON TAPA,frasco,frasco,True,espumero,espumero,True,PET,PET,True,BLANCO,BLANCO,True,150.0,150.0,True,,,,empaque_envase,cosmetica,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5025,PASTILLERO PLASTICO BLANCO 40GR CON TAPA,accesorio,accesorio,True,,pastillero,,PLASTICO,,,BLANCO,BLANCO,True,40.0,,,,,,general,general,True,PLASTICO,,
+5026,PASTILLERO PLASTICO BLANCO 60GR CON TAPA,accesorio,accesorio,True,,pastillero,,PLASTICO,,,BLANCO,BLANCO,True,60.0,,,,,,general,general,True,PLASTICO,,
+5027,PASTILLERO PLASTICO BLANCO 90GR CON TAPA,accesorio,accesorio,True,,pastillero,,PLASTICO,,,BLANCO,BLANCO,True,90.0,,,,,,general,general,True,PLASTICO,,
+5028,PASTILLERO PLASTICO BLANCO 120GR CON TAPA,accesorio,accesorio,True,,pastillero,,PLASTICO,,,BLANCO,BLANCO,True,120.0,,,,,,general,general,True,PLASTICO,,
+5029,PASTILLERO PLASTICO NEGRO 40GR CON TAPA,accesorio,accesorio,True,,pastillero,,PLASTICO,,,NEGRO,NEGRO,True,40.0,,,,,,general,general,True,PLASTICO,,
+5030,PASTILLERO PLASTICO NEGRO 60GR CON TAPA,accesorio,accesorio,True,,pastillero,,PLASTICO,,,NEGRO,NEGRO,True,60.0,,,,,,general,general,True,PLASTICO,,
+5031,PASTILLERO PLASTICO NEGRO 90GR CON TAPA,accesorio,accesorio,True,,pastillero,,PLASTICO,,,NEGRO,NEGRO,True,90.0,,,,,,general,general,True,PLASTICO,,
+5032,PASTILLERO PLASTICO NEGRO 120GR CON TAPA,accesorio,accesorio,True,,pastillero,,PLASTICO,,,NEGRO,NEGRO,True,120.0,,,,,,general,general,True,PLASTICO,,
+5033,FRASCO PLASTICO NATURAL 30ML CON TAPON Y TAPA N28,frasco,frasco,True,,,,PLASTICO,PEAD,False,NATURAL,NATURAL,True,30.0,30.0,True,28.0,28.0,True,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5034,FRASCO PLASTICO NATURAL 120ML CON TAPON Y TAPA B/28,frasco,frasco,True,,,,PLASTICO,PEAD,False,NATURAL,NATURAL,True,120.0,120.0,True,28.0,28.0,True,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5035,FRASCO PLASTICO NATURAL 250ML CON TAPON Y TAPA B28MM,frasco,frasco,True,,,,PLASTICO,PEAD,False,NATURAL,NATURAL,True,250.0,250.0,True,28.0,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5036,FRASCO PLASTICO NATURAL 500ML CON TAPON Y TAPA B28MM,frasco,frasco,True,,,,PLASTICO,PEAD,False,NATURAL,NATURAL,True,500.0,500.0,True,28.0,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5037,FRASCO PLASTICO NATURAL 1LT CON TAPA Y TAPON N28,frasco,frasco,True,,,,PLASTICO,PEAD,False,NATURAL,NATURAL,True,1.0,1000.0,False,28.0,28.0,True,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5038,FRASCO PLASTICO AMBAR 60ML CON TAPA Y TAPON N28,frasco,frasco,True,,,,PLASTICO,,,AMBAR,AMBAR,True,60.0,60.0,True,28.0,28.0,True,empaque_envase,general,False,PLASTICO,,
+5039,FRASCO PLASTICO AMBAR 120ML CON TAPA Y TAPON N28,frasco,frasco,True,,,,PLASTICO,,,AMBAR,AMBAR,True,120.0,120.0,True,28.0,28.0,True,empaque_envase,general,False,PLASTICO,,
+5040,FRASCO PLASTICO AMBAR 250ML CON TAPA Y TAPON N28,frasco,frasco,True,,,,PLASTICO,,,AMBAR,AMBAR,True,250.0,250.0,True,28.0,28.0,True,empaque_envase,general,False,PLASTICO,,
+5041,FRASCO PLASTICO AMBAR 500ML CON TAPA Y TAPON N28,frasco,frasco,True,,,,PLASTICO,,,AMBAR,AMBAR,True,500.0,500.0,True,28.0,28.0,True,empaque_envase,general,False,PLASTICO,,
+5042,FRASCO PLASTICO AMBAR 1LT CON TAPA Y TAPON N28,frasco,frasco,True,,,,PLASTICO,,,AMBAR,AMBAR,True,1.0,1000.0,False,28.0,28.0,True,empaque_envase,general,False,PLASTICO,,
+5043,FRASCO PLASTICO BLANCO 30ML CON TAPA Y TAPON N28,frasco,frasco,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,30.0,30.0,True,28.0,28.0,True,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5044,FRASCO PLASTICO BLANCO 60ML CON TAPA Y TAPON N28,frasco,frasco,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,60.0,60.0,True,28.0,28.0,True,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5045,FRASCO PLASTICO BLANCO 120ML CON TAPA Y TAPON N28,frasco,frasco,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,120.0,120.0,True,28.0,28.0,True,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5046,FRASCO PLASTICO BLANCO 250ML CON TAPA Y TAPON N28,frasco,frasco,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,250.0,250.0,True,28.0,28.0,True,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5047,FRASCO PLASTICO BLANCO 500ML CON TAPA Y TAPON N28,frasco,frasco,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,500.0,500.0,True,28.0,28.0,True,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5048,FRASCO PLASTICO BLANCO 1LT CON TAPA Y TAPON N28,frasco,frasco,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,1.0,1000.0,False,28.0,28.0,True,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5049,POTE CREMERO DOBLE FONDO NEGRO IMPORTADO 30GR CON TAPA Y LAINA,cremero,cremero,True,cremero,,,,,,NEGRO,NEGRO,True,30.0,,,,,,cosmetica,cosmetica,True,,,
+5050,POTE CREMERO DOBLE FONDO NEGRO IMPORTADO 60ML,cremero,cremero,True,cremero,,,,,,NEGRO,NEGRO,True,60.0,60.0,True,,,,cosmetica,cosmetica,True,,,
+5051,TAPA DE PLASTICO ROSCA,tapa,tapa,True,rosca,,,PLASTICO,PP,False,,,,,,,,,,general,general,True,PLASTICO,POLIPROPILENO,False
+5054,FRASCO PLASTICO NATURAL 60ML CON TAPA Y TAPON B/28,frasco,frasco,True,,,,PLASTICO,PEAD,False,NATURAL,NATURAL,True,60.0,60.0,True,28.0,28.0,True,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5059,POTE PLASTICO PEAD BLANCO 1KG CON TAPA N°97,pote,pote,True,,,,PEAD,PEAD,True,BLANCO,BLANCO,True,1.0,,,97.0,97.0,True,empaque_envase,general,False,POLIETILENO,POLIETILENO,True
+5060,POTE PLASTICO PEAD BLANCO 500GR CON TAPA,pote,pote,True,,,,PEAD,PEAD,True,BLANCO,BLANCO,True,500.0,,,,,,empaque_envase,general,False,POLIETILENO,POLIETILENO,True
+5061,POTE PLASTICO PEAD BLANCO 250GR CON TAPA Y LAINA,pote,pote,True,laina,,,PEAD,PEAD,True,BLANCO,BLANCO,True,250.0,,,,,,empaque_envase,general,False,POLIETILENO,POLIETILENO,True
+5062,POTE PLASTICO PEAD BLANCO 500GR CON TAPA Y LAINA,pote,pote,True,laina,,,PEAD,PEAD,True,BLANCO,BLANCO,True,500.0,,,,,,empaque_envase,general,False,POLIETILENO,POLIETILENO,True
+5064,GATILLO PULVERIZADOR 28/410,atomizador,atomizador,True,gatillo,,,,PP,,,,,,,,,28.0,,general,general,True,,POLIPROPILENO,
+5065,PISETA 250ML,accesorio,accesorio,True,,,,,,,,,,250.0,250.0,True,,,,general,general,True,,,
+5066,PISETA 500 ML,accesorio,accesorio,True,,,,,,,,,,500.0,500.0,True,,,,general,general,True,,,
+5067,PIPETAS PASTEUR ESTRILES 3ML BX200,,accesorio,,,,,,LDPE,,,,,3.0,3.0,True,,,,general,general,True,,POLIETILENO,
+5069,PISETA 1LT,accesorio,accesorio,True,,,,,,,,,,1.0,1000.0,False,,,,general,general,True,,,
+5070,FRASCO PET TRANSPARENTE 60ML CON TAPA Y TAPON N°28,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,60.0,60.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5071,GOTERO PLASTICO 100ML COLOR NATURAL,gotero,gotero,True,,,,PLASTICO,,,NATURAL,NATURAL,True,100.0,100.0,True,,,,general,general,True,PLASTICO,,
+5072,FRASCO YOGURT 1LT BLANCO CON TAPA 38MM,frasco,frasco,True,,,,,PEAD,,BLANCO,BLANCO,True,1.0,1000.0,False,,,,empaque_envase,general,False,,POLIETILENO,
+5073,FRASCO BULLET 75ML CON TAPA	ATOMIZADOR,frasco,frasco,True,atomizador,bullet,False,,,,,,,75.0,75.0,True,,,,cosmetica,cosmetica,True,,,
+5074,FRASCO BULLET 100ML CON TAPA ATOMIZADOR,frasco,frasco,True,atomizador,bullet,False,,,,,,,100.0,100.0,True,,,,cosmetica,cosmetica,True,,,
+5075,POTE PLASTICO 500GR B110MM BLANCO CON TAPA,pote,pote,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,500.0,,,110.0,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5076,POTE PLASTICO BLANCO 250GR CON TAPA,pote,pote,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,250.0,,,,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5077,GOTERO PLASTICO X 10ML NATURAL S/P B15MM C/TAPA Y TAPON,gotero,gotero,True,,,,PLASTICO,,,NATURAL,NATURAL,True,10.0,10.0,True,15.0,,,general,general,True,PLASTICO,,
+5078,GOTERO PLASTICO 7ML NATURAL S/P B15MM C/TAPA Y TAPON,gotero,gotero,True,,,,PLASTICO,,,NATURAL,NATURAL,True,7.0,7.0,True,15.0,,,general,general,True,PLASTICO,,
+5079,GOTERO PLASTICO 60ML NATURAL S/P B18MM C/TAPA Y TAPON,gotero,gotero,True,,,,PLASTICO,,,NATURAL,NATURAL,True,60.0,60.0,True,18.0,,,general,general,True,PLASTICO,,
+5080,GOTERO PLASTICO 5ML NATURAL S/P C/TAPA,gotero,gotero,True,,,,PLASTICO,,,NATURAL,NATURAL,True,5.0,5.0,True,,,,general,general,True,PLASTICO,,
+5081,GOTERO PLASTICO 15ML NATURAL S/P C/TAPA,gotero,gotero,True,,,,PLASTICO,,,NATURAL,NATURAL,True,15.0,15.0,True,,,,general,general,True,PLASTICO,,
+5082,GOTERO PLASTICO 30ML NATURAL S/P C/TAPA,gotero,gotero,True,,,,PLASTICO,,,NATURAL,NATURAL,True,30.0,30.0,True,,,,general,general,True,PLASTICO,,
+5092,PROBETA DE PLASTICO GRADUADA 10 ML,accesorio,accesorio,True,,,,PLASTICO,PP,False,,,,10.0,10.0,True,,,,general,general,True,PLASTICO,POLIPROPILENO,False
+5093,PROBETA DE PLASTICO GRADUADA 50 ML,accesorio,accesorio,True,,,,PLASTICO,PP,False,,,,50.0,50.0,True,,,,general,general,True,PLASTICO,POLIPROPILENO,False
+5094,PROBETA DE PLASTICO GRADUADA 100 ML,accesorio,accesorio,True,,,,PLASTICO,PP,False,,,,100.0,100.0,True,,,,general,general,True,PLASTICO,POLIPROPILENO,False
+5095,PROBETA DE PLASTICO GRADUADA 250 ML,accesorio,accesorio,True,,,,PLASTICO,PP,False,,,,250.0,250.0,True,,,,general,general,True,PLASTICO,POLIPROPILENO,False
+5096,PLACA PETRI DE PLASTICO 90*15,,accesorio,,placa_petri,,,PLASTICO,,,,,,,,,,,,general,general,True,PLASTICO,,
+5098,PROBADOR PLASTICO NATURAL FORMA BAJA 5ML CON TAPA ESPRAY,tapa,tapa,True,,,,PLASTICO,PP,False,NATURAL,NATURAL,True,5.0,5.0,True,,,,general,general,True,PLASTICO,POLIPROPILENO,False
+5099,PROBADOR PLASTICO 5ML ESPRAY COLORES,,accesorio,,,,,PLASTICO,,,,,,5.0,5.0,True,,,,general,general,True,PLASTICO,,
+5112,LENTES DE PROTECCION DE MARCO NEGRO,,accesorio,,,,,,,,NEGRO,NEGRO,True,,,,,,,general,general,True,,,
+5114,GRADILLA ACRILICA PARA 50 TUBOS,accesorio,accesorio,True,,,,,,,,,,,,,,,,general,general,True,,,
+5119,FRASCO PET CAMPANA TRANSPARENTE 500ML B/28 TAPA ESPRAY PISTOLA..,frasco,frasco,True,campana,campana,True,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,500.0,500.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5120,FRASCO PET TRANSPARENTE 60ML B/20 C/TAPA DISPENSADOR,frasco,frasco,True,dispensador,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,60.0,60.0,True,20.0,20.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5121,FRASCO PET TRANSPARENTE 30ML B/20 TAPA DISPENSADOR GEL,frasco,frasco,True,dispensador,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,30.0,30.0,True,20.0,20.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5122,POTE ACRILICO 10GR C/TAPA ROSCA,pote,pote,True,rosca,,,ACRILICO,ACRILICO,True,,,,10.0,,,,,,empaque_envase,general,False,ACRILICO,ACRILICO,True
+5125,FRASCO PET TRANSPARENTE 120ML CON TAPA ESPRAY N28,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,120.0,120.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5137,TUBO DE ENSAYO C/TAPA ROSCA 13*100 SIMPLE,tubo,tubo,True,rosca,,,,LDPE,,,,,,,,,,,general,general,True,,POLIETILENO,
+5138,TUBO CONICO CON TAPA ROSCA DE 50ML NO ESTERIL,tubo,tubo,True,rosca,,,,LDPE,,,,,50.0,50.0,True,,,,general,general,True,,POLIETILENO,
+5181,POTE CREMERO DOBLE FONDO C/ CINTILLO PLATEADO 50GR C/TAPA Y LAINA,cremero,cremero,True,cremero,,,,,,PLATEADO,PLATEADO,True,50.0,,,,,,cosmetica,cosmetica,True,,,
+5182,STAPA ESPRAY PLASTICO BLANCO N28 C/SOBRE TAPA ALTA,tapa,tapa,True,,,,PLASTICO,PP,False,BLANCO,BLANCO,True,,,,28.0,28.0,True,general,general,True,PLASTICO,POLIPROPILENO,False
+5185,FRASCO PLASTICO INSECTICIDA BLANCO 500ML C/TAPA Y TAPON,frasco,frasco,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,500.0,500.0,True,,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5186,FRASCO PLASTICO INSECTICIDA BLANCO 1LT C/TAPA Y TAPON,frasco,frasco,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,1.0,1000.0,False,,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5192,FRASCO PET CAMPANA BLANCO 300ML C/TAPA DISPENSADOR N28..,frasco,frasco,True,campana,campana,True,PET,PET,True,BLANCO,BLANCO,True,300.0,300.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5193,TUBO COLAPSIBLE BLANCO 30ML C/TAPA,tubo,tubo,True,,,,,LDPE,,BLANCO,BLANCO,True,30.0,30.0,True,,,,general,general,True,,POLIETILENO,
+5195,TUBO COLAPSIBLE BLANCO 60ML C/TAPA,tubo,tubo,True,,,,,LDPE,,BLANCO,BLANCO,True,60.0,60.0,True,,,,general,general,True,,POLIETILENO,
+5196,TUBO COLAPSIBLE BLANCO 100ML C/TAPA,tubo,tubo,True,,,,,LDPE,,BLANCO,BLANCO,True,100.0,100.0,True,,,,general,general,True,,POLIETILENO,
+5197,TUBO COLAPSIBLE BLANCO 120ML C/TAPA,tubo,tubo,True,,,,,LDPE,,BLANCO,BLANCO,True,120.0,120.0,True,,,,general,general,True,,POLIETILENO,
+5199,TALQUERA PLASTICO 70GR C/TAPA Y REJILLA,accesorio,accesorio,True,,,,PLASTICO,,,,,,70.0,,,,,,general,general,True,PLASTICO,,
+5200,FRASCO PET BOLON 400ML TRANSPARENTE C/TAPA ESPRAY PISTOLA N28,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,400.0,400.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5203,POTE PLASTICO BLANCO TIPO ANALISIS 120GR C/TAPA,pote,pote,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,120.0,,,,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5204,POTE PLASTICO BLANCO TIPO ANALISIS 100GR C/TAPA,pote,pote,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,100.0,,,,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5208,FRASCO PET TRANSPARENTE 30ML C/TAPA PRESS N20,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,30.0,30.0,True,20.0,20.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5209,FRASCO PET TRANSPARENTE 120ML B/28 C/TAPA DISPENSADOR GEL,frasco,frasco,True,dispensador,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,120.0,120.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5210,TUBO T/LILA K2 C/EDTA 3ML 13*75MM*100UND ALIANZA,tubo,tubo,True,,,,,LDPE,,,,,3.0,3.0,True,,,,general,general,True,,POLIETILENO,
+5212,FRASCO PET BLANCO ESPUMERO 100ML C/TAPA,frasco,frasco,True,espumero,espumero,True,PET,PET,True,BLANCO,BLANCO,True,100.0,100.0,True,,,,empaque_envase,cosmetica,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5213,FRASCO PET TRANSPARENTE ESPUMERO 200ML C/ TAPA,frasco,frasco,True,espumero,espumero,True,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,200.0,200.0,True,,,,empaque_envase,cosmetica,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5216,FRASCO PET TRANSPARENTE 60ML C/TAPA Y TAPON N28,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,60.0,60.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5217,FRASCO PET TRANSPARENTE 120ML TAPA Y TAPON B28,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,120.0,120.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5218,FRASCO PET TRANSPARENTE ALTO 120ML C/TAPA Y TAPON N28,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,120.0,120.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5222,FRASCO PET AMBAR 120ML B28 C/TAPA GATILLO,frasco,frasco,True,gatillo,,,PET,PET,True,AMBAR,AMBAR,True,120.0,120.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5223,PROPIPETA VERDE 10ML,accesorio,accesorio,True,,,,,PP,,VERDE,VERDE,True,10.0,10.0,True,,,,general,general,True,,POLIPROPILENO,
+5229,BOMBA ATOMIZADORA ACANALADO 20 410 BLANCO,atomizador,atomizador,True,,,,,PP,,BLANCO,BLANCO,True,,,,,,,general,general,True,,POLIPROPILENO,
+5230,BOMBA ATOMIZADORA ACANALADO N28 410 FUCSIA,atomizador,atomizador,True,,,,,PP,,FUCSIA,FUCSIA,True,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5231,BOMBA ATOMIZADORA ACANALADO 20 410 TRANSPARENTE,atomizador,atomizador,True,,,,,PP,,TRANSPARENTE,TRANSPARENTE,True,,,,,,,general,general,True,,POLIPROPILENO,
+5232,BOMBA ATOMIZADORA ACANALADO 20/410 NEGRO,atomizador,atomizador,True,,,,,PP,,NEGRO,NEGRO,True,,,,,20.0,,general,general,True,,POLIPROPILENO,
+5233,BOMBA ATOMIZADORA ACANALADO 20/410 CELESTE,atomizador,atomizador,True,,,,,PP,,CELESTE,CELESTE,True,,,,,20.0,,general,general,True,,POLIPROPILENO,
+5234,BOMBA ATOMIZADORA ACANALADO N20 410 FUCSIA,atomizador,atomizador,True,,,,,PP,,FUCSIA,FUCSIA,True,,,,20.0,20.0,True,general,general,True,,POLIPROPILENO,
+5235,BOMBA ATOMIZADORA ACANALADO N28 410 BLANCO,atomizador,atomizador,True,,,,,PP,,BLANCO,BLANCO,True,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5236,BOMBA ATOMIZADORA ACANALADO N28 410 TRANSPARENTE,atomizador,atomizador,True,,,,,PP,,TRANSPARENTE,TRANSPARENTE,True,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5237,BOMBA ATOMIZADORA ACANALADO N28 410 NEGRO,atomizador,atomizador,True,,,,,PP,,NEGRO,NEGRO,True,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5238,BOMBA ATOMIZADORA ACANALADO N28 410 CELESTE,atomizador,atomizador,True,,,,,PP,,CELESTE,CELESTE,True,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5249,SOLO MINI TRIGGER NEGRO B28,atomizador,atomizador,True,,,,,PP,,NEGRO,NEGRO,True,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5250,TUBO CONICO CON TAPA ROSCA DE 15ML NO ESTERIL,tubo,tubo,True,rosca,,,,LDPE,,,,,15.0,15.0,True,,,,general,general,True,,POLIETILENO,
+5253,FRASCO PET 1LT TRANSPARENTE C/SPRAY PISTOLA N28,frasco,frasco,True,atomizador,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,1.0,1000.0,False,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5254,POTE ACRILICO 5GR C/TAPA ROSCA,pote,pote,True,rosca,,,ACRILICO,ACRILICO,True,,,,5.0,,,,,,empaque_envase,general,False,ACRILICO,ACRILICO,True
+5255,VASELINERO 7GR,cremero,cremero,True,,,,,,,,,,7.0,,,,,,general,cosmetica,False,,,
+5256,TALQUERA PLASTICO 140GR C/TAPA Y REJILLA,accesorio,accesorio,True,,,,PLASTICO,,,,,,140.0,,,,,,general,general,True,PLASTICO,,
+5257,POTE PET TRANSPARENTE 250GR C/TAPA ROSCA,pote,pote,True,rosca,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,250.0,,,,,,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5258,PIPETAS PASTEUR ESTRILES 5ML (BLS100),,accesorio,,,,,,LDPE,,,,,5.0,5.0,True,,,,general,general,True,,POLIETILENO,
+5261,GOTER PLASTICO BLANCO 5ML C/TAPA Y TAPON N15,tapa,tapa,True,,,,PLASTICO,PP,False,BLANCO,BLANCO,True,5.0,5.0,True,15.0,15.0,True,general,general,True,PLASTICO,POLIPROPILENO,False
+5262,GOTERO PLASTICO BLANCO 10ML C/TAPA Y TAPON N15,gotero,gotero,True,,,,PLASTICO,,,BLANCO,BLANCO,True,10.0,10.0,True,15.0,15.0,True,general,general,True,PLASTICO,,
+5263,GOTERO PLASTICO BLANCO 7ML C/TAPA Y TAPON N15,gotero,gotero,True,,,,PLASTICO,,,BLANCO,BLANCO,True,7.0,7.0,True,15.0,15.0,True,general,general,True,PLASTICO,,
+5270,PIPETEADOR DE CREMALLERA VERDE (PUMP) 10ML,,accesorio,,,,,,PP,,VERDE,VERDE,True,10.0,10.0,True,,,,general,general,True,,POLIPROPILENO,
+5272,PROBADOR PLASTICO 10ML ESPRAY COLORES,,accesorio,,,,,PLASTICO,,,,,,10.0,10.0,True,,,,general,general,True,PLASTICO,,
+5275,SOLO TAPA PRESS N28.,tapa,tapa,True,,,,,PP,,,,,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5276,POTE CREMERO DOBLE FONDO BLANCO IMPORTADO 30GR C/TAPA Y LAINA,cremero,cremero,True,cremero,,,,,,BLANCO,BLANCO,True,30.0,,,,,,cosmetica,cosmetica,True,,,
+5277,POTE CREMERO DOBLE FONDO 60GR BLANCO C/TAPA Y LAINA NACIONAL,cremero,cremero,True,cremero,,,,,,BLANCO,BLANCO,True,60.0,,,,,,cosmetica,cosmetica,True,,,
+5278,POTE PASTILLERO PLASTICO BLANCO 19GR C/TAPA B/20,accesorio,accesorio,True,,pastillero,,PLASTICO,,,BLANCO,BLANCO,True,19.0,,,20.0,20.0,True,empaque_envase,general,False,PLASTICO,,
+5279,POTE PASTILLERO PLASTICO BLANCO 12GR C/TAPA B/20,accesorio,accesorio,True,,pastillero,,PLASTICO,,,BLANCO,BLANCO,True,12.0,,,20.0,20.0,True,empaque_envase,general,False,PLASTICO,,
+5280,POTE PASTILLERO PLASTICO BLANCO 10GR C/TAPA B/20,accesorio,accesorio,True,,pastillero,,PLASTICO,,,BLANCO,BLANCO,True,10.0,,,20.0,20.0,True,empaque_envase,general,False,PLASTICO,,
+5284,TAPON IMPORTADO B28,tapa,tapa,True,,,,,PP,,,,,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5285,SOLO MINI TRIGGER BLANCO B28,atomizador,atomizador,True,,,,,PP,,BLANCO,BLANCO,True,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5286,FRASCO PET TRANSPARENTE 250ML C/TAPA SPRAY MINI PISTOLA N24,frasco,frasco,True,atomizador,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,250.0,250.0,True,24.0,24.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5287,POTE PLASTICO BLANCO TIPO FROTACION 50GR C/TAPA,pote,pote,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,50.0,,,,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5288,POTE PLASTICO BLANCO TIPO FROTACION 100GR C/TAPA,pote,pote,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,100.0,,,,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5289,TAPON PLASTICO IMPORTADO N28,tapa,tapa,True,,,,PLASTICO,PP,False,,,,,,,28.0,28.0,True,general,general,True,PLASTICO,POLIPROPILENO,False
+5294,LIPSTICK/BALSAMO LABIAL 5ML,,accesorio,,lipstick,,,,,,,,,5.0,5.0,True,,,,cosmetica,cosmetica,True,,,
+5295,FRASCO PLASTICO NEGRO 350ML C/TAPA ESPRAY MINI PISTOLA N24,frasco,frasco,True,,,,PLASTICO,,,NEGRO,NEGRO,True,350.0,350.0,True,24.0,24.0,True,empaque_envase,general,False,PLASTICO,,
+5296,FRASCO PET NEGRO 250ML C/TAPA ESPRAY MINI PISTOLA N24,frasco,frasco,True,,,,PET,PET,True,NEGRO,NEGRO,True,250.0,250.0,True,24.0,24.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5297,PET COLORES CILINDRICO 120ML TAPA PRESS N20,tapa,tapa,True,,,,PET,PET,True,,,,120.0,120.0,True,20.0,20.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5305,PROBADOR PLASTICO 12ML ESPRAY COLORES,,accesorio,,,,,PLASTICO,,,,,,12.0,12.0,True,,,,general,general,True,PLASTICO,,
+5308,TUVO CONICO TAPA AZUL 50ML C/FALDON,tapa,tapa,True,,,,,PP,,AZUL,AZUL,True,50.0,50.0,True,,,,general,general,True,,POLIPROPILENO,
+5309,GRADILLA 7*3 21T CONICO 50MM,accesorio,accesorio,True,,,,,,,,,,,,,,,,general,general,True,,,
+5310,FRASCO PET TRANSPARENTE 250ML C/TAPA PRESS N24,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,250.0,250.0,True,24.0,24.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5311,PROBETA PLASTICO 1L,accesorio,accesorio,True,,,,PLASTICO,PP,False,,,,1.0,1000.0,False,,,,general,general,True,PLASTICO,POLIPROPILENO,False
+5313,FRASCO PET DE COLORES CILINDRICO 120ML C/TAPA ESPRAY N20,frasco,frasco,True,,,,PET,PET,True,,,,120.0,120.0,True,20.0,20.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5314,POTE PET TRANSPARENTE 1KG C/TAPA,pote,pote,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,1.0,,,,,,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5315,FRASCO PLASTICO INSECTICIDA 125ML C/TAPA Y TAPON,frasco,frasco,True,,,,PLASTICO,,,,,,125.0,125.0,True,,,,empaque_envase,general,False,PLASTICO,,
+5317,FRASCO PARA GEL 30ML DE CARTERA,frasco,frasco,True,,,,,,,,,,30.0,30.0,True,,,,empaque_envase,general,False,,,
+5318,FRASCO PET BLANCO 60ML C/TAPA PRESS N20,frasco,frasco,True,,,,PET,PET,True,BLANCO,BLANCO,True,60.0,60.0,True,20.0,20.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5319,CRIOBOX PARA 50CRIOVIALES,,accesorio,,,,,,PP,,,,,,,,,,,general,general,True,,POLIPROPILENO,
+5321,BOMBA DISPENSADORA PARA GALONERA 28/410 ACANALADO COLOR BLANCO,atomizador,atomizador,True,dispensador,,,,PP,,BLANCO,BLANCO,True,,,,,28.0,,general,general,True,,POLIPROPILENO,
+5323,VASO DOSIFICADOR PLASTICO GRADUADO 15ML,,accesorio,,dosificador,,,PLASTICO,,,,,,15.0,15.0,True,,,,general,general,True,PLASTICO,,
+5324,FRASCO BLANCO TIPO LAVABAJILLA 650ML C/TAPA FLIT TOP B28,frasco,frasco,True,,,,,PEAD,,BLANCO,BLANCO,True,650.0,650.0,True,28.0,28.0,True,empaque_envase,general,False,,POLIETILENO,
+5327,FRASCO PET 1LT TRANSPARENTE C/TAPA Y TAPON N28.,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,1.0,1000.0,False,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5330,BOMBA PARA PIPETA,atomizador,accesorio,False,,,,,LDPE,,,,,,,,,,,general,general,True,,POLIETILENO,
+5331,BOTELLA PET TRANSPARENTE 120ML B28 SIN TAPA,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,120.0,120.0,True,28.0,28.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5333,BOTELLA PET TRANSPARENTE 250ML B28 C/TAPA Y TAPON,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,250.0,250.0,True,28.0,28.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5334,BOTELLA PET TRANSPARENTE 500ML B28 SIN TAPA,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,500.0,500.0,True,28.0,28.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5335,BOTELLA PET TRANSPARENTE 1LT (37gr) B28 SIN TAPA,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,1.0,1000.0,False,28.0,28.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5336,PET CAMPANA TRANSPARENTE 300ML S/T B28..,,frasco,,campana,campana,True,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,300.0,300.0,True,28.0,28.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5338,TAPA CHUPON BLANCO B28,tapa,tapa,True,chupon,,,,PP,,BLANCO,BLANCO,True,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5340,FRASCO PET COLORES BOSTON 120ML C/TAPA ESPRAY B20,frasco,frasco,True,,,,PET,PET,True,,,,120.0,120.0,True,20.0,20.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5344,TAPA FLIT TOP B28,tapa,tapa,True,,,,,PP,,,,,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5345,EMBUDO PLASTICO,,accesorio,,,,,PLASTICO,PP,False,,,,,,,,,,general,general,True,PLASTICO,POLIPROPILENO,False
+5361,FRASCO ESPARRAGUERO 370ML C/TAPA 63,frasco,frasco,True,,,,,,,,,,370.0,370.0,True,,,,empaque_envase,general,False,,,
+5363,FRASCO CUADRADRO 387ML C/TAPA 63,frasco,frasco,True,,,,,,,,,,387.0,387.0,True,,,,empaque_envase,general,False,,,
+5364,FRASCO BARRIL 720ML C/TAPA 82,frasco,frasco,True,,,,,,,,,,720.0,720.0,True,,,,empaque_envase,general,False,,,
+5365,FRASCO VID TRANSPARENTE 370ML BAJO C/TAPA 77,frasco,frasco,True,,,,,,,TRANSPARENTE,TRANSPARENTE,True,370.0,370.0,True,,,,empaque_envase,general,False,,,
+5366,FRASCO COLMENA 746 C/TAPA 77,frasco,frasco,True,,,,,,,,,,,,,,,,empaque_envase,general,False,,,
+5367,FRASCO 4 ONZAS C/TAPA 63,frasco,frasco,True,,,,,,,,,,,,,,,,empaque_envase,general,False,,,
+5383,PROBETA DE PLASTICO GRADUADA PROBETA DE PLASTICO GRADUADA 500 ML,accesorio,accesorio,True,,,,PLASTICO,PP,False,,,,500.0,500.0,True,,,,general,general,True,PLASTICO,POLIPROPILENO,False
+5385,VASO GRADUADO DE POLIPROPILENO 100ML,,accesorio,,,,,,PP,,,,,100.0,100.0,True,,,,general,general,True,,POLIPROPILENO,
+5386,VASO GRADUADO DE POLIPROPILENO 250ML-300ML,,accesorio,,,,,,PP,,,,,250.0,250.0,True,,,,general,general,True,,POLIPROPILENO,
+5393,FRASCO PET BLANCO 60ML C/TAPA FLIP TOP N20,frasco,frasco,True,,,,PET,PET,True,BLANCO,BLANCO,True,60.0,60.0,True,20.0,20.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5394,PET TRANSPARENTE 10ML C/GOTERO CHUPON N18,gotero,gotero,True,chupon,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,10.0,10.0,True,18.0,18.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5395,GOTERO PET TRANSPARENTE 20ML N18,gotero,gotero,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,20.0,20.0,True,18.0,18.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5396,GOTERO PET TRANSPARENTE 30ML C/ TAPA Y CHUPON N18,gotero,gotero,True,chupon,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,30.0,30.0,True,18.0,18.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5404,FRASCO BOCA ANCHA TRANSPARENTE TAPA AZUL 50ML,frasco,frasco,True,,,,,,,AZUL,AZUL,True,50.0,50.0,True,,,,empaque_envase,general,False,,,
+5406,PUNTAS BLANCAS PARA PIPETA (B200U),,accesorio,,,,,,PP,,,,,,,,,,,general,general,True,,POLIPROPILENO,
+5414,PET JABONERA 37GR 400ML C/TAPA DISPENSADOR B28,tapa,tapa,True,dispensador,,,PET,PET,True,,,,37.0,400.0,False,28.0,28.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5415,BOTELLA PET TRANSPARENTE 30ML B28 C/TAPA,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,30.0,30.0,True,28.0,28.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5419,GOTERO PLASTICO BLANCO 30ML C/TAPA Y TAPON N15,gotero,gotero,True,,,,PLASTICO,,,BLANCO,BLANCO,True,30.0,30.0,True,15.0,15.0,True,general,general,True,PLASTICO,,
+5420,FRASCO PARA RIMEL 4ML C/TAPA (12CM - 1.5CM) INYEC.,frasco,frasco,True,rimel,rimel,True,,,,,,,4.0,4.0,True,,,,cosmetica,cosmetica,True,,,
+5424,GRADILLA CUBIERTA DE PLASTICO 3*4,accesorio,accesorio,True,,,,PLASTICO,,,,,,,,,,,,general,general,True,PLASTICO,,
+5425,POTE CREMERO DOBLE FONDO C/ CINTILLO PLATEADO 100GR C/TAPA Y LAINA,cremero,cremero,True,cremero,,,,,,PLATEADO,PLATEADO,True,100.0,,,,,,cosmetica,cosmetica,True,,,
+5427,TAPA GASEOSA B28 NEGRO,tapa,tapa,True,,,,,PP,,NEGRO,NEGRO,True,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5428,PET TRANSPARENTE 100ML TAPA DISPENSADOR B20,tapa,tapa,True,dispensador,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,100.0,100.0,True,20.0,20.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5437,TUBO CONICO C/TAPA ROSCA NO ESTERIL DE 10ML (BLS*100UND),tubo,tubo,True,rosca,,,,LDPE,,,,,10.0,10.0,True,,,,general,general,True,,POLIETILENO,
+5438,GRADILLA PLASTIFICADA 48 TUBOS NACIONAL,accesorio,accesorio,True,,,,,,,,,,,,,,,,general,general,True,,,
+5439,GRADILLA DE PLASTICO 60 TUBOS  DE 10 Y/O 15ML,accesorio,accesorio,True,,,,PLASTICO,,,,,,15.0,15.0,True,,,,general,general,True,PLASTICO,,
+5440,GRADILLA DE PLASTICA PARA 90 TUBOS DE ENSAYO 13*100,accesorio,accesorio,True,tubo_de_ensayo,,,,,,,,,,,,,,,general,general,True,,,
+5441,TAPA PLASTICA GASEOSA BLANCO,tapa,tapa,True,,,,,PP,,BLANCO,BLANCO,True,,,,,,,general,general,True,,POLIPROPILENO,
+5444,TUBO DE PLASTICO 13*100MM BLS*300UND,tubo,tubo,True,,,,PLASTICO,LDPE,False,,,,,,,,,,general,general,True,PLASTICO,POLIETILENO,False
+5446,PUNTERA DE 100-1000 UL AZUL GRADUADA (BLS *500UND),,accesorio,,,,,,PP,,AZUL,AZUL,True,,,,,,,general,general,True,,POLIPROPILENO,
+5447,PUNTERA DE 200UL AMARILLA (BLS *1000UND),,accesorio,,,,,,PP,,,,,,,,,,,general,general,True,,POLIPROPILENO,
+5451,SOLO FRASCO PET CAMPANA 500ML,frasco,frasco,True,campana,campana,True,PET,PET,True,,,,500.0,500.0,True,,,,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5452,GALONERA NATURAL 4L C/TAPA Y TAPON,tapa,tapa,True,,,,,PP,,NATURAL,NATURAL,True,4.0,4000.0,False,,,,general,general,True,,POLIPROPILENO,
+5453,FRASCO BULLET 120ML C/TAPA ATOMIZADOR,frasco,frasco,True,atomizador,bullet,False,,,,,,,120.0,120.0,True,,,,cosmetica,cosmetica,True,,,
+5456,POTE PLASTICO TIPO PROTEINA BLANCO 1KG C/TAPA,pote,pote,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,1.0,,,,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5457,POTE PLASTICO TIPO PROTEINA NEGRO 1KG C/TAPA,pote,pote,True,,,,PLASTICO,,,NEGRO,NEGRO,True,1.0,,,,,,empaque_envase,general,False,PLASTICO,,
+5470,PLACA PETRI DE 60*15MM SIN DIVISION PLASTICO (BLS10),,accesorio,,placa_petri,,,PLASTICO,,,,,,,,,,,,general,general,True,PLASTICO,,
+5471,PIPETEADOR DE CREMALLERA AMARILLO (PUMP),,accesorio,,,,,,PP,,AMARILLO,AMARILLO,True,,,,,,,general,general,True,,POLIPROPILENO,
+5476,PIPETEADOR DE CREMALLERA ROJO(PUMP) 25ML,,accesorio,,,,,,PP,,ROJO,ROJO,True,25.0,25.0,True,,,,general,general,True,,POLIPROPILENO,
+5478,FRASCO CILINDRO PET TRANSPARENTE 250ML B28 SIN TAPA,frasco,frasco,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,250.0,250.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5479,PROBADOR PLASTICO NATURAL CON ATOMIZDOR 10ML,,accesorio,,,,,PLASTICO,,,NATURAL,NATURAL,True,10.0,10.0,True,,,,general,general,True,PLASTICO,,
+5480,PROBADOR PLASTICO NATURAL C/GANCHO CON ATOMIZDOR 10ML,,accesorio,,,,,PLASTICO,,,NATURAL,NATURAL,True,10.0,10.0,True,,,,general,general,True,PLASTICO,,
+5481,ENVASE PEAD BIDON *20LT VERDE C/TAPA Y TAPON,frasco,frasco,True,,,,PEAD,PEAD,True,VERDE,VERDE,True,20.0,20000.0,False,,,,empaque_envase,general,False,POLIETILENO,POLIETILENO,True
+5483,PLACA PETRI PLASTICO 100*15MM,,accesorio,,placa_petri,,,PLASTICO,,,,,,,,,,,,general,general,True,PLASTICO,,
+5484,PLACA PETRI PLASTICO 150*15MM,,accesorio,,placa_petri,,,PLASTICO,,,,,,,,,,,,general,general,True,PLASTICO,,
+5489,"GRADILLA MULTIFUNCIONAL PARA TUBOS CONICOS DE 10ML, 15ML Y 50ML",accesorio,accesorio,True,,,,,,,,,,10.0,10.0,True,,,,general,general,True,,,
+5490,VASO GRADUADO DE PLASTICO 500ML,,accesorio,,,,,PLASTICO,PP,False,,,,500.0,500.0,True,,,,general,general,True,PLASTICO,POLIPROPILENO,False
+5491,PIPETAS PASTEUR ESTRILES 1ML BX100,,accesorio,,,,,,LDPE,,,,,1.0,1.0,True,,,,general,general,True,,POLIETILENO,
+5495,FRASCO PLASTICO INSECTICIDA 250ML C/TAPA Y TAPON,frasco,frasco,True,,,,PLASTICO,,,,,,250.0,250.0,True,,,,empaque_envase,general,False,PLASTICO,,
+5496,VASO DE PLASTICO 500ML,,accesorio,,,,,PLASTICO,,,,,,500.0,500.0,True,,,,general,general,True,PLASTICO,,
+5498,FRASCO PET AMBAR 120ML C/TAPA Y TAPON N28,frasco,frasco,True,,,,PET,PET,True,AMBAR,AMBAR,True,120.0,120.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5499,POTE DOBLE FONDO BLANCO IMPORTADO 60GR C/TAPA Y LAINA,pote,pote,True,laina,,,,PEAD,,BLANCO,BLANCO,True,60.0,,,,,,empaque_envase,general,False,,POLIETILENO,
+5500,"GRADILLA PARA CRIOVIALES TAPA PRESION (EPPENDORF) 0.5ML, 1.5ML Y 2ML",accesorio,accesorio,True,,,,,,,,,,5.0,0.0,False,,,,general,general,True,,,
+5501,LANCETERO NIPRO PREMIER UNIVERSAL,,accesorio,,,,,,PP,,,,,,,,,,,general,general,True,,POLIPROPILENO,
+5504,FRASCO BULLET 250 ML C/TAPA ATOMIZADOR B/24,frasco,frasco,True,atomizador,bullet,False,,,,,,,250.0,250.0,True,24.0,24.0,True,cosmetica,cosmetica,True,,,
+5505,CUCHARA PLASTICO 10GR,,accesorio,,,,,PLASTICO,PP,False,,,,10.0,,,,,,general,general,True,PLASTICO,POLIPROPILENO,False
+5506,LAINA PLASTICO N58,,accesorio,,laina,,,PLASTICO,PP,False,,,,,,,58.0,58.0,True,general,general,True,PLASTICO,POLIPROPILENO,False
+5509,TUBO COLAPSIBLE 30ML NATURAL C/TAPA,tubo,tubo,True,,,,,LDPE,,NATURAL,NATURAL,True,30.0,30.0,True,,,,general,general,True,,POLIETILENO,
+5510,POTE DOBLE FONDO BLANCO IMPORTADO 120GR C/TAPA Y LAINA,pote,pote,True,laina,,,,PEAD,,BLANCO,BLANCO,True,120.0,,,,,,empaque_envase,general,False,,POLIETILENO,
+5511,POTE PET TRANSPARENTE 750ML C/TAPA,pote,pote,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,750.0,750.0,True,,,,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5518,FRASCO PET DE COLORES BOSTON 120ML C/TAPA FLIP TOP N20,frasco,frasco,True,,,,PET,PET,True,,,,120.0,120.0,True,20.0,20.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5519,BRILLO 12*18 (100und),,accesorio,,,,,,,,,,,,,,,,,general,general,True,,,
+5520,BRILLO 13*20,,accesorio,,,,,,,,,,,,,,,,,general,general,True,,,
+5524,TAPA PRESS N20,tapa,tapa,True,,,,,PP,,,,,,,,20.0,20.0,True,general,general,True,,POLIPROPILENO,
+5525,PASTILLERO PLASTICO BLANCO 180ML C/TAPA,accesorio,accesorio,True,,pastillero,,PLASTICO,,,BLANCO,BLANCO,True,180.0,180.0,True,,,,general,general,True,PLASTICO,,
+5530,GALONERA PLASTICO NATURAL 1L B36 C/TAPA Y TAPON,tapa,tapa,True,,,,PLASTICO,PP,False,NATURAL,NATURAL,True,1.0,1000.0,False,36.0,36.0,True,general,general,True,PLASTICO,POLIPROPILENO,False
+5531,PET TRANSPARENTE 120ML TAPA DISPENSADOR B20,tapa,tapa,True,dispensador,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,120.0,120.0,True,20.0,20.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5532,PET TRANSPARENTE 75ML TAPA DISPENSADOR B20,tapa,tapa,True,dispensador,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,75.0,75.0,True,20.0,20.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5538,FRASCO PET AMBAR 120ML B28 C/TAPA DISPENSADOR GEL,frasco,frasco,True,dispensador,,,PET,PET,True,AMBAR,AMBAR,True,120.0,120.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5539,FRASCO PET AMBAR 120ML B28 C/TAPA TRIGGER,frasco,frasco,True,,,,PET,PET,True,AMBAR,AMBAR,True,120.0,120.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5540,FRASCO PET AMBAR 120ML B28 C/TAPA SPRAY,frasco,frasco,True,atomizador,,,PET,PET,True,AMBAR,AMBAR,True,120.0,120.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5551,TAPA FLIP TOP BLANCO N20,tapa,tapa,True,,,,,PP,,BLANCO,BLANCO,True,,,,20.0,20.0,True,general,general,True,,POLIPROPILENO,
+5552,CREMERO SIMPLE 30GR C/ TAPA Y LAINA NEGRO,cremero,cremero,True,cremero,,,,,,NEGRO,NEGRO,True,30.0,,,,,,cosmetica,cosmetica,True,,,
+5553,FRASCO PET BLANCO 60ML C/TAPA DISPENSADOR N20,frasco,frasco,True,dispensador,,,PET,PET,True,BLANCO,BLANCO,True,60.0,60.0,True,20.0,20.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5554,FRASCO PET COLORES BOSTON 120ML C/TAPA DISPENSADOR B20,frasco,frasco,True,dispensador,,,PET,PET,True,,,,120.0,120.0,True,20.0,20.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5557,Gotero interno 50ml,gotero,gotero,True,,,,,,,,,,50.0,50.0,True,,,,general,general,True,,,
+5558,FRASCO PET TRANSPARENTE 200ML CON TAPA SPRAY N24,frasco,frasco,True,atomizador,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,200.0,200.0,True,24.0,24.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5560,LIPSTICK / BALSAMO LABIAL BLANCO 15ML,,accesorio,,lipstick,,,,,,BLANCO,BLANCO,True,15.0,15.0,True,,,,cosmetica,cosmetica,True,,,
+5562,POTE PLASTICO BLANCO 20GR CON TAPA B40,pote,pote,True,,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,20.0,,,40.0,40.0,True,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5563,FRASCO PET AMBAR 60ML CON TAPA Y TAPON B28,frasco,frasco,True,,,,PET,PET,True,AMBAR,AMBAR,True,60.0,60.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5564,FRASCO PET BLANCO 60ML C/TAPA SPRAY N20,frasco,frasco,True,atomizador,,,PET,PET,True,BLANCO,BLANCO,True,60.0,60.0,True,20.0,20.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5569,FRASCO PEAD PLASTICO AMARILLO CILINDRO 350ML,frasco,frasco,True,,,,PEAD,PEAD,True,AMARILLO,AMARILLO,True,350.0,350.0,True,,,,empaque_envase,general,False,POLIETILENO,POLIETILENO,True
+5570,FRASCO PEAD PLASTICO AMARILLO CILINDRO 150ML,frasco,frasco,True,,,,PEAD,PEAD,True,AMARILLO,AMARILLO,True,150.0,150.0,True,,,,empaque_envase,general,False,POLIETILENO,POLIETILENO,True
+5571,BOMBA ATOMIZADORA ACANALADO N24/410 NEGRO,atomizador,atomizador,True,,,,,PP,,NEGRO,NEGRO,True,,,,24.0,24.0,True,general,general,True,,POLIPROPILENO,
+5573,TAPA PILFER N°28,tapa,tapa,True,,,,,PP,,,,,,,,28.0,28.0,True,general,general,True,,POLIPROPILENO,
+5577,POTE PROTEINA BLANCO 3.3 KG,pote,pote,True,,,,,PEAD,,BLANCO,BLANCO,True,3.0,,,,,,empaque_envase,general,False,,POLIETILENO,
+5580,POTE PROTEINA 3.3KG,pote,pote,True,,,,,,,,,,3.0,,,,,,empaque_envase,general,False,,,
+5581,SOLO TAPA SPRAY MINI PISTOLA NEGRA N20,atomizador,tapa,False,atomizador,,,,PP,,,,,,,,20.0,20.0,True,general,general,True,,POLIPROPILENO,
+5582,PIPETEADOR DE CREMALLERA AZUL (PUMP) 2ML,,accesorio,,,,,,PP,,AZUL,AZUL,True,2.0,2.0,True,,,,general,general,True,,POLIPROPILENO,
+5583,FRASCO PET CAMPANA 300ML BLANCO C/T SPRAY PISTOLA PVE,frasco,frasco,True,atomizador,campana,False,PET,PET,True,BLANCO,BLANCO,True,300.0,300.0,True,,,,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5584,SOLO TAPA ESPUMERO B28,tapa,espumero,False,espumero,espumero,True,,PP,,,,,,,,28.0,28.0,True,general,cosmetica,False,,POLIPROPILENO,
+5586,ENVASE PEAD BLANCO CILINDRO 350ML,frasco,frasco,True,,,,PEAD,PEAD,True,BLANCO,BLANCO,True,350.0,350.0,True,,,,empaque_envase,general,False,POLIETILENO,POLIETILENO,True
+5587,VASO DE PLASTICO GRADUADO ALTO RELIEVE 500ML ISOLAB,,accesorio,,,,,PLASTICO,,,,,,500.0,500.0,True,,,,general,general,True,PLASTICO,,
+5588,TAPA DISPENSADORA NEGRO B28MM,tapa,tapa,True,dispensador,,,,PP,,NEGRO,NEGRO,True,,,,28.0,,,general,general,True,,POLIPROPILENO,
+5589,POTE CREMERO BLANCO 25ML PLASTICO,cremero,cremero,True,cremero,,,PLASTICO,,,BLANCO,BLANCO,True,25.0,25.0,True,,,,cosmetica,cosmetica,True,PLASTICO,,
+5593,FRASCO PET AZUL 250ML C/TAPA DISPENSADORA N24,frasco,frasco,True,dispensador,,,PET,PET,True,AZUL,AZUL,True,250.0,250.0,True,24.0,24.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5594,POTE CREMERO SIMPLE C/ CINTILLO PLATEADO 200GR C/TAPA Y LAINA,cremero,cremero,True,cremero,,,,,,PLATEADO,PLATEADO,True,200.0,,,,,,cosmetica,cosmetica,True,,,
+5598,TAPA PRESS N°24,tapa,tapa,True,,,,,PP,,,,,,,,24.0,24.0,True,general,general,True,,POLIPROPILENO,
+5599,POTE PLASTICO BLANCO ALTO 300GR C/TAPA Y LAINA,pote,pote,True,laina,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,300.0,,,,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5600,POTE PLASTICO BLANCO 200GR C/TAPA Y LAINA,pote,pote,True,laina,,,PLASTICO,PEAD,False,BLANCO,BLANCO,True,200.0,,,,,,empaque_envase,general,False,PLASTICO,POLIETILENO,False
+5601,FRASCO PET AMBAR 60ML CON TAPA MINIGATILLO B28,frasco,frasco,True,,,,PET,PET,True,AMBAR,AMBAR,True,60.0,60.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5604,SOLO TAPA GOTERO INTERNO Y TAPON N18,gotero,gotero,True,,,,,,,,,,,,,18.0,18.0,True,general,general,True,,,
+5606,TUBO COLAPSIBLE 100ML BLANCO C/TAPA,tubo,tubo,True,,,,,LDPE,,BLANCO,BLANCO,True,100.0,100.0,True,,,,general,general,True,,POLIETILENO,
+5607,TUBO PARA BRILLO LABIAL 10ML GLOSS,tubo,tubo,True,,,,,LDPE,,,,,10.0,10.0,True,,,,general,general,True,,POLIETILENO,
+5610,FRASCO LAVAVAJILLA PET 500ML S/TAPA,frasco,frasco,True,,,,PET,PET,True,,,,500.0,500.0,True,,,,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5611,FRASCO PET TRANSPARENTE GATILLO 650ML MOD IP S/TAPA B28,frasco,frasco,True,gatillo,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,650.0,650.0,True,28.0,28.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5612,PET JABONERA TRANSPARENTE 28GR 400ML S/TAPA B28,tapa,tapa,True,,,,PET,PET,True,TRANSPARENTE,TRANSPARENTE,True,28.0,400.0,False,28.0,28.0,True,general,general,True,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5613,SOLO TRIGGER MINI GATILLO BLANCO B24,atomizador,atomizador,True,gatillo,,,,PP,,BLANCO,BLANCO,True,,,,24.0,24.0,True,general,general,True,,POLIPROPILENO,
+5615,CUCHARA DE POLIETILENO PARA STEVIA,,accesorio,,,,,,PEAD,,,,,,,,,,,general,general,True,,POLIETILENO,
+5618,FRASCO PET AMBAR 250ML C/TAPA DISPENSADORA N24,frasco,frasco,True,dispensador,,,PET,PET,True,AMBAR,AMBAR,True,250.0,250.0,True,24.0,24.0,True,empaque_envase,general,False,POLIETILENO TEREFTALATO,POLIETILENO TEREFTALATO,True
+5619,TAPA DISPENSADORA PLASTICO B24,tapa,tapa,True,dispensador,,,PLASTICO,PP,False,,,,,,,24.0,24.0,True,general,general,True,PLASTICO,POLIPROPILENO,False

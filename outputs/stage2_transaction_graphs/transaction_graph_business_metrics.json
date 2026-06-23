@@ -1,0 +1,103 @@
+{
+  "graph_name": "G_business",
+  "generated_at": "2026-06-12T11:19:52",
+  "node_count": 3678,
+  "edge_count": 12567,
+  "node_type_counts": {
+    "CLIENT": 794,
+    "DATE": 361,
+    "DOC": 1879,
+    "PRODUCT": 614,
+    "SUPPLIER": 30
+  },
+  "relation_counts": {
+    "CONTAINS": 8809,
+    "ISSUED_BY": 491,
+    "ON_DATE": 1879,
+    "SOLD_TO": 1388
+  },
+  "connected_components": 1,
+  "largest_component_size": 3678,
+  "top_degree_nodes": [
+    {
+      "node_id": "CLIENT:VARIOS",
+      "degree": 328
+    },
+    {
+      "node_id": "SUPPLIER:ENVIPLAST E I R L",
+      "degree": 150
+    },
+    {
+      "node_id": "SUPPLIER:CORPORACION PROMELAB E I R L",
+      "degree": 137
+    },
+    {
+      "node_id": "PRODUCT:5007",
+      "degree": 119
+    },
+    {
+      "node_id": "PRODUCT:5004",
+      "degree": 103
+    },
+    {
+      "node_id": "PRODUCT:5065",
+      "degree": 102
+    },
+    {
+      "node_id": "PRODUCT:5064",
+      "degree": 96
+    },
+    {
+      "node_id": "PRODUCT:5085",
+      "degree": 94
+    },
+    {
+      "node_id": "PRODUCT:5087",
+      "degree": 83
+    },
+    {
+      "node_id": "PRODUCT:5018",
+      "degree": 82
+    },
+    {
+      "node_id": "PRODUCT:5066",
+      "degree": 81
+    },
+    {
+      "node_id": "PRODUCT:5005",
+      "degree": 79
+    },
+    {
+      "node_id": "PRODUCT:5001",
+      "degree": 79
+    },
+    {
+      "node_id": "PRODUCT:5006",
+      "degree": 78
+    },
+    {
+      "node_id": "PRODUCT:5014",
+      "degree": 78
+    },
+    {
+      "node_id": "PRODUCT:5020",
+      "degree": 73
+    },
+    {
+      "node_id": "PRODUCT:5067",
+      "degree": 71
+    },
+    {
+      "node_id": "PRODUCT:5000",
+      "degree": 70
+    },
+    {
+      "node_id": "PRODUCT:5074",
+      "degree": 70
+    },
+    {
+      "node_id": "PRODUCT:5017",
+      "degree": 69
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+﻿product_id,product_name,attribute,baseline_value,llm_value,change_type
+3,BOLSA 16*19 C/ASA *100UND,accessory,,asa,filled_by_llm
+8,BOLSA 16*19 C/ASA*100UND,accessory,,asa,filled_by_llm
+5008,FRASCO VIDRIO AMBAR IMPORTADO 125ML TAPA ESPRAY BAJA,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5016,FRASCO VIDRIO AMBAR HOMBRO CAIDO 250ML TAPA ESPRAY PISTOLA,accessory,tapa,tapa|atomizador_espray|dispensador_pistola,changed_by_llm
+5063,FRASCO VIDRIO AMBAR HOMBRO CAIDO 125ML TAPA ESPRAY PISTOLA negro,accessory,tapa,tapa|atomizador_espray|dispensador_pistola,changed_by_llm
+5083,VASO PRECIPITADO DE VIDRIO 1L (BEAKER),subtype,,vaso_precipitado,filled_by_llm
+5084,VASO PRECIPITADO DE VIDRIO 500 ML (BEAKER),subtype,,vaso_precipitado,filled_by_llm
+5085,VASO PRECIPITADO DE VIDRIO 250 ML (BEAKER) G-,subtype,,vaso_precipitado,filled_by_llm
+5086,VASO PRECIPITADO DE VIDRIO FORMA ALTA 250 ML (BEAKER),subtype,,vaso_precipitado,filled_by_llm
+5087,VASO PRECIPITADO DE VIDRIO 100 ML (BEAKER),subtype,,vaso_precipitado,filled_by_llm
+5088,VASO PRECIPITADO DE VIDRIO 50ML (BEAKER),subtype,,vaso_precipitado,filled_by_llm
+5096,PLACA PETRI DE PLASTICO 90*15,subtype,,placa_petri,filled_by_llm
+5098,PROBADOR PLASTICO NATURAL FORMA BAJA 5ML CON TAPA ESPRAY,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5099,PROBADOR PLASTICO 5ML ESPRAY COLORES,accessory,,atomizador_espray,filled_by_llm
+5100,PINZA PARA TUBO DE ENSAYO DE METAL 11.5CM,subtype,,tubo_de_ensayo,filled_by_llm
+5103,TUBO DE ENSAYO DE VIDRIO 12*75MM (PAQ 250UND),subtype,,tubo_de_ensayo,filled_by_llm
+5105,MATRAZ ERLENMEYER DE VIDRIO 250ML,subtype,,matraz_erlenmeyer,filled_by_llm
+5106,MATRAZ ERLENMEYER DE VIDRIO 500ML,subtype,,matraz_erlenmeyer,filled_by_llm
+5109,PINZA DE MADERA PARA TUBO DE ENSAYO,subtype,,tubo_de_ensayo,filled_by_llm
+5113,TERMOMETRO  DIGITAL DE VASTAGO PARA COCINA DE 15CM,feature,,digital,filled_by_llm
+5119,FRASCO PET CAMPANA TRANSPARENTE 500ML B/28 TAPA ESPRAY PISTOLA..,accessory,tapa,tapa|atomizador_espray|dispensador_pistola,changed_by_llm
+5125,FRASCO PET TRANSPARENTE 120ML CON TAPA ESPRAY N28,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5131,CEPILLO DE LIMPIEZA PARA TUBO DE ENSAYO  13*100MM,subtype,,tubo_de_ensayo,filled_by_llm
+5134,POTE CREMERO VIDRIO TRANSPARENTE 50GR C/TAPA METALIZADA Y LAINA,feature,,metalizado,filled_by_llm
+5136,FRASCO MINI PARA AROMATIZADOR VIDRIO 6ML C/TAPA,feature,,mini,filled_by_llm
+5140,ASA DE SIEMBRA 1 UL/INOCULADOR AZUL (BOLSA 10 UND),accessory,,asa,filled_by_llm
+5181,POTE CREMERO DOBLE FONDO C/ CINTILLO PLATEADO 50GR C/TAPA Y LAINA,feature,,doble,filled_by_llm
+5182,STAPA ESPRAY PLASTICO BLANCO N28 C/SOBRE TAPA ALTA,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5200,FRASCO PET BOLON 400ML TRANSPARENTE C/TAPA ESPRAY PISTOLA N28,accessory,tapa,tapa|atomizador_espray|dispensador_pistola,changed_by_llm
+5225,PLACA PETRI VIDRIO 90*15,subtype,,placa_petri,filled_by_llm
+5229,BOMBA ATOMIZADORA ACANALADO 20 410 BLANCO,feature,,acanalado,filled_by_llm
+5230,BOMBA ATOMIZADORA ACANALADO N28 410 FUCSIA,feature,,acanalado,filled_by_llm
+5231,BOMBA ATOMIZADORA ACANALADO 20 410 TRANSPARENTE,feature,,acanalado,filled_by_llm
+5232,BOMBA ATOMIZADORA ACANALADO 20/410 NEGRO,feature,,acanalado,filled_by_llm
+5233,BOMBA ATOMIZADORA ACANALADO 20/410 CELESTE,feature,,acanalado,filled_by_llm
+5234,BOMBA ATOMIZADORA ACANALADO N20 410 FUCSIA,feature,,acanalado,filled_by_llm
+5235,BOMBA ATOMIZADORA ACANALADO N28 410 BLANCO,feature,,acanalado,filled_by_llm
+5236,BOMBA ATOMIZADORA ACANALADO N28 410 TRANSPARENTE,feature,,acanalado,filled_by_llm
+5237,BOMBA ATOMIZADORA ACANALADO N28 410 NEGRO,feature,,acanalado,filled_by_llm
+5238,BOMBA ATOMIZADORA ACANALADO N28 410 CELESTE,feature,,acanalado,filled_by_llm
+5249,SOLO MINI TRIGGER NEGRO B28,feature,,mini,filled_by_llm
+5253,FRASCO PET 1LT TRANSPARENTE C/SPRAY PISTOLA N28,accessory,,dispensador_pistola,filled_by_llm
+5259,FRASCO DE VIDRIO BOCA ANCHA TAPA AZUL 1L NIU S/20.0,feature,,boca,filled_by_llm
+5264,FRASCO DE  VIDRIO BOCA ANCHA TAPA AZUL 500ML,feature,,boca,filled_by_llm
+5266,ABRAZADERA CRUZADA DE LABORATORIO (DOBLE NUEZ),feature,,doble,filled_by_llm
+5269,TERMOMETRO DIGITAL DE VASTAGO PARA COCINA DE 30CM,feature,,digital,filled_by_llm
+5272,PROBADOR PLASTICO 10ML ESPRAY COLORES,accessory,,atomizador_espray,filled_by_llm
+5275,SOLO TAPA PRESS N28.,feature,,solo,filled_by_llm
+5277,POTE CREMERO DOBLE FONDO 60GR BLANCO C/TAPA Y LAINA NACIONAL,feature,,doble,filled_by_llm
+5282,FRASCO GOTERO INTERNO VIDRIO AMBAR B/18 5ML TAPA S.,feature,,interno,filled_by_llm
+5283,FRASCO GOTERO INTERNO VIDRIO AMBAR 10ML B/18 C/TAPA P.,feature,,interno,filled_by_llm
+5285,SOLO MINI TRIGGER BLANCO B28,feature,,mini,filled_by_llm
+5286,FRASCO PET TRANSPARENTE 250ML C/TAPA SPRAY MINI PISTOLA N24,accessory,tapa,tapa|dispensador_pistola,changed_by_llm
+5286,FRASCO PET TRANSPARENTE 250ML C/TAPA SPRAY MINI PISTOLA N24,feature,,mini,filled_by_llm
+5293,PERFUME VIDRIO TRANSPARENTE CUADRADO 30ML TAPA ESPRAY METALIZADA N18,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5293,PERFUME VIDRIO TRANSPARENTE CUADRADO 30ML TAPA ESPRAY METALIZADA N18,feature,,metalizado,filled_by_llm
+5295,FRASCO PLASTICO NEGRO 350ML C/TAPA ESPRAY MINI PISTOLA N24,accessory,tapa,tapa|atomizador_espray|dispensador_pistola,changed_by_llm
+5295,FRASCO PLASTICO NEGRO 350ML C/TAPA ESPRAY MINI PISTOLA N24,feature,,mini,filled_by_llm
+5296,FRASCO PET NEGRO 250ML C/TAPA ESPRAY MINI PISTOLA N24,accessory,tapa,tapa|atomizador_espray|dispensador_pistola,changed_by_llm
+5296,FRASCO PET NEGRO 250ML C/TAPA ESPRAY MINI PISTOLA N24,feature,,mini,filled_by_llm
+5299,FRASCO VIDRIO TRANSPARENTE 50ML B18 C/TAPA ESPRAY,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5300,FRASCO VIDRIO TRANSPARENTE 15ML B18 C/TAPA ESPRAY,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5302,FRASCO DE VIDRIO BOCA ANCHA TAPA AZUL 250ML,feature,,boca,filled_by_llm
+5303,TUBO DE ENSAYO DE VIDRIO 13*100MM (bx250u),subtype,,tubo_de_ensayo,filled_by_llm
+5305,PROBADOR PLASTICO 12ML ESPRAY COLORES,accessory,,atomizador_espray,filled_by_llm
+5313,FRASCO PET DE COLORES CILINDRICO 120ML C/TAPA ESPRAY N20,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5321,BOMBA DISPENSADORA PARA GALONERA 28/410 ACANALADO COLOR BLANCO,feature,,acanalado,filled_by_llm
+5339,FRASCO DE VIDRIO AMBAR 200ML BOCA 28,feature,,boca,filled_by_llm
+5340,FRASCO PET COLORES BOSTON 120ML C/TAPA ESPRAY B20,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5342,FRASCO DE VIDRIO BOCA ANCHA TRANSPARENTE TAPA AZUL 100ml,feature,,boca,filled_by_llm
+5343,FRASCO DE VIDRIO BOCA ANCHA AMBAR TAPA AZUL 100ML,feature,,boca,filled_by_llm
+5348,FRASCO DE VIDRIO BOCA ANCHA AMBAR TAPA AZUL 250ML,feature,,boca,filled_by_llm
+5377,FRASCO VIDRIO AMBAR 50ML B18 TAPA ESPRAY,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5378,FRASCO VIDRIO AMBAR 15ML B18 TAPA ESPRAY,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5381,FRASCO VIDRIO AZUL 50ML B/18 TAPA ESPRAY,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5387,FRASCO VIDRIO ROSADO 10ML C/TAPA ESPRAY N18,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5388,FRASCO VIDRIO ROSADO 30ML C/TAPA ESPRAY N18,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5397,FRASCO VIDRIO AMBAR 20ML B18 C/TAPA ESPRAY,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5398,FRASCO VIDRIO AMBAR 30ML B18 C/TAPA ESPRAY,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5400,GOTERO  VIDRIO AMBAR 30ML TAPA METALIZADA DORADA Y CHUPON,feature,,metalizado,filled_by_llm
+5402,MATRAZ ERLENMEYER DE VIDRIO BORO 100ML,subtype,,matraz_erlenmeyer,filled_by_llm
+5403,MATRAZ ERLENMEYER DE VIDRIO 1L,subtype,,matraz_erlenmeyer,filled_by_llm
+5404,FRASCO BOCA ANCHA TRANSPARENTE TAPA AZUL 50ML,feature,,boca,filled_by_llm
+5405,CALIBRADOR VERNIER DIGITAL - TECAI - 93 / PRECISSO,feature,,digital,filled_by_llm
+5416,TERMOMETRO DIGITAL -50 +300 CON ESPIGA DE 15CM - TP300 - PRECISSO,feature,,digital,filled_by_llm
+5417,ESPATULA ASA DRIGALSKI DE VIDRIO,accessory,,asa,filled_by_llm
+5423,PLACA PETRI DE VIDRIO 100*15,subtype,,placa_petri,filled_by_llm
+5425,POTE CREMERO DOBLE FONDO C/ CINTILLO PLATEADO 100GR C/TAPA Y LAINA,feature,,doble,filled_by_llm
+5440,GRADILLA DE PLASTICA PARA 90 TUBOS DE ENSAYO 13*100,subtype,,tubo_de_ensayo,filled_by_llm
+5443,ASA SIEMBRA 10UL/INOCULADOR CELESTE (BLS*10UND),accessory,,asa,filled_by_llm
+5445,MATRAZ ERLENMEYER POLIPROPILENO *100ML,subtype,,matraz_erlenmeyer,filled_by_llm
+5450,PHMETRO DIGITAL AMARILLO,feature,,digital,filled_by_llm
+5451,SOLO FRASCO PET CAMPANA 500ML,feature,,solo,filled_by_llm
+5461,MATRAZ ERLENMEYER DE VIDRIO BORO 50ML g-,subtype,,matraz_erlenmeyer,filled_by_llm
+5463,FRASCO VIDRIO AZUL 20ML B/18 TAPA ESPRAY,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5469,BALANZA DIGITAL,feature,,digital,filled_by_llm
+5470,PLACA PETRI DE 60*15MM SIN DIVISION PLASTICO (BLS10),subtype,,placa_petri,filled_by_llm
+5474,ASA SIEMBRA MULTIFUNCIONAL 1UL/10UL INOCULADOR ESTERIL (BLS 20),accessory,,asa,filled_by_llm
+5475,MANGO PARA ASA BACTERIOLOGICA (MANGO DE KOLLE),accessory,,asa,filled_by_llm
+5477,CONDUCTIMETRO Y TDS DIGITAL CON SENSOR DE TEMPERATURA,feature,,digital,filled_by_llm
+5483,PLACA PETRI PLASTICO 100*15MM,subtype,,placa_petri,filled_by_llm
+5484,PLACA PETRI PLASTICO 150*15MM,subtype,,placa_petri,filled_by_llm
+5494,CEPILLO DE LIMPIEZA PARA TUBO DE ENSAYO 16*150MM,subtype,,tubo_de_ensayo,filled_by_llm
+5513,TUBO ENSAYO PYREX 13*100 (BX250) 10ml,subtype,,tubo_de_ensayo,filled_by_llm
+5521,FRASCO DE VIDRIO BOCA ANCHA AMBAR TAPA AZUL 500ML,feature,,boca,filled_by_llm
+5522,PLACA PETRI DE VIDRIO 60,subtype,,placa_petri,filled_by_llm
+5527,VASO PRECIPITADO DE VIDRIO 25ML (BEAKER),subtype,,vaso_precipitado,filled_by_llm
+5549,GOTERO VIDRIO AMBAR 100ML TAPA METALIZADA DORADA Y CHUPON,feature,,metalizado,filled_by_llm
+5550,GOTERO VIDRIO AMBAR 50ML TAPA METALIZADA DORADA Y CHUPON,feature,,metalizado,filled_by_llm
+5555,FRASCO GOTERO INTERNO VIDRIO AMBAR  50ML B18 C/TAPA,feature,,interno,filled_by_llm
+5556,FRASCO GOTERO INTERNO VIDRIO AMBAR 15ML B18 C/TAPA,feature,,interno,filled_by_llm
+5557,Gotero interno 50ml,feature,,interno,filled_by_llm
+5565,FRASCO DE VIDRIO AMBAR BOCA ANCHA TAPA AZUL 1L,feature,,boca,filled_by_llm
+5571,BOMBA ATOMIZADORA ACANALADO N24/410 NEGRO,feature,,acanalado,filled_by_llm
+5572,MATRAZ ERLENMEYER DE POLIPROPILENO 250ML,subtype,,matraz_erlenmeyer,filled_by_llm
+5576,FRASCO VIDRIO AMBAR 5ML B18 TAPA ESPRAY,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5581,SOLO TAPA SPRAY MINI PISTOLA NEGRA N20,accessory,tapa,tapa|dispensador_pistola,changed_by_llm
+5581,SOLO TAPA SPRAY MINI PISTOLA NEGRA N20,feature,,mini,filled_by_llm
+5583,FRASCO PET CAMPANA 300ML BLANCO C/T SPRAY PISTOLA PVE,accessory,,dispensador_pistola,filled_by_llm
+5584,SOLO TAPA ESPUMERO B28,feature,,solo,filled_by_llm
+5585,FRASCO VIDRIO AZUL 30ML B/18 TAPA ESPRAY,accessory,tapa,tapa|atomizador_espray,changed_by_llm
+5595,FRASCO GOTERO INTERNO VIDRIO AZUL 10ML B/18 C/TAPA,feature,,interno,filled_by_llm
+5597,POTE DE VIDRIO RECTO TRANPARENTE C/ TAPA METALIZADA 458ML,feature,,metalizado,filled_by_llm
+5604,SOLO TAPA GOTERO INTERNO Y TAPON N18,feature,,interno,filled_by_llm
+5609,FRASCO VIDRIO TRANSPARENTE 100ML TAPA SPRAY METALIZADA,feature,,metalizado,filled_by_llm
+5613,SOLO TRIGGER MINI GATILLO BLANCO B24,feature,,mini,filled_by_llm
+6514,GOTERO VIDRIO AMBAR 20ML TAPA METALIZADA DORADA Y CHUPON,feature,,metalizado,filled_by_llm

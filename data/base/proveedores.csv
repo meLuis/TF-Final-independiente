@@ -1,0 +1,38 @@
+proveedor,departamento,provincia,distrito,tipo_sede,tiempo_entrega_dias
+ENVIPLAST E.I.R.L.,Lima,Lima,Cercado de Lima,Real,1
+ENVIPLAST E.I.R.L.,Lima,Lima,Los Olivos,Real,1
+ENVIPLAST E.I.R.L.,Lima,Lima,Lurín,Real,2
+ENVIPLAST E.I.R.L.,Arequipa,Arequipa,Cerro Colorado,Ficticia,4
+ESNA MEDIC INVERSIONES S.A.C.,Lima,Lima,Cercado de Lima,Real,1
+ESNA MEDIC INVERSIONES S.A.C.,Lima,Lima,Villa El Salvador,Real,2
+ESNA MEDIC INVERSIONES S.A.C.,Cusco,Cusco,Wanchaq,Ficticia,5
+CORPORACION PROMELAB E.I.R.L.,Lima,Lima,Cercado de Lima,Real,1
+CORPORACION PROMELAB E.I.R.L.,Lima,Lima,Comas,Real,2
+CORPORACION PROMELAB E.I.R.L.,Junín,Huancayo,El Tambo,Ficticia,3
+INVERSIONES AGO S.A.C.,Lima,Lima,La Victoria,Real,1
+INVERSIONES AGO S.A.C.,Piura,Piura,Castilla,Ficticia,4
+IMPORTACIONES JIM SAN CHANG S.A.C.,Lima,Lima,Cercado de Lima,Real,1
+IMPORTACIONES JIM SAN CHANG S.A.C.,Lambayeque,Chiclayo,Chiclayo,Ficticia,4
+GENPLAST S.A.C.,Lima,Lima,Ate,Real,1
+GENPLAST S.A.C.,Arequipa,Arequipa,Paucarpata,Ficticia,4
+VIPLASTIC S.A.C.,Lima,Lima,San Juan de Lurigancho,Real,2
+VIPLASTIC S.A.C.,Tacna,Tacna,Tacna,Ficticia,6
+IMPORTADORA ANDINA E.I.R.L,Lima,Lima,Breña,Real,1
+IMPORTADORA ANDINA E.I.R.L,Loreto,Maynas,Iquitos,Ficticia,7
+RIVERA BAILON CIRO FELIX,Lima,Lima,San Martín de Porres,Real,1
+MULTIGLASS & PLASTIC E.I.R.L.,Lima,Lima,Cercado de Lima,Real,1
+MULTIGLASS & PLASTIC E.I.R.L.,Moquegua,Mariscal Nieto,Moquegua,Ficticia,6
+BOTICA IRSA MEDICAL S.A.C.,Lima,Lima,Jesús María,Real,1
+BOTICA IRSA MEDICAL S.A.C.,Arequipa,Arequipa,Yanahuara,Ficticia,4
+VARIOS,Lima,Lima,Lima Metropolitana,Genérica,1
+MATRAZ PERU E.I.R.L.,Lima,Lima,Breña,Real,1
+CRISTOFER IMPORT EIRL,Lima,Lima,La Victoria,Real,1
+BIO CHEMICALSS S.A.C.,Lima,Lima,Ate,Real,1
+BIO CHEMICALSS S.A.C.,Cajamarca,Cajamarca,Cajamarca,Ficticia,5
+VELARDE FLORES JENNY CARMEN,Lima,Lima,San Juan de Lurigancho,Real,2
+PLASTICOS DEL NORTE S.A.C.,Lima,Lima,San Juan de Lurigancho,Real,2
+PLASTICOS DEL NORTE S.A.C.,La Libertad,Trujillo,Trujillo,Ficticia,4
+PROVIPLAST PERU E.I.R.L.,Arequipa,Arequipa,Cerro Colorado,Real,3
+PROVIPLAST PERU E.I.R.L.,Lima,Lima,Pueblo Libre,Ficticia,2
+QUIMIPLAST INDUSTRIAL S.A.C.,Lima,Lima,Ate,Real,1
+QUIMIPLAST INDUSTRIAL S.A.C.,Lima,Lima,Callao,Real,1
