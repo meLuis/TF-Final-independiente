@@ -12,54 +12,43 @@ from __future__ import annotations
 
 import streamlit as st
 
-from assistant_ui import render_response
+from core.assistant_contract import AssistantResponse
 from core.assistant.dispatch import handle_message
 
 
 st.set_page_config(page_title="Asistente comercial", layout="wide")
 
 st.title("Asistente comercial")
-st.caption(
-    "Pregunta en lenguaje natural. El router local elige una de las 10 capacidades "
-    "y ejecuta los motores algoritmicos existentes."
-)
+st.caption("Pregunta por productos, clientes, proveedores, compras, ofertas o riesgo.")
+
+
+def render_commercial_response(resp: AssistantResponse) -> None:
+    """Render limpio para la app publica: respuesta comercial + tabla principal."""
+    if not resp.ok:
+        st.error(resp.error)
+        return
+    if resp.answer:
+        st.markdown(resp.answer)
+    for warning in resp.warnings:
+        st.warning(warning)
+    if resp.table is not None and not resp.table.empty:
+        st.dataframe(resp.table, use_container_width=True, hide_index=True)
 
 
 if "assistant_pending" not in st.session_state:
     st.session_state.assistant_pending = None
 if "assistant_last_response" not in st.session_state:
     st.session_state.assistant_last_response = None
-if "assistant_last_route" not in st.session_state:
-    st.session_state.assistant_last_route = None
 if "assistant_last_question" not in st.session_state:
     st.session_state.assistant_last_question = ""
 if "assistant_memory" not in st.session_state:
     st.session_state.assistant_memory = {}
 
 
-with st.sidebar:
-    show_technical = st.toggle("Modo tecnico", value=False)
-    with st.expander("Ayuda", expanded=False):
-        st.write("Ejemplos:")
-        st.code(
-            "\n".join(
-                [
-                    "Busca frasco gotero ambar 30 ml",
-                    "Que me compra mas ODONTOLOGIA SAN ANTONIO",
-                    "De donde compro lo que pide ODONTOLOGIA SAN ANTONIO",
-                    "Que proveedor me conviene para frasco gotero",
-                    "Necesito 100 de 5004 y 50 de 5041",
-                    "Tengo S/ 2000 para comprar frasco gotero",
-                    "Que productos se venden junto con 5004",
-                    "Que pasa si pierdo ENVIPLAST",
-                ]
-            ),
-            language="text",
-        )
-    if st.button("Limpiar conversacion", use_container_width=True):
+if st.session_state.assistant_last_response is not None:
+    if st.button("Limpiar conversacion"):
         st.session_state.assistant_pending = None
         st.session_state.assistant_last_response = None
-        st.session_state.assistant_last_route = None
         st.session_state.assistant_last_question = ""
         st.session_state.assistant_memory = {}
         st.rerun()
@@ -77,10 +66,9 @@ if question:
             question,
             pending=pending,
             memory=st.session_state.assistant_memory,
-        )
+    )
     st.session_state.assistant_pending = outcome.pending
     st.session_state.assistant_last_response = outcome.response
-    st.session_state.assistant_last_route = outcome.route
     st.session_state.assistant_last_question = question
     if outcome.memory_update:
         st.session_state.assistant_memory.update(outcome.memory_update)
@@ -89,24 +77,10 @@ if question:
 
 last_question = st.session_state.assistant_last_question
 last_response = st.session_state.assistant_last_response
-last_route = st.session_state.assistant_last_route
 
 if not last_response:
     st.info("Escribe una pregunta para empezar.")
 else:
     if last_question:
         st.markdown(f"**Pregunta:** {last_question}")
-    render_response(last_response)
-
-    if show_technical and last_route:
-        with st.expander("Router local"):
-            st.write(
-                {
-                    "intent": last_route.intent,
-                    "confidence": last_route.confidence,
-                    "slots": last_route.slots,
-                    "scores": last_route.scores,
-                    "missing_slots": last_route.missing_slots,
-                    "memory": st.session_state.assistant_memory,
-                }
-            )
+    render_commercial_response(last_response)

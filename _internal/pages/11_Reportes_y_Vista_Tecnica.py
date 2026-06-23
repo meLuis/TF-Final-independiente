@@ -26,7 +26,7 @@ st.set_page_config(page_title="Reportes y vista tecnica", layout="wide")
 st.title("11. Reportes ejecutivos y vista tecnica")
 st.caption("Reportes precalculados, explorador de conexiones y comparativas para sustentacion.")
 
-BASE = Path(__file__).parent.parent
+BASE = Path(__file__).resolve().parents[2]
 SENSITIVITY = BASE / "outputs" / "stage2_sensitivity" / "min_confidence_sensitivity.csv"
 GRAPH_FINAL_METRICS = BASE / "outputs" / "stage2_graph_final" / "semantic_attribute_graph_metrics.json"
 GRAPH_DATOS_METRICS = STAGE2_GRAPH_DIR / "semantic_attribute_graph_metrics.json"

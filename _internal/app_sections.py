@@ -1,10 +1,15 @@
 from __future__ import annotations
 
 from pathlib import Path
+import sys
 from typing import Any
 
 import pandas as pd
 import streamlit as st
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from core.pipeline import export_stage1, read_table_flexible, run_stage1
 
@@ -15,7 +20,7 @@ st.set_page_config(
 )
 
 
-OUTPUT_DIR = Path(__file__).parent / "outputs" / "stage1_latest"
+OUTPUT_DIR = ROOT / "outputs" / "stage1_latest"
 
 
 def _load_uploaded_csv(uploaded_file):
